@@ -71,7 +71,7 @@ int main(void)
         char buffer[64];
         int index = 0;
         memset(buffer, 0, sizeof(buffer));
-        strcpy(buffer, "CHINA \n I \n LOVE YOU!");
+        strcpy(buffer, "CHINA I\nLOVEYOU!");
         // 从UART接收字符串
         // while (1)
         // {
@@ -87,9 +87,14 @@ int main(void)
         // 将字符串转换为摩尔斯电码
         char morse_buffer[256];
         text_to_morse(buffer, morse_buffer);
-        lcd_write_string(morse_buffer);
+        
         // 发送摩尔斯电码
-        send_morse_code(morse_buffer);
+        while(1)
+        {
+            lcd_write_string(morse_buffer);
+            send_morse_code(morse_buffer);
+        }
+        
     }
 
     return 0;
@@ -129,7 +134,7 @@ void lcd_write_data(unsigned char data)
     P1OUT |= LCD_E; // E = 1
     __delay_cycles(1); // 延时
     P1OUT &= ~LCD_E; // E = 0
-    __delay_cycles(5000); // 延时等待执行完成
+    __delay_cycles(500); // 延时等待执行完成
 
     // 更新光标位置
     current_col++;
@@ -223,37 +228,33 @@ char uart_read_char(void)
 
 void send_morse_code(const char *morse_code)
 {
-    P3DIR |= BIT1; // 设置P3.1为输出模式
-
+    P3DIR = BIT4;
     while (*morse_code)
     {
-        if (*morse_code == '.')
+        switch (*morse_code)
         {
-            P3OUT |= BIT1; // 高电平
-            __delay_cycles(DOT_DURATION * 1000000);
-            P3OUT &= ~BIT1; // 低电平
-        }
-        else if (*morse_code == '-')
-        {
-            P3OUT |= BIT1; // 高电平
-            __delay_cycles(DASH_DURATION * 1000000);
-            P3OUT &= ~BIT1; // 低电平
+            case '.':
+                P3OUT |= BIT4;  // 高电平
+                __delay_cycles(10 * DOT_DURATION);  // 点持续时间
+                P3OUT &= ~BIT4; // 低电平
+                break;
+            case '-':
+                P3OUT |= BIT4;   // 高电平
+                __delay_cycles(10 * DASH_DURATION); // 划持续时间
+                P3OUT &= ~BIT4;  // 低电平
+                break;
+            case '0':
+                __delay_cycles(10 * SHORT_GAP_DURATION); // 间隔
+                break;
         }
 
         morse_code++;
 
-        if (*morse_code == ' ')
+        if (*morse_code)
         {
-            __delay_cycles(MEDIUM_GAP_DURATION * 1000000);
-            morse_code++;
-        }
-        else
-        {
-            __delay_cycles(SHORT_GAP_DURATION * 1000000);
+            __delay_cycles(10 * SHORT_GAP_DURATION); // 点划之间的短间隔
         }
     }
-
-    __delay_cycles(LONG_GAP_DURATION * 1000000);
 }
 
 void text_to_morse(const char *text, char *morse_buffer)
@@ -262,13 +263,13 @@ void text_to_morse(const char *text, char *morse_buffer)
     {
         if (*text == ' ')
         {
-            strcat(morse_buffer, "000"); // 3个时间单位的间隔（MEDIUM_GAP_DURATION）表示单词间隔
+            strcat(morse_buffer, "00"); // 2+1个时间单位的间隔（MEDIUM_GAP_DURATION）表示单词间隔
             text++;
             continue;
         }
         else if (*text == '\n')
         {
-            strcat(morse_buffer, "0000000"); // 7个时间单位的间隔（LONG_GAP_DURATION）表示段落间隔
+            strcat(morse_buffer, "000000"); // 6+1个时间单位的间隔（LONG_GAP_DURATION）表示段落间隔
             text++;
             continue;
         }
