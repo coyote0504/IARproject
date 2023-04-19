@@ -1,4 +1,6 @@
 #include "io430.h"
+#include <stddef.h>
+#include <stdbool.h>
 
 // 定义引脚
 #define LCD_RS BIT0
@@ -9,7 +11,13 @@
 #define MAX_COLS 20
 #define MAX_ROWS 4
 
-//摩斯电码结构体
+//摩尔斯电码电平时间
+#define DOT_DURATION 1
+#define DASH_DURATION 3
+#define SHORT_GAP_DURATION 1
+#define MEDIUM_GAP_DURATION 3
+#define LONG_GAP_DURATION 7
+//摩尔斯电码结构体
 //为了方便寄存器直接进行理解
 typedef struct {
     const char *morse;
@@ -46,42 +54,37 @@ void lcd_write_string(const char *str);
 void uart_init(void);
 void uart_write_char(char c);
 char uart_read_char(void);
-void morse_to_text(const char *morse, char *text);
+void send_morse_code(const char *morse_code);
+void text_to_morse(const char *text, char *morse_buffer);
+const char *find_morse_code(char text);
 
 int main(void)
 {
     WDTCTL = WDTPW + WDTHOLD; // 停用看门狗
-
-    // 初始化LCD
-    lcd_init();
-
-    // 将光标设置到第一行，第一列
-    lcd_set_cursor(0, 0);
-
-    // 初始化UART
-    uart_init();
-
-    // 使能全局中断
-    __enable_interrupt();
-
-    // 接收摩尔斯密码并显示明文
-    char morse_buffer[128];
-    char text_buffer[128];
-    int morse_index = 0;
+    lcd_init();// 初始化LCD
+    lcd_set_cursor(0, 0);// 将光标设置到第一行，第一列
+    uart_init(); // 初始化UART
+    __enable_interrupt(); // 允许中断
 
     while (1)
     {
-        char c = uart_read_char(); // 读取一个字符
-        if (c == '\n') // 如果是换行符，表示摩尔斯密码输入完成
+        char buffer[64];
+        int index = 0;
+        memset(buffer, 0, sizeof(buffer));
+        char buffer_1[64];
+        memset(buffer_1, 0, sizeof(buffer_1));
+        strcpy(buffer, "CHINA I\nLOVEYOU!");
+
+        // 将字符串转换为摩尔斯电码
+        char morse_buffer[256];
+        text_to_morse(buffer, morse_buffer);
+
+        //发送摩尔斯电码
+        while(1)
         {
-            morse_buffer[morse_index] = '\0'; // 添加字符串结束标志
-            morse_to_text(morse_buffer, text_buffer); // 将摩尔斯密码转换为明文
-            lcd_write_string(text_buffer); // 在LCD上显示明文
-            morse_index = 0; // 重置摩尔斯密码缓冲区索引
-        }
-        else
-        {
-            morse_buffer[morse_index++] = c; // 将接收到的字符添加到摩尔斯密码缓冲区
+            lcd_write_string(buffer);
+            lcd_write_string(morse_buffer);
+            send_morse_code(morse_buffer);
         }
     }
 
@@ -122,7 +125,7 @@ void lcd_write_data(unsigned char data)
     P1OUT |= LCD_E; // E = 1
     __delay_cycles(1); // 延时
     P1OUT &= ~LCD_E; // E = 0
-    __delay_cycles(5000); // 延时等待执行完成
+    __delay_cycles(500); // 延时等待执行完成
 
     // 更新光标位置
     current_col++;
@@ -140,77 +143,155 @@ void lcd_write_data(unsigned char data)
 
 void lcd_write_string(const char *str)
 {
+    static unsigned char row = 0;
+    static unsigned char col = 0;
+
     while (*str)
     {
-        lcd_write_data(*str++);
+        if (col == 20) // 当达到一行的20个字符时换行
+        {
+            col = 0;
+            row++;
+
+            if (row == 4) // 当行数超过4行时，回到第一行
+            {
+                row = 0;
+            }
+        }
+
+        lcd_set_cursor(row, col);
+        lcd_write_data(*str);
+
+        col++;
+        str++;
     }
 }
 
 void lcd_set_cursor(unsigned char row, unsigned char col)
 {
-    unsigned char addr;
+    unsigned char address;
 
-    if (row == 0)
-        addr = 0x80 + col; // 第一行地址从0x80开始
-    else
-        addr = 0xC0 + col; // 第二行地址从0xC0开始
+    switch (row)
+    {
+        case 0:
+            address = 0x80 + col;
+            break;
+        case 1:
+            address = 0xC0 + col;
+            break;
+        case 2:
+            address = 0x94 + col;
+            break;
+        case 3:
+            address = 0xD4 + col;
+            break;
+        default:
+            address = 0x80 + col;
+            break;
+    }
 
-    lcd_write_command(addr); // 设置DDRAM地址
+    lcd_write_command(address);
 }
 
 void uart_init(void)
 {
-    P3SEL |= BIT0 + BIT1; // 选择P3.4和P3.5作为UART模块功能
+    // 禁用UART模块以进行配置
+    U0CTL |= SWRST;
+
+    // 配置UART的工作模式
     U0CTL |= CHAR; // 8位数据
-    U0TCTL |= SSEL1; // 使用SMCLK时钟源
-    U0BR0 = 104; // 设置波特率为9600 (104对应9600波特率, SMCLK = 1MHz)
-    U0BR1 = 0; // 设置波特率为9600
-    UMCTL0  = 0x4A; // 设置波特率为9600
-    U0CTL &= ~SWRST; // 初始化UART模块
-    IE1 |= URXIE0; // 允许UART接收中断
+
+    // 配置波特率
+    U0BR0 = 104;
+    U0BR1 = 0;
+    U0MCTL = 0x49;
+
+    // 配置P3.5为TXD，P3.4为GPIO功能
+    P3SEL |= BIT5;
+    P3SEL &= ~BIT4;
+    P3DIR |= BIT4;
+
+    // 启用UART模块
+    U0CTL &= ~SWRST;
+
+    // 启用接收中断
+    IE1 |= URXIE0;
 }
 
-void uart_write_char(char c)
+void send_morse_code(const char *morse_code)
 {
-    while (!(IFG1 & UTXIFG0)); // 等待上一个字符发送完成
-    U0TXBUF = c; // 将字符写入发送缓冲区
-}
-
-char uart_read_char(void)
-{
-    while (!(IFG1 & URXIFG0)); // 等待接收到字符
-    return U0RXBUF; // 从接收缓冲区读取字符
-}
-
-void morse_to_text(const char *morse, char *text)
-{
-    const char *morse_ptr = morse;
-    int text_index = 0;
-    int morse_len = strlen(morse);
-
-    while (morse_ptr < morse + morse_len)
+    P3DIR = BIT4;
+    while (*morse_code)
     {
-        // 查找匹配的摩尔斯密码
-        int found = 0;
-        for (int i = 0; i < sizeof(morse_lookup_table) / sizeof(morse_lookup_table[0]); i++)
+        switch (*morse_code)
         {
-            int code_len = strlen(morse_lookup_table[i].morse);
-            if (strncmp(morse_ptr, morse_lookup_table[i].morse, code_len) == 0)
-            {
-                // 匹配成功，将对应的字符写入text
-                text[text_index++] = morse_lookup_table[i].text;
-                morse_ptr += code_len + 1; // 跳过匹配的摩尔斯密码和空格
-                found = 1;
+            case '.':
+                P3OUT |= BIT4;  // 高电平
+                __delay_cycles(1000000 * DOT_DURATION);  // 点持续时间
+                P3OUT &= ~BIT4; // 低电平
                 break;
-            }
+            case '-':
+                P3OUT |= BIT4;   // 高电平
+                __delay_cycles(1000000 * DASH_DURATION); // 划持续时间
+                P3OUT &= ~BIT4;  // 低电平
+                break;
+            case '0':
+                __delay_cycles(1000000 * SHORT_GAP_DURATION); // 间隔
+                break;
         }
 
-        // 如果没有找到匹配的摩尔斯密码，跳过一个字符
-        if (!found)
+        morse_code++;
+
+        if (*morse_code)
         {
-            morse_ptr++;
+            __delay_cycles(1000000 * SHORT_GAP_DURATION); // 点划之间的短间隔
         }
     }
+}
 
-    text[text_index] = '\0'; // 添加字符串结束标志
+void text_to_morse(const char *text, char *morse_buffer)
+{
+    while (*text)
+    {
+        if (*text == ' ')
+        {
+            strcat(morse_buffer, "00"); // 2+1个时间单位的间隔（MEDIUM_GAP_DURATION）表示单词间隔
+            text++;
+            continue;
+        }
+        else if (*text == '\n')
+        {
+            strcat(morse_buffer, "000000"); // 6+1个时间单位的间隔（LONG_GAP_DURATION）表示段落间隔
+            text++;
+            continue;
+        }
+
+        const char *morse_code = find_morse_code(toupper(*text));
+
+        if (morse_code)
+        {
+            strcat(morse_buffer, morse_code);
+            strcat(morse_buffer, "0"); // 1个时间单位的间隔（SHORT_GAP_DURATION）表示字母内部的点划间隔
+        }
+
+        text++;
+    }
+
+    size_t morse_buffer_length = strlen(morse_buffer);
+    if (morse_buffer_length > 0)
+    {
+        morse_buffer[morse_buffer_length - 1] = '\0'; // 移除最后一个不必要的间隔
+    }
+}
+
+const char *find_morse_code(char text)
+{
+    for (int i = 0; i < sizeof(morse_lookup_table) / sizeof(MorseEntry); i++)
+    {
+        if (morse_lookup_table[i].text == text)
+        {
+            return morse_lookup_table[i].morse;
+        }
+    }
+    return 0;
 }

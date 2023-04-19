@@ -254,16 +254,16 @@ void send_morse_code(const char *morse_code)
         {
             case '.':
                 P3OUT |= BIT4;  // 高电平
-                __delay_cycles(10000 * DOT_DURATION);  // 点持续时间
+                __delay_cycles(1000000 * DOT_DURATION);  // 点持续时间
                 P3OUT &= ~BIT4; // 低电平
                 break;
             case '-':
                 P3OUT |= BIT4;   // 高电平
-                __delay_cycles(10000 * DASH_DURATION); // 划持续时间
+                __delay_cycles(1000000 * DASH_DURATION); // 划持续时间
                 P3OUT &= ~BIT4;  // 低电平
                 break;
             case '0':
-                __delay_cycles(10000 * SHORT_GAP_DURATION); // 间隔
+                __delay_cycles(1000000 * SHORT_GAP_DURATION); // 间隔
                 break;
         }
 
@@ -271,7 +271,7 @@ void send_morse_code(const char *morse_code)
 
         if (*morse_code)
         {
-            __delay_cycles(10000 * SHORT_GAP_DURATION); // 点划之间的短间隔
+            __delay_cycles(1000000 * SHORT_GAP_DURATION); // 点划之间的短间隔
         }
     }
 }
