@@ -1,4 +1,5 @@
 #include "io430.h"
+#include <stddef.h>
 
 // 定义引脚
 #define LCD_RS BIT0
@@ -70,24 +71,23 @@ int main(void)
         char buffer[64];
         int index = 0;
         memset(buffer, 0, sizeof(buffer));
-
+        strcpy(buffer, "CHINA \n I \n LOVE YOU!");
         // 从UART接收字符串
-        while (1)
-        {
-            char c = uart_read_char();
-            lcd_write_data(c);
-            if (c == '\n' || c == '\r')
-            {
-                break;
-            }
-            buffer[index++] = c;
-            lcd_write_string("c");
-        }
-
+        // while (1)
+        // {
+        //     char c = uart_read_char();
+        //     lcd_write_data(c);
+        //     if (c == '\n' || c == '\r')
+        //     {
+        //         break;
+        //     }
+        //     buffer[index++] = c;
+        // }
+        lcd_write_string(buffer);
         // 将字符串转换为摩尔斯电码
         char morse_buffer[256];
         text_to_morse(buffer, morse_buffer);
-
+        lcd_write_string(morse_buffer);
         // 发送摩尔斯电码
         send_morse_code(morse_buffer);
     }
@@ -147,22 +147,54 @@ void lcd_write_data(unsigned char data)
 
 void lcd_write_string(const char *str)
 {
+    static unsigned char row = 0;
+    static unsigned char col = 0;
+
     while (*str)
     {
-        lcd_write_data(*str++);
+        if (col == 20) // 当达到一行的20个字符时换行
+        {
+            col = 0;
+            row++;
+
+            if (row == 4) // 当行数超过4行时，回到第一行
+            {
+                row = 0;
+            }
+        }
+
+        lcd_set_cursor(row, col);
+        lcd_write_data(*str);
+
+        col++;
+        str++;
     }
 }
 
 void lcd_set_cursor(unsigned char row, unsigned char col)
 {
-    unsigned char addr;
+    unsigned char address;
 
-    if (row == 0)
-        addr = 0x80 + col; // 第一行地址从0x80开始
-    else
-        addr = 0xC0 + col; // 第二行地址从0xC0开始
+    switch (row)
+    {
+        case 0:
+            address = 0x80 + col;
+            break;
+        case 1:
+            address = 0xC0 + col;
+            break;
+        case 2:
+            address = 0x94 + col;
+            break;
+        case 3:
+            address = 0xD4 + col;
+            break;
+        default:
+            address = 0x80 + col;
+            break;
+    }
 
-    lcd_write_command(addr); // 设置DDRAM地址
+    lcd_write_command(address);
 }
 
 void uart_init(void)
@@ -228,16 +260,34 @@ void text_to_morse(const char *text, char *morse_buffer)
 {
     while (*text)
     {
-        char morse[8] = {0};
+        if (*text == ' ')
+        {
+            strcat(morse_buffer, "000"); // 3个时间单位的间隔（MEDIUM_GAP_DURATION）表示单词间隔
+            text++;
+            continue;
+        }
+        else if (*text == '\n')
+        {
+            strcat(morse_buffer, "0000000"); // 7个时间单位的间隔（LONG_GAP_DURATION）表示段落间隔
+            text++;
+            continue;
+        }
+
         const char *morse_code = find_morse_code(toupper(*text));
 
         if (morse_code)
         {
-            strcpy(morse, morse_code);
-            strcat(morse, " ");
-            strcat(morse_buffer, morse);
+            strcat(morse_buffer, morse_code);
+            strcat(morse_buffer, "0"); // 1个时间单位的间隔（SHORT_GAP_DURATION）表示字母内部的点划间隔
         }
+
         text++;
+    }
+
+    size_t morse_buffer_length = strlen(morse_buffer);
+    if (morse_buffer_length > 0)
+    {
+        morse_buffer[morse_buffer_length - 1] = '\0'; // 移除最后一个不必要的间隔
     }
 }
 
