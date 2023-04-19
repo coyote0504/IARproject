@@ -70,24 +70,23 @@ int main(void)
         char buffer[64];
         int index = 0;
         memset(buffer, 0, sizeof(buffer));
-
+        strcpy(buffer, "CHINA I LOVE YOU!");
         // 从UART接收字符串
-        while (1)
-        {
-            char c = uart_read_char();
-            lcd_write_data(c);
-            if (c == '\n' || c == '\r')
-            {
-                break;
-            }
-            buffer[index++] = c;
-            lcd_write_string("c");
-        }
-
+        // while (1)
+        // {
+        //     char c = uart_read_char();
+        //     lcd_write_data(c);
+        //     if (c == '\n' || c == '\r')
+        //     {
+        //         break;
+        //     }
+        //     buffer[index++] = c;
+        // }
+        // lcd_write_string(buffer);
         // 将字符串转换为摩尔斯电码
         char morse_buffer[256];
         text_to_morse(buffer, morse_buffer);
-
+        lcd_write_string(morse_buffer);
         // 发送摩尔斯电码
         send_morse_code(morse_buffer);
     }

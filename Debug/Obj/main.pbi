@@ -1028,30 +1028,30 @@
 <L>D:\Q20010319\软件设计\IARproject\main.c:16:9: macro definition=MEDIUM_GAP_DURATION <US>c:macro@MEDIUM_GAP_DURATION<UE> <DS>MEDIUM_GAP_DURATION<DE> Extent=<ES>16:9 - 16:30<EE>
 <L>D:\Q20010319\软件设计\IARproject\main.c:17:9: macro definition=LONG_GAP_DURATION <US>c:macro@LONG_GAP_DURATION<UE> <DS>LONG_GAP_DURATION<DE> Extent=<ES>17:9 - 17:28<EE>
 <L>D:\Q20010319\软件设计\IARproject\main.c:62:14: macro expansion=WDTPW|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:284:9 <US>c:macro@WDTPW<UE> <DS>WDTPW<DE> Extent=<ES>62:14 - 62:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:100:14: macro expansion=LCD_RS|D:\Q20010319\软件设计\IARproject\main.c:4:9 <US>c:macro@LCD_RS<UE> <DS>LCD_RS<DE> Extent=<ES>100:14 - 100:20<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:100:23: macro expansion=LCD_E|D:\Q20010319\软件设计\IARproject\main.c:5:9 <US>c:macro@LCD_E<UE> <DS>LCD_E<DE> Extent=<ES>100:23 - 100:28<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:117:15: macro expansion=LCD_RS|D:\Q20010319\软件设计\IARproject\main.c:4:9 <US>c:macro@LCD_RS<UE> <DS>LCD_RS<DE> Extent=<ES>117:15 - 117:21<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:118:5: macro expansion=LCD_DATA|D:\Q20010319\软件设计\IARproject\main.c:6:9 <US>c:macro@LCD_DATA<UE> <DS>LCD_DATA<DE> Extent=<ES>118:5 - 118:13<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:119:14: macro expansion=LCD_E|D:\Q20010319\软件设计\IARproject\main.c:5:9 <US>c:macro@LCD_E<UE> <DS>LCD_E<DE> Extent=<ES>119:14 - 119:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:121:15: macro expansion=LCD_E|D:\Q20010319\软件设计\IARproject\main.c:5:9 <US>c:macro@LCD_E<UE> <DS>LCD_E<DE> Extent=<ES>121:15 - 121:20<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:127:14: macro expansion=LCD_RS|D:\Q20010319\软件设计\IARproject\main.c:4:9 <US>c:macro@LCD_RS<UE> <DS>LCD_RS<DE> Extent=<ES>127:14 - 127:20<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:128:5: macro expansion=LCD_DATA|D:\Q20010319\软件设计\IARproject\main.c:6:9 <US>c:macro@LCD_DATA<UE> <DS>LCD_DATA<DE> Extent=<ES>128:5 - 128:13<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:129:14: macro expansion=LCD_E|D:\Q20010319\软件设计\IARproject\main.c:5:9 <US>c:macro@LCD_E<UE> <DS>LCD_E<DE> Extent=<ES>129:14 - 129:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:131:15: macro expansion=LCD_E|D:\Q20010319\软件设计\IARproject\main.c:5:9 <US>c:macro@LCD_E<UE> <DS>LCD_E<DE> Extent=<ES>131:15 - 131:20<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:136:24: macro expansion=MAX_COLS|D:\Q20010319\软件设计\IARproject\main.c:9:9 <US>c:macro@MAX_COLS<UE> <DS>MAX_COLS<DE> Extent=<ES>136:24 - 136:32<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:140:28: macro expansion=MAX_ROWS|D:\Q20010319\软件设计\IARproject\main.c:10:9 <US>c:macro@MAX_ROWS<UE> <DS>MAX_ROWS<DE> Extent=<ES>140:28 - 140:36<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:170:14: macro expansion=BIT4|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:51:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>170:14 - 170:18<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:170:21: macro expansion=BIT5|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:52:9 <US>c:macro@BIT5<UE> <DS>BIT5<DE> Extent=<ES>170:21 - 170:25<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:194:14: macro expansion=BIT1|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:48:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>194:14 - 194:18<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:200:22: macro expansion=BIT1|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:48:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>200:22 - 200:26<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:201:28: macro expansion=DOT_DURATION|D:\Q20010319\软件设计\IARproject\main.c:13:9 <US>c:macro@DOT_DURATION<UE> <DS>DOT_DURATION<DE> Extent=<ES>201:28 - 201:40<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:202:23: macro expansion=BIT1|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:48:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>202:23 - 202:27<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:206:22: macro expansion=BIT1|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:48:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>206:22 - 206:26<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:207:28: macro expansion=DASH_DURATION|D:\Q20010319\软件设计\IARproject\main.c:14:9 <US>c:macro@DASH_DURATION<UE> <DS>DASH_DURATION<DE> Extent=<ES>207:28 - 207:41<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:208:23: macro expansion=BIT1|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:48:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>208:23 - 208:27<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:215:28: macro expansion=MEDIUM_GAP_DURATION|D:\Q20010319\软件设计\IARproject\main.c:16:9 <US>c:macro@MEDIUM_GAP_DURATION<UE> <DS>MEDIUM_GAP_DURATION<DE> Extent=<ES>215:28 - 215:47<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:220:28: macro expansion=SHORT_GAP_DURATION|D:\Q20010319\软件设计\IARproject\main.c:15:9 <US>c:macro@SHORT_GAP_DURATION<UE> <DS>SHORT_GAP_DURATION<DE> Extent=<ES>220:28 - 220:46<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:224:20: macro expansion=LONG_GAP_DURATION|D:\Q20010319\软件设计\IARproject\main.c:17:9 <US>c:macro@LONG_GAP_DURATION<UE> <DS>LONG_GAP_DURATION<DE> Extent=<ES>224:20 - 224:37<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:99:14: macro expansion=LCD_RS|D:\Q20010319\软件设计\IARproject\main.c:4:9 <US>c:macro@LCD_RS<UE> <DS>LCD_RS<DE> Extent=<ES>99:14 - 99:20<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:99:23: macro expansion=LCD_E|D:\Q20010319\软件设计\IARproject\main.c:5:9 <US>c:macro@LCD_E<UE> <DS>LCD_E<DE> Extent=<ES>99:23 - 99:28<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:116:15: macro expansion=LCD_RS|D:\Q20010319\软件设计\IARproject\main.c:4:9 <US>c:macro@LCD_RS<UE> <DS>LCD_RS<DE> Extent=<ES>116:15 - 116:21<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:117:5: macro expansion=LCD_DATA|D:\Q20010319\软件设计\IARproject\main.c:6:9 <US>c:macro@LCD_DATA<UE> <DS>LCD_DATA<DE> Extent=<ES>117:5 - 117:13<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:118:14: macro expansion=LCD_E|D:\Q20010319\软件设计\IARproject\main.c:5:9 <US>c:macro@LCD_E<UE> <DS>LCD_E<DE> Extent=<ES>118:14 - 118:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:120:15: macro expansion=LCD_E|D:\Q20010319\软件设计\IARproject\main.c:5:9 <US>c:macro@LCD_E<UE> <DS>LCD_E<DE> Extent=<ES>120:15 - 120:20<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:126:14: macro expansion=LCD_RS|D:\Q20010319\软件设计\IARproject\main.c:4:9 <US>c:macro@LCD_RS<UE> <DS>LCD_RS<DE> Extent=<ES>126:14 - 126:20<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:127:5: macro expansion=LCD_DATA|D:\Q20010319\软件设计\IARproject\main.c:6:9 <US>c:macro@LCD_DATA<UE> <DS>LCD_DATA<DE> Extent=<ES>127:5 - 127:13<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:128:14: macro expansion=LCD_E|D:\Q20010319\软件设计\IARproject\main.c:5:9 <US>c:macro@LCD_E<UE> <DS>LCD_E<DE> Extent=<ES>128:14 - 128:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:130:15: macro expansion=LCD_E|D:\Q20010319\软件设计\IARproject\main.c:5:9 <US>c:macro@LCD_E<UE> <DS>LCD_E<DE> Extent=<ES>130:15 - 130:20<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:135:24: macro expansion=MAX_COLS|D:\Q20010319\软件设计\IARproject\main.c:9:9 <US>c:macro@MAX_COLS<UE> <DS>MAX_COLS<DE> Extent=<ES>135:24 - 135:32<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:139:28: macro expansion=MAX_ROWS|D:\Q20010319\软件设计\IARproject\main.c:10:9 <US>c:macro@MAX_ROWS<UE> <DS>MAX_ROWS<DE> Extent=<ES>139:28 - 139:36<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:169:14: macro expansion=BIT4|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:51:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>169:14 - 169:18<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:169:21: macro expansion=BIT5|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:52:9 <US>c:macro@BIT5<UE> <DS>BIT5<DE> Extent=<ES>169:21 - 169:25<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:193:14: macro expansion=BIT1|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:48:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>193:14 - 193:18<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:199:22: macro expansion=BIT1|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:48:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>199:22 - 199:26<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:200:28: macro expansion=DOT_DURATION|D:\Q20010319\软件设计\IARproject\main.c:13:9 <US>c:macro@DOT_DURATION<UE> <DS>DOT_DURATION<DE> Extent=<ES>200:28 - 200:40<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:201:23: macro expansion=BIT1|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:48:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>201:23 - 201:27<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:205:22: macro expansion=BIT1|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:48:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>205:22 - 205:26<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:206:28: macro expansion=DASH_DURATION|D:\Q20010319\软件设计\IARproject\main.c:14:9 <US>c:macro@DASH_DURATION<UE> <DS>DASH_DURATION<DE> Extent=<ES>206:28 - 206:41<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:207:23: macro expansion=BIT1|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:48:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>207:23 - 207:27<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:214:28: macro expansion=MEDIUM_GAP_DURATION|D:\Q20010319\软件设计\IARproject\main.c:16:9 <US>c:macro@MEDIUM_GAP_DURATION<UE> <DS>MEDIUM_GAP_DURATION<DE> Extent=<ES>214:28 - 214:47<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:219:28: macro expansion=SHORT_GAP_DURATION|D:\Q20010319\软件设计\IARproject\main.c:15:9 <US>c:macro@SHORT_GAP_DURATION<UE> <DS>SHORT_GAP_DURATION<DE> Extent=<ES>219:28 - 219:46<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:223:20: macro expansion=LONG_GAP_DURATION|D:\Q20010319\软件设计\IARproject\main.c:17:9 <US>c:macro@LONG_GAP_DURATION<UE> <DS>LONG_GAP_DURATION<DE> Extent=<ES>223:20 - 223:37<EE>
 <L><invalid loc>:2:15: TypedefDecl=__builtin_va_list|<invalid loc>:2:15 (Definition) <US><UE> <DS>char *<DE> Extent=<ES>2:1 - 2:32<EE>
 <L>D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:27:24: TypedefDecl=__istate_t|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:27:24 (Definition) <US>c:intrinsics.h@516@T@__istate_t<UE> <DS>unsigned short<DE> Extent=<ES>27:1 - 27:34<EE>
 <L>D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:30:20: TypedefDecl=istate_t|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:30:20 (Definition) <US>c:intrinsics.h@573@T@istate_t<UE> <DS>__istate_t<DE> Extent=<ES>30:1 - 30:28<EE>
@@ -5447,32 +5447,32 @@
 <L>D:\Q20010319\软件设计\IARproject\main.c:44:15: VarDecl=current_row|D:\Q20010319\软件设计\IARproject\main.c:44:15 (Definition) <US>c:@current_row<UE> <DS>current_row<DE> Extent=<ES>44:1 - 44:30<EE>
 <L>D:\Q20010319\软件设计\IARproject\main.c:44:29: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>44:29 - 44:30<EE>
 <L>D:\Q20010319\软件设计\IARproject\main.c:44:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>44:29 - 44:30<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:47:6: FunctionDecl=lcd_init|D:\Q20010319\软件设计\IARproject\main.c:98:6 (Declaration) <US>c:@F@lcd_init<UE> <DS>void lcd_init(void)<DE> Extent=<ES>47:1 - 47:20<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:48:6: FunctionDecl=lcd_write_command|D:\Q20010319\软件设计\IARproject\main.c:115:6 (Declaration) <US>c:@F@lcd_write_command<UE> <DS>void lcd_write_command(unsigned char)<DE> Extent=<ES>48:1 - 48:42<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:47:6: FunctionDecl=lcd_init|D:\Q20010319\软件设计\IARproject\main.c:97:6 (Declaration) <US>c:@F@lcd_init<UE> <DS>void lcd_init(void)<DE> Extent=<ES>47:1 - 47:20<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:48:6: FunctionDecl=lcd_write_command|D:\Q20010319\软件设计\IARproject\main.c:114:6 (Declaration) <US>c:@F@lcd_write_command<UE> <DS>void lcd_write_command(unsigned char)<DE> Extent=<ES>48:1 - 48:42<EE>
 <L>D:\Q20010319\软件设计\IARproject\main.c:48:38: ParmDecl=cmd|D:\Q20010319\软件设计\IARproject\main.c:48:38 (Definition) <US>c:main.c@1956@F@lcd_write_command@cmd<UE> <DS>unsigned char<DE> Extent=<ES>48:24 - 48:41<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:49:6: FunctionDecl=lcd_write_data|D:\Q20010319\软件设计\IARproject\main.c:125:6 (Declaration) <US>c:@F@lcd_write_data<UE> <DS>void lcd_write_data(unsigned char)<DE> Extent=<ES>49:1 - 49:40<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:49:6: FunctionDecl=lcd_write_data|D:\Q20010319\软件设计\IARproject\main.c:124:6 (Declaration) <US>c:@F@lcd_write_data<UE> <DS>void lcd_write_data(unsigned char)<DE> Extent=<ES>49:1 - 49:40<EE>
 <L>D:\Q20010319\软件设计\IARproject\main.c:49:35: ParmDecl=data|D:\Q20010319\软件设计\IARproject\main.c:49:35 (Definition) <US>c:main.c@1997@F@lcd_write_data@data<UE> <DS>unsigned char<DE> Extent=<ES>49:21 - 49:39<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:50:6: FunctionDecl=lcd_set_cursor|D:\Q20010319\软件设计\IARproject\main.c:156:6 (Declaration) <US>c:@F@lcd_set_cursor<UE> <DS>void lcd_set_cursor(unsigned char, unsigned char)<DE> Extent=<ES>50:1 - 50:58<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:50:6: FunctionDecl=lcd_set_cursor|D:\Q20010319\软件设计\IARproject\main.c:155:6 (Declaration) <US>c:@F@lcd_set_cursor<UE> <DS>void lcd_set_cursor(unsigned char, unsigned char)<DE> Extent=<ES>50:1 - 50:58<EE>
 <L>D:\Q20010319\软件设计\IARproject\main.c:50:35: ParmDecl=row|D:\Q20010319\软件设计\IARproject\main.c:50:35 (Definition) <US>c:main.c@2039@F@lcd_set_cursor@row<UE> <DS>unsigned char<DE> Extent=<ES>50:21 - 50:38<EE>
 <L>D:\Q20010319\软件设计\IARproject\main.c:50:54: ParmDecl=col|D:\Q20010319\软件设计\IARproject\main.c:50:54 (Definition) <US>c:main.c@2058@F@lcd_set_cursor@col<UE> <DS>unsigned char<DE> Extent=<ES>50:40 - 50:57<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:51:6: FunctionDecl=lcd_write_string|D:\Q20010319\软件设计\IARproject\main.c:148:6 (Declaration) <US>c:@F@lcd_write_string<UE> <DS>void lcd_write_string(const char *)<DE> Extent=<ES>51:1 - 51:39<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:51:6: FunctionDecl=lcd_write_string|D:\Q20010319\软件设计\IARproject\main.c:147:6 (Declaration) <US>c:@F@lcd_write_string<UE> <DS>void lcd_write_string(const char *)<DE> Extent=<ES>51:1 - 51:39<EE>
 <L>D:\Q20010319\软件设计\IARproject\main.c:51:35: ParmDecl=str|D:\Q20010319\软件设计\IARproject\main.c:51:35 (Definition) <US>c:main.c@2101@F@lcd_write_string@str<UE> <DS>const char *<DE> Extent=<ES>51:23 - 51:38<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:52:6: FunctionDecl=uart_init|D:\Q20010319\软件设计\IARproject\main.c:168:6 (Declaration) <US>c:@F@uart_init<UE> <DS>void uart_init(void)<DE> Extent=<ES>52:1 - 52:21<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:53:6: FunctionDecl=uart_write_char|D:\Q20010319\软件设计\IARproject\main.c:180:6 (Declaration) <US>c:@F@uart_write_char<UE> <DS>void uart_write_char(char)<DE> Extent=<ES>53:1 - 53:29<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:52:6: FunctionDecl=uart_init|D:\Q20010319\软件设计\IARproject\main.c:167:6 (Declaration) <US>c:@F@uart_init<UE> <DS>void uart_init(void)<DE> Extent=<ES>52:1 - 52:21<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:53:6: FunctionDecl=uart_write_char|D:\Q20010319\软件设计\IARproject\main.c:179:6 (Declaration) <US>c:@F@uart_write_char<UE> <DS>void uart_write_char(char)<DE> Extent=<ES>53:1 - 53:29<EE>
 <L>D:\Q20010319\软件设计\IARproject\main.c:53:27: ParmDecl=c|D:\Q20010319\软件设计\IARproject\main.c:53:27 (Definition) <US>c:main.c@2164@F@uart_write_char@c<UE> <DS>char<DE> Extent=<ES>53:22 - 53:28<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:54:6: FunctionDecl=uart_read_char|D:\Q20010319\软件设计\IARproject\main.c:186:6 (Declaration) <US>c:@F@uart_read_char<UE> <DS>char uart_read_char(void)<DE> Extent=<ES>54:1 - 54:26<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:55:6: FunctionDecl=send_morse_code|D:\Q20010319\软件设计\IARproject\main.c:192:6 (Declaration) <US>c:@F@send_morse_code<UE> <DS>void send_morse_code(const char *)<DE> Extent=<ES>55:1 - 55:45<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:54:6: FunctionDecl=uart_read_char|D:\Q20010319\软件设计\IARproject\main.c:185:6 (Declaration) <US>c:@F@uart_read_char<UE> <DS>char uart_read_char(void)<DE> Extent=<ES>54:1 - 54:26<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:55:6: FunctionDecl=send_morse_code|D:\Q20010319\软件设计\IARproject\main.c:191:6 (Declaration) <US>c:@F@send_morse_code<UE> <DS>void send_morse_code(const char *)<DE> Extent=<ES>55:1 - 55:45<EE>
 <L>D:\Q20010319\软件设计\IARproject\main.c:55:34: ParmDecl=morse_code|D:\Q20010319\软件设计\IARproject\main.c:55:34 (Definition) <US>c:main.c@2223@F@send_morse_code@morse_code<UE> <DS>const char *<DE> Extent=<ES>55:22 - 55:44<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:56:6: FunctionDecl=text_to_morse|D:\Q20010319\软件设计\IARproject\main.c:227:6 (Declaration) <US>c:@F@text_to_morse<UE> <DS>void text_to_morse(const char *, char *)<DE> Extent=<ES>56:1 - 56:57<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:56:6: FunctionDecl=text_to_morse|D:\Q20010319\软件设计\IARproject\main.c:226:6 (Declaration) <US>c:@F@text_to_morse<UE> <DS>void text_to_morse(const char *, char *)<DE> Extent=<ES>56:1 - 56:57<EE>
 <L>D:\Q20010319\软件设计\IARproject\main.c:56:32: ParmDecl=text|D:\Q20010319\软件设计\IARproject\main.c:56:32 (Definition) <US>c:main.c@2268@F@text_to_morse@text<UE> <DS>const char *<DE> Extent=<ES>56:20 - 56:36<EE>
 <L>D:\Q20010319\软件设计\IARproject\main.c:56:44: ParmDecl=morse_buffer|D:\Q20010319\软件设计\IARproject\main.c:56:44 (Definition) <US>c:main.c@2286@F@text_to_morse@morse_buffer<UE> <DS>char *<DE> Extent=<ES>56:38 - 56:56<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:57:13: FunctionDecl=find_morse_code|D:\Q20010319\软件设计\IARproject\main.c:244:13 (Declaration) <US>c:@F@find_morse_code<UE> <DS>const char * find_morse_code(char)<DE> Extent=<ES>57:1 - 57:39<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:57:13: FunctionDecl=find_morse_code|D:\Q20010319\软件设计\IARproject\main.c:243:13 (Declaration) <US>c:@F@find_morse_code<UE> <DS>const char * find_morse_code(char)<DE> Extent=<ES>57:1 - 57:39<EE>
 <L>D:\Q20010319\软件设计\IARproject\main.c:57:34: ParmDecl=text|D:\Q20010319\软件设计\IARproject\main.c:57:34 (Definition) <US>c:main.c@2336@F@find_morse_code@text<UE> <DS>char<DE> Extent=<ES>57:29 - 57:38<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:58:6: FunctionDecl=morse_to_text|D:\Q20010319\软件设计\IARproject\main.c:256:6 (Declaration) <US>c:@F@morse_to_text<UE> <DS>void morse_to_text(const char *, char *)<DE> Extent=<ES>58:1 - 58:50<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:58:6: FunctionDecl=morse_to_text|D:\Q20010319\软件设计\IARproject\main.c:255:6 (Declaration) <US>c:@F@morse_to_text<UE> <DS>void morse_to_text(const char *, char *)<DE> Extent=<ES>58:1 - 58:50<EE>
 <L>D:\Q20010319\软件设计\IARproject\main.c:58:32: ParmDecl=morse|D:\Q20010319\软件设计\IARproject\main.c:58:32 (Definition) <US>c:main.c@2368@F@morse_to_text@morse<UE> <DS>const char *<DE> Extent=<ES>58:20 - 58:37<EE>
 <L>D:\Q20010319\软件设计\IARproject\main.c:58:45: ParmDecl=text|D:\Q20010319\软件设计\IARproject\main.c:58:45 (Definition) <US>c:main.c@2387@F@morse_to_text@text<UE> <DS>char *<DE> Extent=<ES>58:39 - 58:49<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:60:5: FunctionDecl=main|D:\Q20010319\软件设计\IARproject\main.c:60:5 (Definition) <US>c:@F@main<UE> <DS>int main(void)<DE> Extent=<ES>60:1 - 96:2<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:61:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>61:1 - 96:2<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:60:5: FunctionDecl=main|D:\Q20010319\软件设计\IARproject\main.c:60:5 (Definition) <US>c:@F@main<UE> <DS>int main(void)<DE> Extent=<ES>60:1 - 95:2<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:61:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>61:1 - 95:2<EE>
 <L>D:\Q20010319\软件设计\IARproject\main.c:62:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>62:5 - 62:29<EE>
 <L>D:\Q20010319\软件设计\IARproject\main.c:62:5: MemberRefExpr=WDTCTL|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:253:18 (Reference) <US>c:io430x14x.h@6759@Ua@FI@WDTCTL<UE> <DS>WDTCTL<DE> Extent=<ES>62:5 - 62:11<EE>
 <L>D:\Q20010319\软件设计\IARproject\main.c:62:5: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:251:20 (Reference) <US><UE> <DS><DE> Extent=<ES>62:5 - 62:11<EE>
@@ -5482,25 +5482,25 @@
 <L>D:\Q20010319\软件设计\IARproject\main.c:62:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>62:14 - 62:19<EE>
 <L>D:\Q20010319\软件设计\IARproject\main.c:62:22: UnexposedExpr=WDTHOLD|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:277:3 <US>c:io430x14x.h@7260@Ea@WDTHOLD<UE> <DS>WDTHOLD<DE> Extent=<ES>62:22 - 62:29<EE>
 <L>D:\Q20010319\软件设计\IARproject\main.c:62:22: DeclRefExpr=WDTHOLD|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:277:3 (Reference) <US>c:io430x14x.h@7260@Ea@WDTHOLD<UE> <DS>WDTHOLD<DE> Extent=<ES>62:22 - 62:29<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:63:5: CallExpr=lcd_init|D:\Q20010319\软件设计\IARproject\main.c:98:6 <US>c:@F@lcd_init<UE> <DS>void lcd_init(void)<DE> Extent=<ES>63:5 - 63:15<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:63:5: UnexposedExpr=lcd_init|D:\Q20010319\软件设计\IARproject\main.c:98:6 <US>c:@F@lcd_init<UE> <DS>void lcd_init(void)<DE> Extent=<ES>63:5 - 63:13<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:63:5: DeclRefExpr=lcd_init|D:\Q20010319\软件设计\IARproject\main.c:98:6 (Reference) <US>c:@F@lcd_init<UE> <DS>void lcd_init(void)<DE> Extent=<ES>63:5 - 63:13<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:64:5: CallExpr=lcd_set_cursor|D:\Q20010319\软件设计\IARproject\main.c:156:6 <US>c:@F@lcd_set_cursor<UE> <DS>void lcd_set_cursor(unsigned char, unsigned char)<DE> Extent=<ES>64:5 - 64:25<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:64:5: UnexposedExpr=lcd_set_cursor|D:\Q20010319\软件设计\IARproject\main.c:156:6 <US>c:@F@lcd_set_cursor<UE> <DS>void lcd_set_cursor(unsigned char, unsigned char)<DE> Extent=<ES>64:5 - 64:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:64:5: DeclRefExpr=lcd_set_cursor|D:\Q20010319\软件设计\IARproject\main.c:156:6 (Reference) <US>c:@F@lcd_set_cursor<UE> <DS>void lcd_set_cursor(unsigned char, unsigned char)<DE> Extent=<ES>64:5 - 64:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:63:5: CallExpr=lcd_init|D:\Q20010319\软件设计\IARproject\main.c:97:6 <US>c:@F@lcd_init<UE> <DS>void lcd_init(void)<DE> Extent=<ES>63:5 - 63:15<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:63:5: UnexposedExpr=lcd_init|D:\Q20010319\软件设计\IARproject\main.c:97:6 <US>c:@F@lcd_init<UE> <DS>void lcd_init(void)<DE> Extent=<ES>63:5 - 63:13<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:63:5: DeclRefExpr=lcd_init|D:\Q20010319\软件设计\IARproject\main.c:97:6 (Reference) <US>c:@F@lcd_init<UE> <DS>void lcd_init(void)<DE> Extent=<ES>63:5 - 63:13<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:64:5: CallExpr=lcd_set_cursor|D:\Q20010319\软件设计\IARproject\main.c:155:6 <US>c:@F@lcd_set_cursor<UE> <DS>void lcd_set_cursor(unsigned char, unsigned char)<DE> Extent=<ES>64:5 - 64:25<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:64:5: UnexposedExpr=lcd_set_cursor|D:\Q20010319\软件设计\IARproject\main.c:155:6 <US>c:@F@lcd_set_cursor<UE> <DS>void lcd_set_cursor(unsigned char, unsigned char)<DE> Extent=<ES>64:5 - 64:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:64:5: DeclRefExpr=lcd_set_cursor|D:\Q20010319\软件设计\IARproject\main.c:155:6 (Reference) <US>c:@F@lcd_set_cursor<UE> <DS>void lcd_set_cursor(unsigned char, unsigned char)<DE> Extent=<ES>64:5 - 64:19<EE>
 <L>D:\Q20010319\软件设计\IARproject\main.c:64:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>64:20 - 64:21<EE>
 <L>D:\Q20010319\软件设计\IARproject\main.c:64:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>64:20 - 64:21<EE>
 <L>D:\Q20010319\软件设计\IARproject\main.c:64:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>64:23 - 64:24<EE>
 <L>D:\Q20010319\软件设计\IARproject\main.c:64:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>64:23 - 64:24<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:65:5: CallExpr=uart_init|D:\Q20010319\软件设计\IARproject\main.c:168:6 <US>c:@F@uart_init<UE> <DS>void uart_init(void)<DE> Extent=<ES>65:5 - 65:16<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:65:5: UnexposedExpr=uart_init|D:\Q20010319\软件设计\IARproject\main.c:168:6 <US>c:@F@uart_init<UE> <DS>void uart_init(void)<DE> Extent=<ES>65:5 - 65:14<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:65:5: DeclRefExpr=uart_init|D:\Q20010319\软件设计\IARproject\main.c:168:6 (Reference) <US>c:@F@uart_init<UE> <DS>void uart_init(void)<DE> Extent=<ES>65:5 - 65:14<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:65:5: CallExpr=uart_init|D:\Q20010319\软件设计\IARproject\main.c:167:6 <US>c:@F@uart_init<UE> <DS>void uart_init(void)<DE> Extent=<ES>65:5 - 65:16<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:65:5: UnexposedExpr=uart_init|D:\Q20010319\软件设计\IARproject\main.c:167:6 <US>c:@F@uart_init<UE> <DS>void uart_init(void)<DE> Extent=<ES>65:5 - 65:14<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:65:5: DeclRefExpr=uart_init|D:\Q20010319\软件设计\IARproject\main.c:167:6 (Reference) <US>c:@F@uart_init<UE> <DS>void uart_init(void)<DE> Extent=<ES>65:5 - 65:14<EE>
 <L>D:\Q20010319\软件设计\IARproject\main.c:66:5: CallExpr=__enable_interrupt|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:38:20 <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>66:5 - 66:25<EE>
 <L>D:\Q20010319\软件设计\IARproject\main.c:66:5: UnexposedExpr=__enable_interrupt|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:38:20 <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>66:5 - 66:23<EE>
 <L>D:\Q20010319\软件设计\IARproject\main.c:66:5: DeclRefExpr=__enable_interrupt|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:38:20 (Reference) <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>66:5 - 66:23<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:68:5: WhileStmt= <US><UE> <DS><DE> Extent=<ES>68:5 - 93:6<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:68:5: WhileStmt= <US><UE> <DS><DE> Extent=<ES>68:5 - 92:6<EE>
 <L>D:\Q20010319\软件设计\IARproject\main.c:68:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>68:12 - 68:13<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:69:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>69:5 - 93:6<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:69:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>69:5 - 92:6<EE>
 <L>D:\Q20010319\软件设计\IARproject\main.c:70:9: DeclStmt= <US><UE> <DS><DE> Extent=<ES>70:9 - 70:25<EE>
 <L>D:\Q20010319\软件设计\IARproject\main.c:70:14: VarDecl=buffer|D:\Q20010319\软件设计\IARproject\main.c:70:14 (Definition) <US>c:main.c@2655@F@main@buffer<UE> <DS>buffer<DE> Extent=<ES>70:9 - 70:24<EE>
 <L>D:\Q20010319\软件设计\IARproject\main.c:70:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>70:21 - 70:23<EE>
@@ -5517,679 +5517,651 @@
 <L>D:\Q20010319\软件设计\IARproject\main.c:72:27: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>72:27 - 72:41<EE>
 <L>D:\Q20010319\软件设计\IARproject\main.c:72:33: ParenExpr= <US><UE> <DS><DE> Extent=<ES>72:33 - 72:41<EE>
 <L>D:\Q20010319\软件设计\IARproject\main.c:72:34: DeclRefExpr=buffer|D:\Q20010319\软件设计\IARproject\main.c:70:14 (Reference) <US>c:main.c@2655@F@main@buffer<UE> <DS>buffer<DE> Extent=<ES>72:34 - 72:40<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:75:9: WhileStmt= <US><UE> <DS><DE> Extent=<ES>75:9 - 85:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:75:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>75:16 - 75:17<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:76:9: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>76:9 - 85:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:77:13: DeclStmt= <US><UE> <DS><DE> Extent=<ES>77:13 - 77:39<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:77:18: VarDecl=c|D:\Q20010319\软件设计\IARproject\main.c:77:18 (Definition) <US>c:main.c@2814@F@main@c<UE> <DS>c<DE> Extent=<ES>77:13 - 77:38<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:77:22: CallExpr=uart_read_char|D:\Q20010319\软件设计\IARproject\main.c:186:6 <US>c:@F@uart_read_char<UE> <DS>char uart_read_char(void)<DE> Extent=<ES>77:22 - 77:38<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:77:22: UnexposedExpr=uart_read_char|D:\Q20010319\软件设计\IARproject\main.c:186:6 <US>c:@F@uart_read_char<UE> <DS>char uart_read_char(void)<DE> Extent=<ES>77:22 - 77:36<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:77:22: DeclRefExpr=uart_read_char|D:\Q20010319\软件设计\IARproject\main.c:186:6 (Reference) <US>c:@F@uart_read_char<UE> <DS>char uart_read_char(void)<DE> Extent=<ES>77:22 - 77:36<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:78:13: CallExpr=lcd_write_data|D:\Q20010319\软件设计\IARproject\main.c:125:6 <US>c:@F@lcd_write_data<UE> <DS>void lcd_write_data(unsigned char)<DE> Extent=<ES>78:13 - 78:30<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:78:13: UnexposedExpr=lcd_write_data|D:\Q20010319\软件设计\IARproject\main.c:125:6 <US>c:@F@lcd_write_data<UE> <DS>void lcd_write_data(unsigned char)<DE> Extent=<ES>78:13 - 78:27<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:78:13: DeclRefExpr=lcd_write_data|D:\Q20010319\软件设计\IARproject\main.c:125:6 (Reference) <US>c:@F@lcd_write_data<UE> <DS>void lcd_write_data(unsigned char)<DE> Extent=<ES>78:13 - 78:27<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:78:28: UnexposedExpr=c|D:\Q20010319\软件设计\IARproject\main.c:77:18 <US>c:main.c@2814@F@main@c<UE> <DS>c<DE> Extent=<ES>78:28 - 78:29<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:78:28: UnexposedExpr=c|D:\Q20010319\软件设计\IARproject\main.c:77:18 <US>c:main.c@2814@F@main@c<UE> <DS>c<DE> Extent=<ES>78:28 - 78:29<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:78:28: DeclRefExpr=c|D:\Q20010319\软件设计\IARproject\main.c:77:18 (Reference) <US>c:main.c@2814@F@main@c<UE> <DS>c<DE> Extent=<ES>78:28 - 78:29<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:79:13: IfStmt= <US><UE> <DS><DE> Extent=<ES>79:13 - 82:14<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:79:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>79:17 - 79:39<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:79:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>79:17 - 79:26<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:79:17: UnexposedExpr=c|D:\Q20010319\软件设计\IARproject\main.c:77:18 <US>c:main.c@2814@F@main@c<UE> <DS>c<DE> Extent=<ES>79:17 - 79:18<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:79:17: UnexposedExpr=c|D:\Q20010319\软件设计\IARproject\main.c:77:18 <US>c:main.c@2814@F@main@c<UE> <DS>c<DE> Extent=<ES>79:17 - 79:18<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:79:17: DeclRefExpr=c|D:\Q20010319\软件设计\IARproject\main.c:77:18 (Reference) <US>c:main.c@2814@F@main@c<UE> <DS>c<DE> Extent=<ES>79:17 - 79:18<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:79:22: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>79:22 - 79:26<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:79:30: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>79:30 - 79:39<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:79:30: UnexposedExpr=c|D:\Q20010319\软件设计\IARproject\main.c:77:18 <US>c:main.c@2814@F@main@c<UE> <DS>c<DE> Extent=<ES>79:30 - 79:31<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:79:30: UnexposedExpr=c|D:\Q20010319\软件设计\IARproject\main.c:77:18 <US>c:main.c@2814@F@main@c<UE> <DS>c<DE> Extent=<ES>79:30 - 79:31<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:79:30: DeclRefExpr=c|D:\Q20010319\软件设计\IARproject\main.c:77:18 (Reference) <US>c:main.c@2814@F@main@c<UE> <DS>c<DE> Extent=<ES>79:30 - 79:31<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:79:35: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>79:35 - 79:39<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:80:13: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>80:13 - 82:14<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:81:17: BreakStmt= <US><UE> <DS><DE> Extent=<ES>81:17 - 81:22<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:83:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>83:13 - 83:32<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:83:13: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>83:13 - 83:28<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:83:13: UnexposedExpr=buffer|D:\Q20010319\软件设计\IARproject\main.c:70:14 <US>c:main.c@2655@F@main@buffer<UE> <DS>buffer<DE> Extent=<ES>83:13 - 83:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:83:13: DeclRefExpr=buffer|D:\Q20010319\软件设计\IARproject\main.c:70:14 (Reference) <US>c:main.c@2655@F@main@buffer<UE> <DS>buffer<DE> Extent=<ES>83:13 - 83:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:83:20: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>83:20 - 83:27<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:83:20: DeclRefExpr=index|D:\Q20010319\软件设计\IARproject\main.c:71:13 (Reference) <US>c:main.c@2681@F@main@index<UE> <DS>index<DE> Extent=<ES>83:20 - 83:25<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:83:31: UnexposedExpr=c|D:\Q20010319\软件设计\IARproject\main.c:77:18 <US>c:main.c@2814@F@main@c<UE> <DS>c<DE> Extent=<ES>83:31 - 83:32<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:83:31: DeclRefExpr=c|D:\Q20010319\软件设计\IARproject\main.c:77:18 (Reference) <US>c:main.c@2814@F@main@c<UE> <DS>c<DE> Extent=<ES>83:31 - 83:32<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:84:13: CallExpr=lcd_write_string|D:\Q20010319\软件设计\IARproject\main.c:148:6 <US>c:@F@lcd_write_string<UE> <DS>void lcd_write_string(const char *)<DE> Extent=<ES>84:13 - 84:34<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:84:13: UnexposedExpr=lcd_write_string|D:\Q20010319\软件设计\IARproject\main.c:148:6 <US>c:@F@lcd_write_string<UE> <DS>void lcd_write_string(const char *)<DE> Extent=<ES>84:13 - 84:29<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:84:13: DeclRefExpr=lcd_write_string|D:\Q20010319\软件设计\IARproject\main.c:148:6 (Reference) <US>c:@F@lcd_write_string<UE> <DS>void lcd_write_string(const char *)<DE> Extent=<ES>84:13 - 84:29<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:84:30: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>84:30 - 84:33<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:84:30: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>84:30 - 84:33<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:84:30: StringLiteral= <US><UE> <DS><DE> Extent=<ES>84:30 - 84:33<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:88:9: DeclStmt= <US><UE> <DS><DE> Extent=<ES>88:9 - 88:32<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:88:14: VarDecl=morse_buffer|D:\Q20010319\软件设计\IARproject\main.c:88:14 (Definition) <US>c:main.c@3097@F@main@morse_buffer<UE> <DS>morse_buffer<DE> Extent=<ES>88:9 - 88:31<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:88:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>88:27 - 88:30<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:89:9: CallExpr=text_to_morse|D:\Q20010319\软件设计\IARproject\main.c:227:6 <US>c:@F@text_to_morse<UE> <DS>void text_to_morse(const char *, char *)<DE> Extent=<ES>89:9 - 89:44<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:89:9: UnexposedExpr=text_to_morse|D:\Q20010319\软件设计\IARproject\main.c:227:6 <US>c:@F@text_to_morse<UE> <DS>void text_to_morse(const char *, char *)<DE> Extent=<ES>89:9 - 89:22<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:89:9: DeclRefExpr=text_to_morse|D:\Q20010319\软件设计\IARproject\main.c:227:6 (Reference) <US>c:@F@text_to_morse<UE> <DS>void text_to_morse(const char *, char *)<DE> Extent=<ES>89:9 - 89:22<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:89:23: UnexposedExpr=buffer|D:\Q20010319\软件设计\IARproject\main.c:70:14 <US>c:main.c@2655@F@main@buffer<UE> <DS>buffer<DE> Extent=<ES>89:23 - 89:29<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:89:23: UnexposedExpr=buffer|D:\Q20010319\软件设计\IARproject\main.c:70:14 <US>c:main.c@2655@F@main@buffer<UE> <DS>buffer<DE> Extent=<ES>89:23 - 89:29<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:89:23: DeclRefExpr=buffer|D:\Q20010319\软件设计\IARproject\main.c:70:14 (Reference) <US>c:main.c@2655@F@main@buffer<UE> <DS>buffer<DE> Extent=<ES>89:23 - 89:29<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:89:31: UnexposedExpr=morse_buffer|D:\Q20010319\软件设计\IARproject\main.c:88:14 <US>c:main.c@3097@F@main@morse_buffer<UE> <DS>morse_buffer<DE> Extent=<ES>89:31 - 89:43<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:89:31: DeclRefExpr=morse_buffer|D:\Q20010319\软件设计\IARproject\main.c:88:14 (Reference) <US>c:main.c@3097@F@main@morse_buffer<UE> <DS>morse_buffer<DE> Extent=<ES>89:31 - 89:43<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:92:9: CallExpr=send_morse_code|D:\Q20010319\软件设计\IARproject\main.c:192:6 <US>c:@F@send_morse_code<UE> <DS>void send_morse_code(const char *)<DE> Extent=<ES>92:9 - 92:38<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:92:9: UnexposedExpr=send_morse_code|D:\Q20010319\软件设计\IARproject\main.c:192:6 <US>c:@F@send_morse_code<UE> <DS>void send_morse_code(const char *)<DE> Extent=<ES>92:9 - 92:24<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:92:9: DeclRefExpr=send_morse_code|D:\Q20010319\软件设计\IARproject\main.c:192:6 (Reference) <US>c:@F@send_morse_code<UE> <DS>void send_morse_code(const char *)<DE> Extent=<ES>92:9 - 92:24<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:92:25: UnexposedExpr=morse_buffer|D:\Q20010319\软件设计\IARproject\main.c:88:14 <US>c:main.c@3097@F@main@morse_buffer<UE> <DS>morse_buffer<DE> Extent=<ES>92:25 - 92:37<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:92:25: UnexposedExpr=morse_buffer|D:\Q20010319\软件设计\IARproject\main.c:88:14 <US>c:main.c@3097@F@main@morse_buffer<UE> <DS>morse_buffer<DE> Extent=<ES>92:25 - 92:37<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:92:25: DeclRefExpr=morse_buffer|D:\Q20010319\软件设计\IARproject\main.c:88:14 (Reference) <US>c:main.c@3097@F@main@morse_buffer<UE> <DS>morse_buffer<DE> Extent=<ES>92:25 - 92:37<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:95:5: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>95:5 - 95:13<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:95:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>95:12 - 95:13<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:98:6: FunctionDecl=lcd_init|D:\Q20010319\软件设计\IARproject\main.c:98:6 (Definition) <US>c:@F@lcd_init<UE> <DS>void lcd_init(void)<DE> Extent=<ES>98:1 - 113:2<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:99:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>99:1 - 113:2<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:100:5: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>100:5 - 100:28<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:100:5: MemberRefExpr=P1DIR|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:423:17 (Reference) <US>c:io430x14x.h@12122@Ua@FI@P1DIR<UE> <DS>P1DIR<DE> Extent=<ES>100:5 - 100:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:100:5: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:421:20 (Reference) <US><UE> <DS><DE> Extent=<ES>100:5 - 100:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:100:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>100:14 - 100:28<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:100:14: ParenExpr= <US><UE> <DS><DE> Extent=<ES>100:14 - 100:20<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:100:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>100:14 - 100:20<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:100:23: ParenExpr= <US><UE> <DS><DE> Extent=<ES>100:23 - 100:28<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:100:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>100:23 - 100:28<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:101:5: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>101:5 - 101:18<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:101:5: MemberRefExpr=P2DIR|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:647:17 (Reference) <US>c:io430x14x.h@17504@Ua@FI@P2DIR<UE> <DS>P2DIR<DE> Extent=<ES>101:5 - 101:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:101:5: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:645:20 (Reference) <US><UE> <DS><DE> Extent=<ES>101:5 - 101:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:101:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>101:14 - 101:18<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:104:5: CallExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>104:5 - 104:26<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:104:5: UnexposedExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>104:5 - 104:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:104:5: DeclRefExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>104:5 - 104:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:104:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>104:20 - 104:25<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:104:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>104:20 - 104:25<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:105:5: CallExpr=lcd_write_command|D:\Q20010319\软件设计\IARproject\main.c:115:6 <US>c:@F@lcd_write_command<UE> <DS>void lcd_write_command(unsigned char)<DE> Extent=<ES>105:5 - 105:28<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:105:5: UnexposedExpr=lcd_write_command|D:\Q20010319\软件设计\IARproject\main.c:115:6 <US>c:@F@lcd_write_command<UE> <DS>void lcd_write_command(unsigned char)<DE> Extent=<ES>105:5 - 105:22<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:105:5: DeclRefExpr=lcd_write_command|D:\Q20010319\软件设计\IARproject\main.c:115:6 (Reference) <US>c:@F@lcd_write_command<UE> <DS>void lcd_write_command(unsigned char)<DE> Extent=<ES>105:5 - 105:22<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:105:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>105:23 - 105:27<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:105:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>105:23 - 105:27<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:106:5: CallExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>106:5 - 106:22<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:106:5: UnexposedExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>106:5 - 106:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:106:5: DeclRefExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>106:5 - 106:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:106:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>106:20 - 106:21<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:106:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>106:20 - 106:21<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:107:5: CallExpr=lcd_write_command|D:\Q20010319\软件设计\IARproject\main.c:115:6 <US>c:@F@lcd_write_command<UE> <DS>void lcd_write_command(unsigned char)<DE> Extent=<ES>107:5 - 107:28<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:107:5: UnexposedExpr=lcd_write_command|D:\Q20010319\软件设计\IARproject\main.c:115:6 <US>c:@F@lcd_write_command<UE> <DS>void lcd_write_command(unsigned char)<DE> Extent=<ES>107:5 - 107:22<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:107:5: DeclRefExpr=lcd_write_command|D:\Q20010319\软件设计\IARproject\main.c:115:6 (Reference) <US>c:@F@lcd_write_command<UE> <DS>void lcd_write_command(unsigned char)<DE> Extent=<ES>107:5 - 107:22<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:107:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>107:23 - 107:27<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:107:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>107:23 - 107:27<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:108:5: CallExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>108:5 - 108:22<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:108:5: UnexposedExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>108:5 - 108:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:108:5: DeclRefExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>108:5 - 108:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:108:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>108:20 - 108:21<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:108:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>108:20 - 108:21<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:109:5: CallExpr=lcd_write_command|D:\Q20010319\软件设计\IARproject\main.c:115:6 <US>c:@F@lcd_write_command<UE> <DS>void lcd_write_command(unsigned char)<DE> Extent=<ES>109:5 - 109:28<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:109:5: UnexposedExpr=lcd_write_command|D:\Q20010319\软件设计\IARproject\main.c:115:6 <US>c:@F@lcd_write_command<UE> <DS>void lcd_write_command(unsigned char)<DE> Extent=<ES>109:5 - 109:22<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:109:5: DeclRefExpr=lcd_write_command|D:\Q20010319\软件设计\IARproject\main.c:115:6 (Reference) <US>c:@F@lcd_write_command<UE> <DS>void lcd_write_command(unsigned char)<DE> Extent=<ES>109:5 - 109:22<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:109:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>109:23 - 109:27<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:109:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>109:23 - 109:27<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:110:5: CallExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>110:5 - 110:22<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:110:5: UnexposedExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>110:5 - 110:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:110:5: DeclRefExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>110:5 - 110:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:110:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>110:20 - 110:21<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:110:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>110:20 - 110:21<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:111:5: CallExpr=lcd_write_command|D:\Q20010319\软件设计\IARproject\main.c:115:6 <US>c:@F@lcd_write_command<UE> <DS>void lcd_write_command(unsigned char)<DE> Extent=<ES>111:5 - 111:28<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:111:5: UnexposedExpr=lcd_write_command|D:\Q20010319\软件设计\IARproject\main.c:115:6 <US>c:@F@lcd_write_command<UE> <DS>void lcd_write_command(unsigned char)<DE> Extent=<ES>111:5 - 111:22<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:111:5: DeclRefExpr=lcd_write_command|D:\Q20010319\软件设计\IARproject\main.c:115:6 (Reference) <US>c:@F@lcd_write_command<UE> <DS>void lcd_write_command(unsigned char)<DE> Extent=<ES>111:5 - 111:22<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:111:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>111:23 - 111:27<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:111:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>111:23 - 111:27<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:112:5: CallExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>112:5 - 112:25<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:112:5: UnexposedExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>112:5 - 112:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:112:5: DeclRefExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>112:5 - 112:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:112:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>112:20 - 112:24<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:112:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>112:20 - 112:24<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:115:6: FunctionDecl=lcd_write_command|D:\Q20010319\软件设计\IARproject\main.c:115:6 (Definition) <US>c:@F@lcd_write_command<UE> <DS>void lcd_write_command(unsigned char)<DE> Extent=<ES>115:1 - 123:2<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:115:38: ParmDecl=cmd|D:\Q20010319\软件设计\IARproject\main.c:115:38 (Definition) <US>c:main.c@3876@F@lcd_write_command@cmd<UE> <DS>unsigned char<DE> Extent=<ES>115:24 - 115:41<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:116:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>116:1 - 123:2<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:117:5: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>117:5 - 117:21<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:117:5: MemberRefExpr=P1OUT|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:391:17 (Reference) <US>c:io430x14x.h@11367@Ua@FI@P1OUT<UE> <DS>P1OUT<DE> Extent=<ES>117:5 - 117:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:117:5: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:389:20 (Reference) <US><UE> <DS><DE> Extent=<ES>117:5 - 117:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:117:14: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>117:14 - 117:21<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:117:15: ParenExpr= <US><UE> <DS><DE> Extent=<ES>117:15 - 117:21<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:117:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>117:15 - 117:21<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:118:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>118:5 - 118:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:118:5: MemberRefExpr=P2OUT|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:615:17 (Reference) <US>c:io430x14x.h@16749@Ua@FI@P2OUT<UE> <DS>P2OUT<DE> Extent=<ES>118:5 - 118:13<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:118:5: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:613:20 (Reference) <US><UE> <DS><DE> Extent=<ES>118:5 - 118:13<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:118:16: UnexposedExpr=cmd|D:\Q20010319\软件设计\IARproject\main.c:115:38 <US>c:main.c@3876@F@lcd_write_command@cmd<UE> <DS>unsigned char<DE> Extent=<ES>118:16 - 118:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:118:16: DeclRefExpr=cmd|D:\Q20010319\软件设计\IARproject\main.c:115:38 (Reference) <US>c:main.c@3876@F@lcd_write_command@cmd<UE> <DS>unsigned char<DE> Extent=<ES>118:16 - 118:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:119:5: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>119:5 - 119:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:119:5: MemberRefExpr=P1OUT|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:391:17 (Reference) <US>c:io430x14x.h@11367@Ua@FI@P1OUT<UE> <DS>P1OUT<DE> Extent=<ES>119:5 - 119:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:119:5: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:389:20 (Reference) <US><UE> <DS><DE> Extent=<ES>119:5 - 119:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:119:14: ParenExpr= <US><UE> <DS><DE> Extent=<ES>119:14 - 119:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:119:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>119:14 - 119:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:120:5: CallExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>120:5 - 120:22<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:120:5: UnexposedExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>120:5 - 120:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:120:5: DeclRefExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>120:5 - 120:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:120:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>120:20 - 120:21<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:120:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>120:20 - 120:21<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:121:5: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>121:5 - 121:20<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:121:5: MemberRefExpr=P1OUT|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:391:17 (Reference) <US>c:io430x14x.h@11367@Ua@FI@P1OUT<UE> <DS>P1OUT<DE> Extent=<ES>121:5 - 121:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:121:5: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:389:20 (Reference) <US><UE> <DS><DE> Extent=<ES>121:5 - 121:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:121:14: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>121:14 - 121:20<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:121:15: ParenExpr= <US><UE> <DS><DE> Extent=<ES>121:15 - 121:20<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:121:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>121:15 - 121:20<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:122:5: CallExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>122:5 - 122:25<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:122:5: UnexposedExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>122:5 - 122:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:122:5: DeclRefExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>122:5 - 122:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:122:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>122:20 - 122:24<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:122:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>122:20 - 122:24<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:125:6: FunctionDecl=lcd_write_data|D:\Q20010319\软件设计\IARproject\main.c:125:6 (Definition) <US>c:@F@lcd_write_data<UE> <DS>void lcd_write_data(unsigned char)<DE> Extent=<ES>125:1 - 146:2<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:125:35: ParmDecl=data|D:\Q20010319\软件设计\IARproject\main.c:125:35 (Definition) <US>c:main.c@4140@F@lcd_write_data@data<UE> <DS>unsigned char<DE> Extent=<ES>125:21 - 125:39<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:126:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>126:1 - 146:2<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:127:5: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>127:5 - 127:20<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:127:5: MemberRefExpr=P1OUT|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:391:17 (Reference) <US>c:io430x14x.h@11367@Ua@FI@P1OUT<UE> <DS>P1OUT<DE> Extent=<ES>127:5 - 127:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:127:5: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:389:20 (Reference) <US><UE> <DS><DE> Extent=<ES>127:5 - 127:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:127:14: ParenExpr= <US><UE> <DS><DE> Extent=<ES>127:14 - 127:20<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:127:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>127:14 - 127:20<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:128:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>128:5 - 128:20<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:128:5: MemberRefExpr=P2OUT|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:615:17 (Reference) <US>c:io430x14x.h@16749@Ua@FI@P2OUT<UE> <DS>P2OUT<DE> Extent=<ES>128:5 - 128:13<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:128:5: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:613:20 (Reference) <US><UE> <DS><DE> Extent=<ES>128:5 - 128:13<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:128:16: UnexposedExpr=data|D:\Q20010319\软件设计\IARproject\main.c:125:35 <US>c:main.c@4140@F@lcd_write_data@data<UE> <DS>unsigned char<DE> Extent=<ES>128:16 - 128:20<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:128:16: DeclRefExpr=data|D:\Q20010319\软件设计\IARproject\main.c:125:35 (Reference) <US>c:main.c@4140@F@lcd_write_data@data<UE> <DS>unsigned char<DE> Extent=<ES>128:16 - 128:20<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:129:5: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>129:5 - 129:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:129:5: MemberRefExpr=P1OUT|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:391:17 (Reference) <US>c:io430x14x.h@11367@Ua@FI@P1OUT<UE> <DS>P1OUT<DE> Extent=<ES>129:5 - 129:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:129:5: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:389:20 (Reference) <US><UE> <DS><DE> Extent=<ES>129:5 - 129:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:129:14: ParenExpr= <US><UE> <DS><DE> Extent=<ES>129:14 - 129:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:129:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>129:14 - 129:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:130:5: CallExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>130:5 - 130:22<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:130:5: UnexposedExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>130:5 - 130:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:130:5: DeclRefExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>130:5 - 130:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:130:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>130:20 - 130:21<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:130:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>130:20 - 130:21<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:131:5: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>131:5 - 131:20<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:131:5: MemberRefExpr=P1OUT|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:391:17 (Reference) <US>c:io430x14x.h@11367@Ua@FI@P1OUT<UE> <DS>P1OUT<DE> Extent=<ES>131:5 - 131:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:131:5: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:389:20 (Reference) <US><UE> <DS><DE> Extent=<ES>131:5 - 131:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:131:14: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>131:14 - 131:20<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:131:15: ParenExpr= <US><UE> <DS><DE> Extent=<ES>131:15 - 131:20<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:131:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>131:15 - 131:20<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:132:5: CallExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>132:5 - 132:25<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:132:5: UnexposedExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>132:5 - 132:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:132:5: DeclRefExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>132:5 - 132:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:132:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>132:20 - 132:24<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:132:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>132:20 - 132:24<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:135:5: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>135:5 - 135:18<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:135:5: DeclRefExpr=current_col|D:\Q20010319\软件设计\IARproject\main.c:43:15 (Reference) <US>c:@current_col<UE> <DS>current_col<DE> Extent=<ES>135:5 - 135:16<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:136:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>136:5 - 145:6<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:136:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>136:9 - 136:32<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:136:9: UnexposedExpr=current_col|D:\Q20010319\软件设计\IARproject\main.c:43:15 <US>c:@current_col<UE> <DS>current_col<DE> Extent=<ES>136:9 - 136:20<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:136:9: UnexposedExpr=current_col|D:\Q20010319\软件设计\IARproject\main.c:43:15 <US>c:@current_col<UE> <DS>current_col<DE> Extent=<ES>136:9 - 136:20<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:136:9: DeclRefExpr=current_col|D:\Q20010319\软件设计\IARproject\main.c:43:15 (Reference) <US>c:@current_col<UE> <DS>current_col<DE> Extent=<ES>136:9 - 136:20<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:136:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>136:24 - 136:32<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:137:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>137:5 - 145:6<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:138:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>138:9 - 138:24<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:138:9: DeclRefExpr=current_col|D:\Q20010319\软件设计\IARproject\main.c:43:15 (Reference) <US>c:@current_col<UE> <DS>current_col<DE> Extent=<ES>138:9 - 138:20<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:138:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>138:23 - 138:24<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:138:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>138:23 - 138:24<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:139:9: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>139:9 - 139:22<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:139:9: DeclRefExpr=current_row|D:\Q20010319\软件设计\IARproject\main.c:44:15 (Reference) <US>c:@current_row<UE> <DS>current_row<DE> Extent=<ES>139:9 - 139:20<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:140:9: IfStmt= <US><UE> <DS><DE> Extent=<ES>140:9 - 143:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:140:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>140:13 - 140:36<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:140:13: UnexposedExpr=current_row|D:\Q20010319\软件设计\IARproject\main.c:44:15 <US>c:@current_row<UE> <DS>current_row<DE> Extent=<ES>140:13 - 140:24<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:140:13: UnexposedExpr=current_row|D:\Q20010319\软件设计\IARproject\main.c:44:15 <US>c:@current_row<UE> <DS>current_row<DE> Extent=<ES>140:13 - 140:24<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:140:13: DeclRefExpr=current_row|D:\Q20010319\软件设计\IARproject\main.c:44:15 (Reference) <US>c:@current_row<UE> <DS>current_row<DE> Extent=<ES>140:13 - 140:24<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:140:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>140:28 - 140:36<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:141:9: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>141:9 - 143:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:142:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>142:13 - 142:28<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:142:13: DeclRefExpr=current_row|D:\Q20010319\软件设计\IARproject\main.c:44:15 (Reference) <US>c:@current_row<UE> <DS>current_row<DE> Extent=<ES>142:13 - 142:24<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:142:27: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>142:27 - 142:28<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:142:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>142:27 - 142:28<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:144:9: CallExpr=lcd_set_cursor|D:\Q20010319\软件设计\IARproject\main.c:156:6 <US>c:@F@lcd_set_cursor<UE> <DS>void lcd_set_cursor(unsigned char, unsigned char)<DE> Extent=<ES>144:9 - 144:49<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:144:9: UnexposedExpr=lcd_set_cursor|D:\Q20010319\软件设计\IARproject\main.c:156:6 <US>c:@F@lcd_set_cursor<UE> <DS>void lcd_set_cursor(unsigned char, unsigned char)<DE> Extent=<ES>144:9 - 144:23<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:144:9: DeclRefExpr=lcd_set_cursor|D:\Q20010319\软件设计\IARproject\main.c:156:6 (Reference) <US>c:@F@lcd_set_cursor<UE> <DS>void lcd_set_cursor(unsigned char, unsigned char)<DE> Extent=<ES>144:9 - 144:23<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:144:24: UnexposedExpr=current_row|D:\Q20010319\软件设计\IARproject\main.c:44:15 <US>c:@current_row<UE> <DS>current_row<DE> Extent=<ES>144:24 - 144:35<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:144:24: DeclRefExpr=current_row|D:\Q20010319\软件设计\IARproject\main.c:44:15 (Reference) <US>c:@current_row<UE> <DS>current_row<DE> Extent=<ES>144:24 - 144:35<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:144:37: UnexposedExpr=current_col|D:\Q20010319\软件设计\IARproject\main.c:43:15 <US>c:@current_col<UE> <DS>current_col<DE> Extent=<ES>144:37 - 144:48<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:144:37: DeclRefExpr=current_col|D:\Q20010319\软件设计\IARproject\main.c:43:15 (Reference) <US>c:@current_col<UE> <DS>current_col<DE> Extent=<ES>144:37 - 144:48<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:148:6: FunctionDecl=lcd_write_string|D:\Q20010319\软件设计\IARproject\main.c:148:6 (Definition) <US>c:@F@lcd_write_string<UE> <DS>void lcd_write_string(const char *)<DE> Extent=<ES>148:1 - 154:2<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:148:35: ParmDecl=str|D:\Q20010319\软件设计\IARproject\main.c:148:35 (Definition) <US>c:main.c@4689@F@lcd_write_string@str<UE> <DS>const char *<DE> Extent=<ES>148:23 - 148:38<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:149:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>149:1 - 154:2<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:150:5: WhileStmt= <US><UE> <DS><DE> Extent=<ES>150:5 - 153:6<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:150:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>150:12 - 150:16<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:150:12: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>150:12 - 150:16<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:150:13: UnexposedExpr=str|D:\Q20010319\软件设计\IARproject\main.c:148:35 <US>c:main.c@4689@F@lcd_write_string@str<UE> <DS>const char *<DE> Extent=<ES>150:13 - 150:16<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:150:13: DeclRefExpr=str|D:\Q20010319\软件设计\IARproject\main.c:148:35 (Reference) <US>c:main.c@4689@F@lcd_write_string@str<UE> <DS>const char *<DE> Extent=<ES>150:13 - 150:16<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:151:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>151:5 - 153:6<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:152:9: CallExpr=lcd_write_data|D:\Q20010319\软件设计\IARproject\main.c:125:6 <US>c:@F@lcd_write_data<UE> <DS>void lcd_write_data(unsigned char)<DE> Extent=<ES>152:9 - 152:31<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:152:9: UnexposedExpr=lcd_write_data|D:\Q20010319\软件设计\IARproject\main.c:125:6 <US>c:@F@lcd_write_data<UE> <DS>void lcd_write_data(unsigned char)<DE> Extent=<ES>152:9 - 152:23<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:152:9: DeclRefExpr=lcd_write_data|D:\Q20010319\软件设计\IARproject\main.c:125:6 (Reference) <US>c:@F@lcd_write_data<UE> <DS>void lcd_write_data(unsigned char)<DE> Extent=<ES>152:9 - 152:23<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:152:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>152:24 - 152:30<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:152:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>152:24 - 152:30<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:152:24: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>152:24 - 152:30<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:152:25: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>152:25 - 152:30<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:152:25: DeclRefExpr=str|D:\Q20010319\软件设计\IARproject\main.c:148:35 (Reference) <US>c:main.c@4689@F@lcd_write_string@str<UE> <DS>const char *<DE> Extent=<ES>152:25 - 152:28<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:156:6: FunctionDecl=lcd_set_cursor|D:\Q20010319\软件设计\IARproject\main.c:156:6 (Definition) <US>c:@F@lcd_set_cursor<UE> <DS>void lcd_set_cursor(unsigned char, unsigned char)<DE> Extent=<ES>156:1 - 166:2<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:156:35: ParmDecl=row|D:\Q20010319\软件设计\IARproject\main.c:156:35 (Definition) <US>c:main.c@4800@F@lcd_set_cursor@row<UE> <DS>unsigned char<DE> Extent=<ES>156:21 - 156:38<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:156:54: ParmDecl=col|D:\Q20010319\软件设计\IARproject\main.c:156:54 (Definition) <US>c:main.c@4819@F@lcd_set_cursor@col<UE> <DS>unsigned char<DE> Extent=<ES>156:40 - 156:57<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:157:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>157:1 - 166:2<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:158:5: DeclStmt= <US><UE> <DS><DE> Extent=<ES>158:5 - 158:24<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:158:19: VarDecl=addr|D:\Q20010319\软件设计\IARproject\main.c:158:19 (Definition) <US>c:main.c@4846@F@lcd_set_cursor@addr<UE> <DS>addr<DE> Extent=<ES>158:5 - 158:23<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:160:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>160:5 - 163:26<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:160:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>160:9 - 160:17<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:160:9: UnexposedExpr=row|D:\Q20010319\软件设计\IARproject\main.c:156:35 <US>c:main.c@4800@F@lcd_set_cursor@row<UE> <DS>unsigned char<DE> Extent=<ES>160:9 - 160:12<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:160:9: UnexposedExpr=row|D:\Q20010319\软件设计\IARproject\main.c:156:35 <US>c:main.c@4800@F@lcd_set_cursor@row<UE> <DS>unsigned char<DE> Extent=<ES>160:9 - 160:12<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:160:9: DeclRefExpr=row|D:\Q20010319\软件设计\IARproject\main.c:156:35 (Reference) <US>c:main.c@4800@F@lcd_set_cursor@row<UE> <DS>unsigned char<DE> Extent=<ES>160:9 - 160:12<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:160:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>160:16 - 160:17<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:161:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>161:9 - 161:26<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:161:9: DeclRefExpr=addr|D:\Q20010319\软件设计\IARproject\main.c:158:19 (Reference) <US>c:main.c@4846@F@lcd_set_cursor@addr<UE> <DS>addr<DE> Extent=<ES>161:9 - 161:13<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:161:16: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>161:16 - 161:26<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:161:16: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>161:16 - 161:26<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:161:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>161:16 - 161:20<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:161:23: UnexposedExpr=col|D:\Q20010319\软件设计\IARproject\main.c:156:54 <US>c:main.c@4819@F@lcd_set_cursor@col<UE> <DS>unsigned char<DE> Extent=<ES>161:23 - 161:26<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:161:23: UnexposedExpr=col|D:\Q20010319\软件设计\IARproject\main.c:156:54 <US>c:main.c@4819@F@lcd_set_cursor@col<UE> <DS>unsigned char<DE> Extent=<ES>161:23 - 161:26<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:161:23: DeclRefExpr=col|D:\Q20010319\软件设计\IARproject\main.c:156:54 (Reference) <US>c:main.c@4819@F@lcd_set_cursor@col<UE> <DS>unsigned char<DE> Extent=<ES>161:23 - 161:26<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:163:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>163:9 - 163:26<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:163:9: DeclRefExpr=addr|D:\Q20010319\软件设计\IARproject\main.c:158:19 (Reference) <US>c:main.c@4846@F@lcd_set_cursor@addr<UE> <DS>addr<DE> Extent=<ES>163:9 - 163:13<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:163:16: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>163:16 - 163:26<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:163:16: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>163:16 - 163:26<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:163:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>163:16 - 163:20<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:163:23: UnexposedExpr=col|D:\Q20010319\软件设计\IARproject\main.c:156:54 <US>c:main.c@4819@F@lcd_set_cursor@col<UE> <DS>unsigned char<DE> Extent=<ES>163:23 - 163:26<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:163:23: UnexposedExpr=col|D:\Q20010319\软件设计\IARproject\main.c:156:54 <US>c:main.c@4819@F@lcd_set_cursor@col<UE> <DS>unsigned char<DE> Extent=<ES>163:23 - 163:26<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:163:23: DeclRefExpr=col|D:\Q20010319\软件设计\IARproject\main.c:156:54 (Reference) <US>c:main.c@4819@F@lcd_set_cursor@col<UE> <DS>unsigned char<DE> Extent=<ES>163:23 - 163:26<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:165:5: CallExpr=lcd_write_command|D:\Q20010319\软件设计\IARproject\main.c:115:6 <US>c:@F@lcd_write_command<UE> <DS>void lcd_write_command(unsigned char)<DE> Extent=<ES>165:5 - 165:28<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:165:5: UnexposedExpr=lcd_write_command|D:\Q20010319\软件设计\IARproject\main.c:115:6 <US>c:@F@lcd_write_command<UE> <DS>void lcd_write_command(unsigned char)<DE> Extent=<ES>165:5 - 165:22<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:165:5: DeclRefExpr=lcd_write_command|D:\Q20010319\软件设计\IARproject\main.c:115:6 (Reference) <US>c:@F@lcd_write_command<UE> <DS>void lcd_write_command(unsigned char)<DE> Extent=<ES>165:5 - 165:22<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:165:23: UnexposedExpr=addr|D:\Q20010319\软件设计\IARproject\main.c:158:19 <US>c:main.c@4846@F@lcd_set_cursor@addr<UE> <DS>addr<DE> Extent=<ES>165:23 - 165:27<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:165:23: DeclRefExpr=addr|D:\Q20010319\软件设计\IARproject\main.c:158:19 (Reference) <US>c:main.c@4846@F@lcd_set_cursor@addr<UE> <DS>addr<DE> Extent=<ES>165:23 - 165:27<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:168:6: FunctionDecl=uart_init|D:\Q20010319\软件设计\IARproject\main.c:168:6 (Definition) <US>c:@F@uart_init<UE> <DS>void uart_init(void)<DE> Extent=<ES>168:1 - 178:2<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:169:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>169:1 - 178:2<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:170:5: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>170:5 - 170:25<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:170:5: MemberRefExpr=P3SEL|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:913:17 (Reference) <US>c:io430x14x.h@24003@Ua@FI@P3SEL<UE> <DS>P3SEL<DE> Extent=<ES>170:5 - 170:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:170:5: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:911:20 (Reference) <US><UE> <DS><DE> Extent=<ES>170:5 - 170:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:170:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>170:14 - 170:25<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:170:14: ParenExpr= <US><UE> <DS><DE> Extent=<ES>170:14 - 170:18<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:170:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>170:14 - 170:18<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:170:21: ParenExpr= <US><UE> <DS><DE> Extent=<ES>170:21 - 170:25<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:170:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>170:21 - 170:25<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:171:5: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>171:5 - 171:26<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:171:5: MemberRefExpr=U0CTL|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:1349:17 (Reference) <US>c:io430x14x.h@34751@Ua@FI@U0CTL<UE> <DS>U0CTL<DE> Extent=<ES>171:5 - 171:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:171:5: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:1347:20 (Reference) <US><UE> <DS><DE> Extent=<ES>171:5 - 171:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:171:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>171:14 - 171:26<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:171:14: DeclRefExpr=CHAR|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:1370:3 (Reference) <US>c:io430x14x.h@35379@Ea@CHAR<UE> <DS>CHAR<DE> Extent=<ES>171:14 - 171:18<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:171:21: DeclRefExpr=SWRST|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:1366:3 (Reference) <US>c:io430x14x.h@35379@Ea@SWRST<UE> <DS>SWRST<DE> Extent=<ES>171:21 - 171:26<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:172:5: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>172:5 - 172:20<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:172:5: MemberRefExpr=U0TCTL|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:1379:17 (Reference) <US>c:io430x14x.h@35645@Ua@FI@U0TCTL<UE> <DS>U0TCTL<DE> Extent=<ES>172:5 - 172:11<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:172:5: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:1377:20 (Reference) <US><UE> <DS><DE> Extent=<ES>172:5 - 172:11<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:172:15: DeclRefExpr=SSEL1|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:1401:3 (Reference) <US>c:io430x14x.h@36293@Ea@SSEL1<UE> <DS>SSEL1<DE> Extent=<ES>172:15 - 172:20<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:173:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>173:5 - 173:16<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:173:5: DeclRefExpr=U0BR0|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:1443:34 (Reference) <US>c:@U0BR0<UE> <DS>U0BR0<DE> Extent=<ES>173:5 - 173:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:173:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>173:13 - 173:16<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:173:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>173:13 - 173:16<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:174:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>174:5 - 174:14<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:174:5: DeclRefExpr=U0BR1|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:1448:34 (Reference) <US>c:@U0BR1<UE> <DS>U0BR1<DE> Extent=<ES>174:5 - 174:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:174:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>174:13 - 174:14<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:174:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>174:13 - 174:14<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:175:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>175:5 - 175:18<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:175:5: DeclRefExpr=U0MCTL|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:1438:34 (Reference) <US>c:@U0MCTL<UE> <DS>U0MCTL<DE> Extent=<ES>175:5 - 175:11<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:175:14: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>175:14 - 175:18<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:175:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>175:14 - 175:18<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:176:5: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>176:5 - 176:20<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:176:5: MemberRefExpr=U0CTL|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:1349:17 (Reference) <US>c:io430x14x.h@34751@Ua@FI@U0CTL<UE> <DS>U0CTL<DE> Extent=<ES>176:5 - 176:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:176:5: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:1347:20 (Reference) <US><UE> <DS><DE> Extent=<ES>176:5 - 176:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:176:14: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>176:14 - 176:20<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:176:15: DeclRefExpr=SWRST|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:1366:3 (Reference) <US>c:io430x14x.h@35379@Ea@SWRST<UE> <DS>SWRST<DE> Extent=<ES>176:15 - 176:20<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:177:5: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>177:5 - 177:18<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:177:5: MemberRefExpr=IE1|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:108:17 (Reference) <US>c:io430x14x.h@3503@Ua@FI@IE1<UE> <DS>IE1<DE> Extent=<ES>177:5 - 177:8<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:177:5: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:106:20 (Reference) <US><UE> <DS><DE> Extent=<ES>177:5 - 177:8<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:177:12: DeclRefExpr=URXIE0|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:128:3 (Reference) <US>c:io430x14x.h@3929@Ea@URXIE0<UE> <DS>URXIE0<DE> Extent=<ES>177:12 - 177:18<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:180:6: FunctionDecl=uart_write_char|D:\Q20010319\软件设计\IARproject\main.c:180:6 (Definition) <US>c:@F@uart_write_char<UE> <DS>void uart_write_char(char)<DE> Extent=<ES>180:1 - 184:2<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:180:27: ParmDecl=c|D:\Q20010319\软件设计\IARproject\main.c:180:27 (Definition) <US>c:main.c@5480@F@uart_write_char@c<UE> <DS>char<DE> Extent=<ES>180:22 - 180:28<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:181:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>181:1 - 184:2<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:182:5: WhileStmt= <US><UE> <DS><DE> Extent=<ES>182:5 - 182:31<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:182:12: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>182:12 - 182:29<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:182:13: ParenExpr= <US><UE> <DS><DE> Extent=<ES>182:13 - 182:29<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:182:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>182:14 - 182:28<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:182:14: UnexposedExpr=IFG1|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:135:17 <US>c:io430x14x.h@4137@Ua@FI@IFG1<UE> <DS>IFG1<DE> Extent=<ES>182:14 - 182:18<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:182:14: UnexposedExpr=IFG1|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:135:17 <US>c:io430x14x.h@4137@Ua@FI@IFG1<UE> <DS>IFG1<DE> Extent=<ES>182:14 - 182:18<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:182:14: MemberRefExpr=IFG1|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:135:17 (Reference) <US>c:io430x14x.h@4137@Ua@FI@IFG1<UE> <DS>IFG1<DE> Extent=<ES>182:14 - 182:18<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:182:14: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:133:20 (Reference) <US><UE> <DS><DE> Extent=<ES>182:14 - 182:18<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:182:21: DeclRefExpr=UTXIFG0|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:155:3 (Reference) <US>c:io430x14x.h@4555@Ea@UTXIFG0<UE> <DS>UTXIFG0<DE> Extent=<ES>182:21 - 182:28<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:182:30: NullStmt= <US><UE> <DS><DE> Extent=<ES>182:30 - 182:31<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:183:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>183:5 - 183:16<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:183:5: DeclRefExpr=U0TXBUF|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:1458:34 (Reference) <US>c:@U0TXBUF<UE> <DS>U0TXBUF<DE> Extent=<ES>183:5 - 183:12<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:183:15: UnexposedExpr=c|D:\Q20010319\软件设计\IARproject\main.c:180:27 <US>c:main.c@5480@F@uart_write_char@c<UE> <DS>char<DE> Extent=<ES>183:15 - 183:16<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:183:15: UnexposedExpr=c|D:\Q20010319\软件设计\IARproject\main.c:180:27 <US>c:main.c@5480@F@uart_write_char@c<UE> <DS>char<DE> Extent=<ES>183:15 - 183:16<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:183:15: DeclRefExpr=c|D:\Q20010319\软件设计\IARproject\main.c:180:27 (Reference) <US>c:main.c@5480@F@uart_write_char@c<UE> <DS>char<DE> Extent=<ES>183:15 - 183:16<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:186:6: FunctionDecl=uart_read_char|D:\Q20010319\软件设计\IARproject\main.c:186:6 (Definition) <US>c:@F@uart_read_char<UE> <DS>char uart_read_char(void)<DE> Extent=<ES>186:1 - 190:2<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:187:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>187:1 - 190:2<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:188:5: WhileStmt= <US><UE> <DS><DE> Extent=<ES>188:5 - 188:31<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:188:12: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>188:12 - 188:29<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:188:13: ParenExpr= <US><UE> <DS><DE> Extent=<ES>188:13 - 188:29<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:188:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>188:14 - 188:28<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:188:14: UnexposedExpr=IFG1|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:135:17 <US>c:io430x14x.h@4137@Ua@FI@IFG1<UE> <DS>IFG1<DE> Extent=<ES>188:14 - 188:18<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:188:14: UnexposedExpr=IFG1|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:135:17 <US>c:io430x14x.h@4137@Ua@FI@IFG1<UE> <DS>IFG1<DE> Extent=<ES>188:14 - 188:18<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:188:14: MemberRefExpr=IFG1|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:135:17 (Reference) <US>c:io430x14x.h@4137@Ua@FI@IFG1<UE> <DS>IFG1<DE> Extent=<ES>188:14 - 188:18<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:188:14: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:133:20 (Reference) <US><UE> <DS><DE> Extent=<ES>188:14 - 188:18<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:188:21: DeclRefExpr=URXIFG0|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:154:3 (Reference) <US>c:io430x14x.h@4555@Ea@URXIFG0<UE> <DS>URXIFG0<DE> Extent=<ES>188:21 - 188:28<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:188:30: NullStmt= <US><UE> <DS><DE> Extent=<ES>188:30 - 188:31<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:189:5: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>189:5 - 189:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:189:12: UnexposedExpr=U0RXBUF|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:1453:41 <US>c:@U0RXBUF<UE> <DS>U0RXBUF<DE> Extent=<ES>189:12 - 189:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:189:12: UnexposedExpr=U0RXBUF|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:1453:41 <US>c:@U0RXBUF<UE> <DS>U0RXBUF<DE> Extent=<ES>189:12 - 189:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:189:12: DeclRefExpr=U0RXBUF|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:1453:41 (Reference) <US>c:@U0RXBUF<UE> <DS>U0RXBUF<DE> Extent=<ES>189:12 - 189:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:192:6: FunctionDecl=send_morse_code|D:\Q20010319\软件设计\IARproject\main.c:192:6 (Definition) <US>c:@F@send_morse_code<UE> <DS>void send_morse_code(const char *)<DE> Extent=<ES>192:1 - 225:2<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:192:34: ParmDecl=morse_code|D:\Q20010319\软件设计\IARproject\main.c:192:34 (Definition) <US>c:main.c@5748@F@send_morse_code@morse_code<UE> <DS>const char *<DE> Extent=<ES>192:22 - 192:44<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:193:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>193:1 - 225:2<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:194:5: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>194:5 - 194:18<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:194:5: MemberRefExpr=P3DIR|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:881:17 (Reference) <US>c:io430x14x.h@23245@Ua@FI@P3DIR<UE> <DS>P3DIR<DE> Extent=<ES>194:5 - 194:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:194:5: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:879:20 (Reference) <US><UE> <DS><DE> Extent=<ES>194:5 - 194:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:194:14: ParenExpr= <US><UE> <DS><DE> Extent=<ES>194:14 - 194:18<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:194:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>194:14 - 194:18<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:196:5: WhileStmt= <US><UE> <DS><DE> Extent=<ES>196:5 - 222:6<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:196:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>196:12 - 196:23<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:196:12: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>196:12 - 196:23<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:196:13: UnexposedExpr=morse_code|D:\Q20010319\软件设计\IARproject\main.c:192:34 <US>c:main.c@5748@F@send_morse_code@morse_code<UE> <DS>const char *<DE> Extent=<ES>196:13 - 196:23<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:196:13: DeclRefExpr=morse_code|D:\Q20010319\软件设计\IARproject\main.c:192:34 (Reference) <US>c:main.c@5748@F@send_morse_code@morse_code<UE> <DS>const char *<DE> Extent=<ES>196:13 - 196:23<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:197:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>197:5 - 222:6<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:198:9: IfStmt= <US><UE> <DS><DE> Extent=<ES>198:9 - 209:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:198:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>198:13 - 198:31<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:198:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>198:13 - 198:24<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:198:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>198:13 - 198:24<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:198:13: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>198:13 - 198:24<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:198:14: UnexposedExpr=morse_code|D:\Q20010319\软件设计\IARproject\main.c:192:34 <US>c:main.c@5748@F@send_morse_code@morse_code<UE> <DS>const char *<DE> Extent=<ES>198:14 - 198:24<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:198:14: DeclRefExpr=morse_code|D:\Q20010319\软件设计\IARproject\main.c:192:34 (Reference) <US>c:main.c@5748@F@send_morse_code@morse_code<UE> <DS>const char *<DE> Extent=<ES>198:14 - 198:24<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:198:28: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>198:28 - 198:31<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:199:9: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>199:9 - 203:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:200:13: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>200:13 - 200:26<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:200:13: MemberRefExpr=P3OUT|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:849:17 (Reference) <US>c:io430x14x.h@22490@Ua@FI@P3OUT<UE> <DS>P3OUT<DE> Extent=<ES>200:13 - 200:18<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:200:13: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:847:20 (Reference) <US><UE> <DS><DE> Extent=<ES>200:13 - 200:18<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:200:22: ParenExpr= <US><UE> <DS><DE> Extent=<ES>200:22 - 200:26<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:200:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>200:22 - 200:26<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:201:13: CallExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>201:13 - 201:51<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:201:13: UnexposedExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>201:13 - 201:27<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:201:13: DeclRefExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>201:13 - 201:27<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:201:28: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>201:28 - 201:50<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:201:28: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>201:28 - 201:50<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:201:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>201:28 - 201:40<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:201:43: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>201:43 - 201:50<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:202:13: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>202:13 - 202:27<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:202:13: MemberRefExpr=P3OUT|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:849:17 (Reference) <US>c:io430x14x.h@22490@Ua@FI@P3OUT<UE> <DS>P3OUT<DE> Extent=<ES>202:13 - 202:18<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:202:13: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:847:20 (Reference) <US><UE> <DS><DE> Extent=<ES>202:13 - 202:18<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:202:22: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>202:22 - 202:27<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:202:23: ParenExpr= <US><UE> <DS><DE> Extent=<ES>202:23 - 202:27<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:202:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>202:23 - 202:27<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:204:14: IfStmt= <US><UE> <DS><DE> Extent=<ES>204:14 - 209:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:204:18: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>204:18 - 204:36<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:204:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>204:18 - 204:29<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:204:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>204:18 - 204:29<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:204:18: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>204:18 - 204:29<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:204:19: UnexposedExpr=morse_code|D:\Q20010319\软件设计\IARproject\main.c:192:34 <US>c:main.c@5748@F@send_morse_code@morse_code<UE> <DS>const char *<DE> Extent=<ES>204:19 - 204:29<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:204:19: DeclRefExpr=morse_code|D:\Q20010319\软件设计\IARproject\main.c:192:34 (Reference) <US>c:main.c@5748@F@send_morse_code@morse_code<UE> <DS>const char *<DE> Extent=<ES>204:19 - 204:29<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:204:33: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>204:33 - 204:36<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:205:9: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>205:9 - 209:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:206:13: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>206:13 - 206:26<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:206:13: MemberRefExpr=P3OUT|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:849:17 (Reference) <US>c:io430x14x.h@22490@Ua@FI@P3OUT<UE> <DS>P3OUT<DE> Extent=<ES>206:13 - 206:18<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:206:13: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:847:20 (Reference) <US><UE> <DS><DE> Extent=<ES>206:13 - 206:18<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:206:22: ParenExpr= <US><UE> <DS><DE> Extent=<ES>206:22 - 206:26<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:206:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>206:22 - 206:26<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:207:13: CallExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>207:13 - 207:52<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:207:13: UnexposedExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>207:13 - 207:27<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:207:13: DeclRefExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>207:13 - 207:27<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:207:28: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>207:28 - 207:51<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:207:28: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>207:28 - 207:51<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:207:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>207:28 - 207:41<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:207:44: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>207:44 - 207:51<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:208:13: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>208:13 - 208:27<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:208:13: MemberRefExpr=P3OUT|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:849:17 (Reference) <US>c:io430x14x.h@22490@Ua@FI@P3OUT<UE> <DS>P3OUT<DE> Extent=<ES>208:13 - 208:18<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:208:13: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:847:20 (Reference) <US><UE> <DS><DE> Extent=<ES>208:13 - 208:18<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:208:22: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>208:22 - 208:27<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:208:23: ParenExpr= <US><UE> <DS><DE> Extent=<ES>208:23 - 208:27<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:208:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>208:23 - 208:27<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:211:9: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>211:9 - 211:21<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:211:9: DeclRefExpr=morse_code|D:\Q20010319\软件设计\IARproject\main.c:192:34 (Reference) <US>c:main.c@5748@F@send_morse_code@morse_code<UE> <DS>const char *<DE> Extent=<ES>211:9 - 211:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:213:9: IfStmt= <US><UE> <DS><DE> Extent=<ES>213:9 - 221:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:213:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>213:13 - 213:31<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:213:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>213:13 - 213:24<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:213:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>213:13 - 213:24<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:213:13: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>213:13 - 213:24<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:213:14: UnexposedExpr=morse_code|D:\Q20010319\软件设计\IARproject\main.c:192:34 <US>c:main.c@5748@F@send_morse_code@morse_code<UE> <DS>const char *<DE> Extent=<ES>213:14 - 213:24<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:213:14: DeclRefExpr=morse_code|D:\Q20010319\软件设计\IARproject\main.c:192:34 (Reference) <US>c:main.c@5748@F@send_morse_code@morse_code<UE> <DS>const char *<DE> Extent=<ES>213:14 - 213:24<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:213:28: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>213:28 - 213:31<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:214:9: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>214:9 - 217:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:215:13: CallExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>215:13 - 215:58<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:215:13: UnexposedExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>215:13 - 215:27<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:215:13: DeclRefExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>215:13 - 215:27<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:215:28: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>215:28 - 215:57<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:215:28: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>215:28 - 215:57<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:215:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>215:28 - 215:47<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:215:50: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>215:50 - 215:57<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:216:13: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>216:13 - 216:25<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:216:13: DeclRefExpr=morse_code|D:\Q20010319\软件设计\IARproject\main.c:192:34 (Reference) <US>c:main.c@5748@F@send_morse_code@morse_code<UE> <DS>const char *<DE> Extent=<ES>216:13 - 216:23<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:219:9: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>219:9 - 221:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:220:13: CallExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>220:13 - 220:57<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:220:13: UnexposedExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>220:13 - 220:27<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:220:13: DeclRefExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>220:13 - 220:27<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:220:28: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>220:28 - 220:56<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:220:28: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>220:28 - 220:56<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:220:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>220:28 - 220:46<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:220:49: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>220:49 - 220:56<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:224:5: CallExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>224:5 - 224:48<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:224:5: UnexposedExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>224:5 - 224:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:224:5: DeclRefExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>224:5 - 224:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:224:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>224:20 - 224:47<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:224:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>224:20 - 224:47<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:224:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>224:20 - 224:37<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:224:40: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>224:40 - 224:47<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:227:6: FunctionDecl=text_to_morse|D:\Q20010319\软件设计\IARproject\main.c:227:6 (Definition) <US>c:@F@text_to_morse<UE> <DS>void text_to_morse(const char *, char *)<DE> Extent=<ES>227:1 - 242:2<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:227:32: ParmDecl=text|D:\Q20010319\软件设计\IARproject\main.c:227:32 (Definition) <US>c:main.c@6575@F@text_to_morse@text<UE> <DS>const char *<DE> Extent=<ES>227:20 - 227:36<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:227:44: ParmDecl=morse_buffer|D:\Q20010319\软件设计\IARproject\main.c:227:44 (Definition) <US>c:main.c@6593@F@text_to_morse@morse_buffer<UE> <DS>char *<DE> Extent=<ES>227:38 - 227:56<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:228:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>228:1 - 242:2<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:229:5: WhileStmt= <US><UE> <DS><DE> Extent=<ES>229:5 - 241:6<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:229:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>229:12 - 229:17<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:229:12: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>229:12 - 229:17<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:229:13: UnexposedExpr=text|D:\Q20010319\软件设计\IARproject\main.c:227:32 <US>c:main.c@6575@F@text_to_morse@text<UE> <DS>const char *<DE> Extent=<ES>229:13 - 229:17<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:229:13: DeclRefExpr=text|D:\Q20010319\软件设计\IARproject\main.c:227:32 (Reference) <US>c:main.c@6575@F@text_to_morse@text<UE> <DS>const char *<DE> Extent=<ES>229:13 - 229:17<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:230:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>230:5 - 241:6<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:231:9: DeclStmt= <US><UE> <DS><DE> Extent=<ES>231:9 - 231:29<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:231:14: VarDecl=morse|D:\Q20010319\软件设计\IARproject\main.c:231:14 (Definition) <US>c:main.c@6651@F@text_to_morse@morse<UE> <DS>morse<DE> Extent=<ES>231:9 - 231:28<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:231:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>231:20 - 231:21<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:231:25: InitListExpr= <US><UE> <DS><DE> Extent=<ES>231:25 - 231:28<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:231:26: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>231:26 - 231:27<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:231:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>231:26 - 231:27<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:232:9: DeclStmt= <US><UE> <DS><DE> Extent=<ES>232:9 - 232:66<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:232:21: VarDecl=morse_code|D:\Q20010319\软件设计\IARproject\main.c:232:21 (Definition) <US>c:main.c@6681@F@text_to_morse@morse_code<UE> <DS>morse_code<DE> Extent=<ES>232:9 - 232:65<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:232:34: CallExpr=find_morse_code|D:\Q20010319\软件设计\IARproject\main.c:244:13 <US>c:@F@find_morse_code<UE> <DS>const char * find_morse_code(char)<DE> Extent=<ES>232:34 - 232:65<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:232:34: UnexposedExpr=find_morse_code|D:\Q20010319\软件设计\IARproject\main.c:244:13 <US>c:@F@find_morse_code<UE> <DS>const char * find_morse_code(char)<DE> Extent=<ES>232:34 - 232:49<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:232:34: DeclRefExpr=find_morse_code|D:\Q20010319\软件设计\IARproject\main.c:244:13 (Reference) <US>c:@F@find_morse_code<UE> <DS>const char * find_morse_code(char)<DE> Extent=<ES>232:34 - 232:49<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:232:50: UnexposedExpr=toupper|D:\Q20010319\软件设计\IARproject\main.c:232:50 <US><UE> <DS>int toupper(void)<DE> Extent=<ES>232:50 - 232:64<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:232:50: CallExpr=toupper|D:\Q20010319\软件设计\IARproject\main.c:232:50 <US><UE> <DS>int toupper(void)<DE> Extent=<ES>232:50 - 232:64<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:232:50: UnexposedExpr=toupper|D:\Q20010319\软件设计\IARproject\main.c:232:50 <US><UE> <DS>int toupper(void)<DE> Extent=<ES>232:50 - 232:57<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:232:50: DeclRefExpr=toupper|D:\Q20010319\软件设计\IARproject\main.c:232:50 (Reference) <US><UE> <DS>int toupper(void)<DE> Extent=<ES>232:50 - 232:57<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:232:58: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>232:58 - 232:63<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:232:58: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>232:58 - 232:63<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:232:58: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>232:58 - 232:63<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:232:59: UnexposedExpr=text|D:\Q20010319\软件设计\IARproject\main.c:227:32 <US>c:main.c@6575@F@text_to_morse@text<UE> <DS>const char *<DE> Extent=<ES>232:59 - 232:63<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:232:59: DeclRefExpr=text|D:\Q20010319\软件设计\IARproject\main.c:227:32 (Reference) <US>c:main.c@6575@F@text_to_morse@text<UE> <DS>const char *<DE> Extent=<ES>232:59 - 232:63<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:234:9: IfStmt= <US><UE> <DS><DE> Extent=<ES>234:9 - 239:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:234:13: UnexposedExpr=morse_code|D:\Q20010319\软件设计\IARproject\main.c:232:21 <US>c:main.c@6681@F@text_to_morse@morse_code<UE> <DS>morse_code<DE> Extent=<ES>234:13 - 234:23<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:234:13: DeclRefExpr=morse_code|D:\Q20010319\软件设计\IARproject\main.c:232:21 (Reference) <US>c:main.c@6681@F@text_to_morse@morse_code<UE> <DS>morse_code<DE> Extent=<ES>234:13 - 234:23<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:235:9: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>235:9 - 239:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:236:13: CallExpr=strcpy|D:\Q20010319\软件设计\IARproject\main.c:236:13 <US>c:@F@strcpy<UE> <DS>char * strcpy(char *, const char *)<DE> Extent=<ES>236:13 - 236:38<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:236:13: UnexposedExpr=strcpy|D:\Q20010319\软件设计\IARproject\main.c:236:13 <US>c:@F@strcpy<UE> <DS>char * strcpy(char *, const char *)<DE> Extent=<ES>236:13 - 236:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:236:13: DeclRefExpr=strcpy|D:\Q20010319\软件设计\IARproject\main.c:236:13 (Reference) <US>c:@F@strcpy<UE> <DS>char * strcpy(char *, const char *)<DE> Extent=<ES>236:13 - 236:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:236:20: UnexposedExpr=morse|D:\Q20010319\软件设计\IARproject\main.c:231:14 <US>c:main.c@6651@F@text_to_morse@morse<UE> <DS>morse<DE> Extent=<ES>236:20 - 236:25<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:236:20: DeclRefExpr=morse|D:\Q20010319\软件设计\IARproject\main.c:231:14 (Reference) <US>c:main.c@6651@F@text_to_morse@morse<UE> <DS>morse<DE> Extent=<ES>236:20 - 236:25<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:236:27: UnexposedExpr=morse_code|D:\Q20010319\软件设计\IARproject\main.c:232:21 <US>c:main.c@6681@F@text_to_morse@morse_code<UE> <DS>morse_code<DE> Extent=<ES>236:27 - 236:37<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:236:27: DeclRefExpr=morse_code|D:\Q20010319\软件设计\IARproject\main.c:232:21 (Reference) <US>c:main.c@6681@F@text_to_morse@morse_code<UE> <DS>morse_code<DE> Extent=<ES>236:27 - 236:37<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:237:13: CallExpr=strcat|D:\Q20010319\软件设计\IARproject\main.c:237:13 <US>c:@F@strcat<UE> <DS>char * strcat(char *, const char *)<DE> Extent=<ES>237:13 - 237:31<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:237:13: UnexposedExpr=strcat|D:\Q20010319\软件设计\IARproject\main.c:237:13 <US>c:@F@strcat<UE> <DS>char * strcat(char *, const char *)<DE> Extent=<ES>237:13 - 237:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:237:13: DeclRefExpr=strcat|D:\Q20010319\软件设计\IARproject\main.c:237:13 (Reference) <US>c:@F@strcat<UE> <DS>char * strcat(char *, const char *)<DE> Extent=<ES>237:13 - 237:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:237:20: UnexposedExpr=morse|D:\Q20010319\软件设计\IARproject\main.c:231:14 <US>c:main.c@6651@F@text_to_morse@morse<UE> <DS>morse<DE> Extent=<ES>237:20 - 237:25<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:237:20: DeclRefExpr=morse|D:\Q20010319\软件设计\IARproject\main.c:231:14 (Reference) <US>c:main.c@6651@F@text_to_morse@morse<UE> <DS>morse<DE> Extent=<ES>237:20 - 237:25<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:237:27: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>237:27 - 237:30<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:237:27: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>237:27 - 237:30<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:237:27: StringLiteral= <US><UE> <DS><DE> Extent=<ES>237:27 - 237:30<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:238:13: CallExpr=strcat|D:\Q20010319\软件设计\IARproject\main.c:237:13 <US>c:@F@strcat<UE> <DS>char * strcat(char *, const char *)<DE> Extent=<ES>238:13 - 238:40<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:238:13: UnexposedExpr=strcat|D:\Q20010319\软件设计\IARproject\main.c:237:13 <US>c:@F@strcat<UE> <DS>char * strcat(char *, const char *)<DE> Extent=<ES>238:13 - 238:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:238:13: DeclRefExpr=strcat|D:\Q20010319\软件设计\IARproject\main.c:237:13 (Reference) <US>c:@F@strcat<UE> <DS>char * strcat(char *, const char *)<DE> Extent=<ES>238:13 - 238:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:238:20: UnexposedExpr=morse_buffer|D:\Q20010319\软件设计\IARproject\main.c:227:44 <US>c:main.c@6593@F@text_to_morse@morse_buffer<UE> <DS>char *<DE> Extent=<ES>238:20 - 238:32<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:238:20: DeclRefExpr=morse_buffer|D:\Q20010319\软件设计\IARproject\main.c:227:44 (Reference) <US>c:main.c@6593@F@text_to_morse@morse_buffer<UE> <DS>char *<DE> Extent=<ES>238:20 - 238:32<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:238:34: UnexposedExpr=morse|D:\Q20010319\软件设计\IARproject\main.c:231:14 <US>c:main.c@6651@F@text_to_morse@morse<UE> <DS>morse<DE> Extent=<ES>238:34 - 238:39<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:238:34: UnexposedExpr=morse|D:\Q20010319\软件设计\IARproject\main.c:231:14 <US>c:main.c@6651@F@text_to_morse@morse<UE> <DS>morse<DE> Extent=<ES>238:34 - 238:39<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:238:34: DeclRefExpr=morse|D:\Q20010319\软件设计\IARproject\main.c:231:14 (Reference) <US>c:main.c@6651@F@text_to_morse@morse<UE> <DS>morse<DE> Extent=<ES>238:34 - 238:39<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:240:9: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>240:9 - 240:15<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:240:9: DeclRefExpr=text|D:\Q20010319\软件设计\IARproject\main.c:227:32 (Reference) <US>c:main.c@6575@F@text_to_morse@text<UE> <DS>const char *<DE> Extent=<ES>240:9 - 240:13<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:244:13: FunctionDecl=find_morse_code|D:\Q20010319\软件设计\IARproject\main.c:244:13 (Definition) <US>c:@F@find_morse_code<UE> <DS>const char * find_morse_code(char)<DE> Extent=<ES>244:1 - 254:2<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:244:34: ParmDecl=text|D:\Q20010319\软件设计\IARproject\main.c:244:34 (Definition) <US>c:main.c@6961@F@find_morse_code@text<UE> <DS>char<DE> Extent=<ES>244:29 - 244:38<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:245:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>245:1 - 254:2<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:246:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>246:5 - 252:6<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:246:10: DeclStmt= <US><UE> <DS><DE> Extent=<ES>246:10 - 246:20<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:246:14: VarDecl=i|D:\Q20010319\软件设计\IARproject\main.c:246:14 (Definition) <US>c:main.c@6985@F@find_morse_code@i<UE> <DS>i<DE> Extent=<ES>246:10 - 246:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:246:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>246:18 - 246:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:246:21: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>246:21 - 246:72<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:246:21: UnexposedExpr=i|D:\Q20010319\软件设计\IARproject\main.c:246:14 <US>c:main.c@6985@F@find_morse_code@i<UE> <DS>i<DE> Extent=<ES>246:21 - 246:22<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:246:21: UnexposedExpr=i|D:\Q20010319\软件设计\IARproject\main.c:246:14 <US>c:main.c@6985@F@find_morse_code@i<UE> <DS>i<DE> Extent=<ES>246:21 - 246:22<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:246:21: DeclRefExpr=i|D:\Q20010319\软件设计\IARproject\main.c:246:14 (Reference) <US>c:main.c@6985@F@find_morse_code@i<UE> <DS>i<DE> Extent=<ES>246:21 - 246:22<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:246:25: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>246:25 - 246:72<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:246:25: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>246:25 - 246:51<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:246:31: ParenExpr= <US><UE> <DS><DE> Extent=<ES>246:31 - 246:51<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:246:32: DeclRefExpr=morse_lookup_table|D:\Q20010319\软件设计\IARproject\main.c:24:18 (Reference) <US>c:@morse_lookup_table<UE> <DS>morse_lookup_table<DE> Extent=<ES>246:32 - 246:50<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:246:54: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>246:54 - 246:72<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:246:61: TypeRef=MorseEntry|D:\Q20010319\软件设计\IARproject\main.c:23:3 (Reference) <US>c:main.c@378@T@MorseEntry<UE> <DS>struct MorseEntry<DE> Extent=<ES>246:61 - 246:71<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:246:74: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>246:74 - 246:77<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:246:74: DeclRefExpr=i|D:\Q20010319\软件设计\IARproject\main.c:246:14 (Reference) <US>c:main.c@6985@F@find_morse_code@i<UE> <DS>i<DE> Extent=<ES>246:74 - 246:75<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:247:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>247:5 - 252:6<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:248:9: IfStmt= <US><UE> <DS><DE> Extent=<ES>248:9 - 251:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:248:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>248:13 - 248:47<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:248:35: UnexposedExpr=text|D:\Q20010319\软件设计\IARproject\main.c:22:10 <US>c:@SA@MorseEntry@FI@text<UE> <DS>text<DE> Extent=<ES>248:13 - 248:39<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:248:35: UnexposedExpr=text|D:\Q20010319\软件设计\IARproject\main.c:22:10 <US>c:@SA@MorseEntry@FI@text<UE> <DS>text<DE> Extent=<ES>248:13 - 248:39<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:248:35: MemberRefExpr=text|D:\Q20010319\软件设计\IARproject\main.c:22:10 (Reference) <US>c:@SA@MorseEntry@FI@text<UE> <DS>text<DE> Extent=<ES>248:13 - 248:39<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:248:13: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>248:13 - 248:34<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:248:13: UnexposedExpr=morse_lookup_table|D:\Q20010319\软件设计\IARproject\main.c:24:18 <US>c:@morse_lookup_table<UE> <DS>morse_lookup_table<DE> Extent=<ES>248:13 - 248:31<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:248:13: DeclRefExpr=morse_lookup_table|D:\Q20010319\软件设计\IARproject\main.c:24:18 (Reference) <US>c:@morse_lookup_table<UE> <DS>morse_lookup_table<DE> Extent=<ES>248:13 - 248:31<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:248:32: UnexposedExpr=i|D:\Q20010319\软件设计\IARproject\main.c:246:14 <US>c:main.c@6985@F@find_morse_code@i<UE> <DS>i<DE> Extent=<ES>248:32 - 248:33<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:248:32: DeclRefExpr=i|D:\Q20010319\软件设计\IARproject\main.c:246:14 (Reference) <US>c:main.c@6985@F@find_morse_code@i<UE> <DS>i<DE> Extent=<ES>248:32 - 248:33<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:248:43: UnexposedExpr=text|D:\Q20010319\软件设计\IARproject\main.c:244:34 <US>c:main.c@6961@F@find_morse_code@text<UE> <DS>char<DE> Extent=<ES>248:43 - 248:47<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:248:43: UnexposedExpr=text|D:\Q20010319\软件设计\IARproject\main.c:244:34 <US>c:main.c@6961@F@find_morse_code@text<UE> <DS>char<DE> Extent=<ES>248:43 - 248:47<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:248:43: DeclRefExpr=text|D:\Q20010319\软件设计\IARproject\main.c:244:34 (Reference) <US>c:main.c@6961@F@find_morse_code@text<UE> <DS>char<DE> Extent=<ES>248:43 - 248:47<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:249:9: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>249:9 - 251:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:250:13: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>250:13 - 250:47<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:250:42: UnexposedExpr=morse|D:\Q20010319\软件设计\IARproject\main.c:21:17 <US>c:@SA@MorseEntry@FI@morse<UE> <DS>morse<DE> Extent=<ES>250:20 - 250:47<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:250:42: MemberRefExpr=morse|D:\Q20010319\软件设计\IARproject\main.c:21:17 (Reference) <US>c:@SA@MorseEntry@FI@morse<UE> <DS>morse<DE> Extent=<ES>250:20 - 250:47<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:250:20: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>250:20 - 250:41<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:250:20: UnexposedExpr=morse_lookup_table|D:\Q20010319\软件设计\IARproject\main.c:24:18 <US>c:@morse_lookup_table<UE> <DS>morse_lookup_table<DE> Extent=<ES>250:20 - 250:38<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:250:20: DeclRefExpr=morse_lookup_table|D:\Q20010319\软件设计\IARproject\main.c:24:18 (Reference) <US>c:@morse_lookup_table<UE> <DS>morse_lookup_table<DE> Extent=<ES>250:20 - 250:38<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:250:39: UnexposedExpr=i|D:\Q20010319\软件设计\IARproject\main.c:246:14 <US>c:main.c@6985@F@find_morse_code@i<UE> <DS>i<DE> Extent=<ES>250:39 - 250:40<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:250:39: DeclRefExpr=i|D:\Q20010319\软件设计\IARproject\main.c:246:14 (Reference) <US>c:main.c@6985@F@find_morse_code@i<UE> <DS>i<DE> Extent=<ES>250:39 - 250:40<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:253:5: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>253:5 - 253:13<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:253:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>253:12 - 253:13<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:253:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>253:12 - 253:13<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:256:6: FunctionDecl=morse_to_text|D:\Q20010319\软件设计\IARproject\main.c:256:6 (Definition) <US>c:@F@morse_to_text<UE> <DS>void morse_to_text(const char *, char *)<DE> Extent=<ES>256:1 - 287:2<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:256:32: ParmDecl=morse|D:\Q20010319\软件设计\IARproject\main.c:256:32 (Definition) <US>c:main.c@7228@F@morse_to_text@morse<UE> <DS>const char *<DE> Extent=<ES>256:20 - 256:37<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:256:45: ParmDecl=text|D:\Q20010319\软件设计\IARproject\main.c:256:45 (Definition) <US>c:main.c@7247@F@morse_to_text@text<UE> <DS>char *<DE> Extent=<ES>256:39 - 256:49<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:257:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>257:1 - 287:2<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:258:5: DeclStmt= <US><UE> <DS><DE> Extent=<ES>258:5 - 258:35<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:258:17: VarDecl=morse_ptr|D:\Q20010319\软件设计\IARproject\main.c:258:17 (Definition) <US>c:main.c@7267@F@morse_to_text@morse_ptr<UE> <DS>morse_ptr<DE> Extent=<ES>258:5 - 258:34<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:258:29: UnexposedExpr=morse|D:\Q20010319\软件设计\IARproject\main.c:256:32 <US>c:main.c@7228@F@morse_to_text@morse<UE> <DS>const char *<DE> Extent=<ES>258:29 - 258:34<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:258:29: DeclRefExpr=morse|D:\Q20010319\软件设计\IARproject\main.c:256:32 (Reference) <US>c:main.c@7228@F@morse_to_text@morse<UE> <DS>const char *<DE> Extent=<ES>258:29 - 258:34<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:259:5: DeclStmt= <US><UE> <DS><DE> Extent=<ES>259:5 - 259:24<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:259:9: VarDecl=text_index|D:\Q20010319\软件设计\IARproject\main.c:259:9 (Definition) <US>c:main.c@7303@F@morse_to_text@text_index<UE> <DS>text_index<DE> Extent=<ES>259:5 - 259:23<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:259:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>259:22 - 259:23<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:260:5: DeclStmt= <US><UE> <DS><DE> Extent=<ES>260:5 - 260:35<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:260:9: VarDecl=morse_len|D:\Q20010319\软件设计\IARproject\main.c:260:9 (Definition) <US>c:main.c@7328@F@morse_to_text@morse_len<UE> <DS>morse_len<DE> Extent=<ES>260:5 - 260:34<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:260:21: UnexposedExpr=strlen|D:\Q20010319\软件设计\IARproject\main.c:260:21 <US>c:@F@strlen<UE> <DS>unsigned int strlen(const char *)<DE> Extent=<ES>260:21 - 260:34<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:260:21: CallExpr=strlen|D:\Q20010319\软件设计\IARproject\main.c:260:21 <US>c:@F@strlen<UE> <DS>unsigned int strlen(const char *)<DE> Extent=<ES>260:21 - 260:34<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:260:21: UnexposedExpr=strlen|D:\Q20010319\软件设计\IARproject\main.c:260:21 <US>c:@F@strlen<UE> <DS>unsigned int strlen(const char *)<DE> Extent=<ES>260:21 - 260:27<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:260:21: DeclRefExpr=strlen|D:\Q20010319\软件设计\IARproject\main.c:260:21 (Reference) <US>c:@F@strlen<UE> <DS>unsigned int strlen(const char *)<DE> Extent=<ES>260:21 - 260:27<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:260:28: UnexposedExpr=morse|D:\Q20010319\软件设计\IARproject\main.c:256:32 <US>c:main.c@7228@F@morse_to_text@morse<UE> <DS>const char *<DE> Extent=<ES>260:28 - 260:33<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:260:28: DeclRefExpr=morse|D:\Q20010319\软件设计\IARproject\main.c:256:32 (Reference) <US>c:main.c@7228@F@morse_to_text@morse<UE> <DS>const char *<DE> Extent=<ES>260:28 - 260:33<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:262:5: WhileStmt= <US><UE> <DS><DE> Extent=<ES>262:5 - 284:6<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:262:12: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>262:12 - 262:41<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:262:12: UnexposedExpr=morse_ptr|D:\Q20010319\软件设计\IARproject\main.c:258:17 <US>c:main.c@7267@F@morse_to_text@morse_ptr<UE> <DS>morse_ptr<DE> Extent=<ES>262:12 - 262:21<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:262:12: DeclRefExpr=morse_ptr|D:\Q20010319\软件设计\IARproject\main.c:258:17 (Reference) <US>c:main.c@7267@F@morse_to_text@morse_ptr<UE> <DS>morse_ptr<DE> Extent=<ES>262:12 - 262:21<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:262:24: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>262:24 - 262:41<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:262:24: UnexposedExpr=morse|D:\Q20010319\软件设计\IARproject\main.c:256:32 <US>c:main.c@7228@F@morse_to_text@morse<UE> <DS>const char *<DE> Extent=<ES>262:24 - 262:29<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:262:24: DeclRefExpr=morse|D:\Q20010319\软件设计\IARproject\main.c:256:32 (Reference) <US>c:main.c@7228@F@morse_to_text@morse<UE> <DS>const char *<DE> Extent=<ES>262:24 - 262:29<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:262:32: UnexposedExpr=morse_len|D:\Q20010319\软件设计\IARproject\main.c:260:9 <US>c:main.c@7328@F@morse_to_text@morse_len<UE> <DS>morse_len<DE> Extent=<ES>262:32 - 262:41<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:262:32: DeclRefExpr=morse_len|D:\Q20010319\软件设计\IARproject\main.c:260:9 (Reference) <US>c:main.c@7328@F@morse_to_text@morse_len<UE> <DS>morse_len<DE> Extent=<ES>262:32 - 262:41<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:263:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>263:5 - 284:6<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:265:9: DeclStmt= <US><UE> <DS><DE> Extent=<ES>265:9 - 265:23<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:265:13: VarDecl=found|D:\Q20010319\软件设计\IARproject\main.c:265:13 (Definition) <US>c:main.c@7453@F@morse_to_text@found<UE> <DS>found<DE> Extent=<ES>265:9 - 265:22<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:265:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>265:21 - 265:22<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:266:9: ForStmt= <US><UE> <DS><DE> Extent=<ES>266:9 - 277:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:266:14: DeclStmt= <US><UE> <DS><DE> Extent=<ES>266:14 - 266:24<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:266:18: VarDecl=i|D:\Q20010319\软件设计\IARproject\main.c:266:18 (Definition) <US>c:main.c@7482@F@morse_to_text@i<UE> <DS>i<DE> Extent=<ES>266:14 - 266:23<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:266:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>266:22 - 266:23<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:266:25: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>266:25 - 266:87<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:266:25: UnexposedExpr=i|D:\Q20010319\软件设计\IARproject\main.c:266:18 <US>c:main.c@7482@F@morse_to_text@i<UE> <DS>i<DE> Extent=<ES>266:25 - 266:26<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:266:25: UnexposedExpr=i|D:\Q20010319\软件设计\IARproject\main.c:266:18 <US>c:main.c@7482@F@morse_to_text@i<UE> <DS>i<DE> Extent=<ES>266:25 - 266:26<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:266:25: DeclRefExpr=i|D:\Q20010319\软件设计\IARproject\main.c:266:18 (Reference) <US>c:main.c@7482@F@morse_to_text@i<UE> <DS>i<DE> Extent=<ES>266:25 - 266:26<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:266:29: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>266:29 - 266:87<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:266:29: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>266:29 - 266:55<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:266:35: ParenExpr= <US><UE> <DS><DE> Extent=<ES>266:35 - 266:55<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:266:36: DeclRefExpr=morse_lookup_table|D:\Q20010319\软件设计\IARproject\main.c:24:18 (Reference) <US>c:@morse_lookup_table<UE> <DS>morse_lookup_table<DE> Extent=<ES>266:36 - 266:54<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:266:58: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>266:58 - 266:87<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:266:64: ParenExpr= <US><UE> <DS><DE> Extent=<ES>266:64 - 266:87<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:266:65: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>266:65 - 266:86<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:266:65: UnexposedExpr=morse_lookup_table|D:\Q20010319\软件设计\IARproject\main.c:24:18 <US>c:@morse_lookup_table<UE> <DS>morse_lookup_table<DE> Extent=<ES>266:65 - 266:83<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:266:65: DeclRefExpr=morse_lookup_table|D:\Q20010319\软件设计\IARproject\main.c:24:18 (Reference) <US>c:@morse_lookup_table<UE> <DS>morse_lookup_table<DE> Extent=<ES>266:65 - 266:83<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:266:84: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>266:84 - 266:85<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:266:89: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>266:89 - 266:92<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:266:89: DeclRefExpr=i|D:\Q20010319\软件设计\IARproject\main.c:266:18 (Reference) <US>c:main.c@7482@F@morse_to_text@i<UE> <DS>i<DE> Extent=<ES>266:89 - 266:90<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:267:9: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>267:9 - 277:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:268:13: DeclStmt= <US><UE> <DS><DE> Extent=<ES>268:13 - 268:64<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:268:17: VarDecl=code_len|D:\Q20010319\软件设计\IARproject\main.c:268:17 (Definition) <US>c:main.c@7586@F@morse_to_text@code_len<UE> <DS>code_len<DE> Extent=<ES>268:13 - 268:63<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:268:28: UnexposedExpr=strlen|D:\Q20010319\软件设计\IARproject\main.c:260:21 <US>c:@F@strlen<UE> <DS>unsigned int strlen(const char *)<DE> Extent=<ES>268:28 - 268:63<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:268:28: CallExpr=strlen|D:\Q20010319\软件设计\IARproject\main.c:260:21 <US>c:@F@strlen<UE> <DS>unsigned int strlen(const char *)<DE> Extent=<ES>268:28 - 268:63<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:268:28: UnexposedExpr=strlen|D:\Q20010319\软件设计\IARproject\main.c:260:21 <US>c:@F@strlen<UE> <DS>unsigned int strlen(const char *)<DE> Extent=<ES>268:28 - 268:34<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:268:28: DeclRefExpr=strlen|D:\Q20010319\软件设计\IARproject\main.c:260:21 (Reference) <US>c:@F@strlen<UE> <DS>unsigned int strlen(const char *)<DE> Extent=<ES>268:28 - 268:34<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:268:57: UnexposedExpr=morse|D:\Q20010319\软件设计\IARproject\main.c:21:17 <US>c:@SA@MorseEntry@FI@morse<UE> <DS>morse<DE> Extent=<ES>268:35 - 268:62<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:268:57: MemberRefExpr=morse|D:\Q20010319\软件设计\IARproject\main.c:21:17 (Reference) <US>c:@SA@MorseEntry@FI@morse<UE> <DS>morse<DE> Extent=<ES>268:35 - 268:62<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:268:35: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>268:35 - 268:56<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:268:35: UnexposedExpr=morse_lookup_table|D:\Q20010319\软件设计\IARproject\main.c:24:18 <US>c:@morse_lookup_table<UE> <DS>morse_lookup_table<DE> Extent=<ES>268:35 - 268:53<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:268:35: DeclRefExpr=morse_lookup_table|D:\Q20010319\软件设计\IARproject\main.c:24:18 (Reference) <US>c:@morse_lookup_table<UE> <DS>morse_lookup_table<DE> Extent=<ES>268:35 - 268:53<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:268:54: UnexposedExpr=i|D:\Q20010319\软件设计\IARproject\main.c:266:18 <US>c:main.c@7482@F@morse_to_text@i<UE> <DS>i<DE> Extent=<ES>268:54 - 268:55<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:268:54: DeclRefExpr=i|D:\Q20010319\软件设计\IARproject\main.c:266:18 (Reference) <US>c:main.c@7482@F@morse_to_text@i<UE> <DS>i<DE> Extent=<ES>268:54 - 268:55<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:269:13: IfStmt= <US><UE> <DS><DE> Extent=<ES>269:13 - 276:14<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:269:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>269:17 - 269:79<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:269:17: CallExpr=strncmp|D:\Q20010319\软件设计\IARproject\main.c:269:17 <US><UE> <DS>int strncmp(void)<DE> Extent=<ES>269:17 - 269:74<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:269:17: UnexposedExpr=strncmp|D:\Q20010319\软件设计\IARproject\main.c:269:17 <US><UE> <DS>int strncmp(void)<DE> Extent=<ES>269:17 - 269:24<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:269:17: DeclRefExpr=strncmp|D:\Q20010319\软件设计\IARproject\main.c:269:17 (Reference) <US><UE> <DS>int strncmp(void)<DE> Extent=<ES>269:17 - 269:24<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:269:25: UnexposedExpr=morse_ptr|D:\Q20010319\软件设计\IARproject\main.c:258:17 <US>c:main.c@7267@F@morse_to_text@morse_ptr<UE> <DS>morse_ptr<DE> Extent=<ES>269:25 - 269:34<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:269:25: DeclRefExpr=morse_ptr|D:\Q20010319\软件设计\IARproject\main.c:258:17 (Reference) <US>c:main.c@7267@F@morse_to_text@morse_ptr<UE> <DS>morse_ptr<DE> Extent=<ES>269:25 - 269:34<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:269:58: UnexposedExpr=morse|D:\Q20010319\软件设计\IARproject\main.c:21:17 <US>c:@SA@MorseEntry@FI@morse<UE> <DS>morse<DE> Extent=<ES>269:36 - 269:63<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:269:58: MemberRefExpr=morse|D:\Q20010319\软件设计\IARproject\main.c:21:17 (Reference) <US>c:@SA@MorseEntry@FI@morse<UE> <DS>morse<DE> Extent=<ES>269:36 - 269:63<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:269:36: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>269:36 - 269:57<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:269:36: UnexposedExpr=morse_lookup_table|D:\Q20010319\软件设计\IARproject\main.c:24:18 <US>c:@morse_lookup_table<UE> <DS>morse_lookup_table<DE> Extent=<ES>269:36 - 269:54<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:269:36: DeclRefExpr=morse_lookup_table|D:\Q20010319\软件设计\IARproject\main.c:24:18 (Reference) <US>c:@morse_lookup_table<UE> <DS>morse_lookup_table<DE> Extent=<ES>269:36 - 269:54<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:269:55: UnexposedExpr=i|D:\Q20010319\软件设计\IARproject\main.c:266:18 <US>c:main.c@7482@F@morse_to_text@i<UE> <DS>i<DE> Extent=<ES>269:55 - 269:56<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:269:55: DeclRefExpr=i|D:\Q20010319\软件设计\IARproject\main.c:266:18 (Reference) <US>c:main.c@7482@F@morse_to_text@i<UE> <DS>i<DE> Extent=<ES>269:55 - 269:56<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:269:65: UnexposedExpr=code_len|D:\Q20010319\软件设计\IARproject\main.c:268:17 <US>c:main.c@7586@F@morse_to_text@code_len<UE> <DS>code_len<DE> Extent=<ES>269:65 - 269:73<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:269:65: DeclRefExpr=code_len|D:\Q20010319\软件设计\IARproject\main.c:268:17 (Reference) <US>c:main.c@7586@F@morse_to_text@code_len<UE> <DS>code_len<DE> Extent=<ES>269:65 - 269:73<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:269:78: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>269:78 - 269:79<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:270:13: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>270:13 - 276:14<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:272:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>272:17 - 272:64<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:272:17: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>272:17 - 272:35<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:272:17: UnexposedExpr=text|D:\Q20010319\软件设计\IARproject\main.c:256:45 <US>c:main.c@7247@F@morse_to_text@text<UE> <DS>char *<DE> Extent=<ES>272:17 - 272:21<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:272:17: DeclRefExpr=text|D:\Q20010319\软件设计\IARproject\main.c:256:45 (Reference) <US>c:main.c@7247@F@morse_to_text@text<UE> <DS>char *<DE> Extent=<ES>272:17 - 272:21<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:272:22: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>272:22 - 272:34<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:272:22: DeclRefExpr=text_index|D:\Q20010319\软件设计\IARproject\main.c:259:9 (Reference) <US>c:main.c@7303@F@morse_to_text@text_index<UE> <DS>text_index<DE> Extent=<ES>272:22 - 272:32<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:272:60: UnexposedExpr=text|D:\Q20010319\软件设计\IARproject\main.c:22:10 <US>c:@SA@MorseEntry@FI@text<UE> <DS>text<DE> Extent=<ES>272:38 - 272:64<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:272:60: MemberRefExpr=text|D:\Q20010319\软件设计\IARproject\main.c:22:10 (Reference) <US>c:@SA@MorseEntry@FI@text<UE> <DS>text<DE> Extent=<ES>272:38 - 272:64<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:272:38: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>272:38 - 272:59<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:272:38: UnexposedExpr=morse_lookup_table|D:\Q20010319\软件设计\IARproject\main.c:24:18 <US>c:@morse_lookup_table<UE> <DS>morse_lookup_table<DE> Extent=<ES>272:38 - 272:56<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:272:38: DeclRefExpr=morse_lookup_table|D:\Q20010319\软件设计\IARproject\main.c:24:18 (Reference) <US>c:@morse_lookup_table<UE> <DS>morse_lookup_table<DE> Extent=<ES>272:38 - 272:56<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:272:57: UnexposedExpr=i|D:\Q20010319\软件设计\IARproject\main.c:266:18 <US>c:main.c@7482@F@morse_to_text@i<UE> <DS>i<DE> Extent=<ES>272:57 - 272:58<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:272:57: DeclRefExpr=i|D:\Q20010319\软件设计\IARproject\main.c:266:18 (Reference) <US>c:main.c@7482@F@morse_to_text@i<UE> <DS>i<DE> Extent=<ES>272:57 - 272:58<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:273:17: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>273:17 - 273:42<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:273:17: DeclRefExpr=morse_ptr|D:\Q20010319\软件设计\IARproject\main.c:258:17 (Reference) <US>c:main.c@7267@F@morse_to_text@morse_ptr<UE> <DS>morse_ptr<DE> Extent=<ES>273:17 - 273:26<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:273:30: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>273:30 - 273:42<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:273:30: UnexposedExpr=code_len|D:\Q20010319\软件设计\IARproject\main.c:268:17 <US>c:main.c@7586@F@morse_to_text@code_len<UE> <DS>code_len<DE> Extent=<ES>273:30 - 273:38<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:273:30: DeclRefExpr=code_len|D:\Q20010319\软件设计\IARproject\main.c:268:17 (Reference) <US>c:main.c@7586@F@morse_to_text@code_len<UE> <DS>code_len<DE> Extent=<ES>273:30 - 273:38<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:273:41: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>273:41 - 273:42<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:274:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>274:17 - 274:26<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:274:17: DeclRefExpr=found|D:\Q20010319\软件设计\IARproject\main.c:265:13 (Reference) <US>c:main.c@7453@F@morse_to_text@found<UE> <DS>found<DE> Extent=<ES>274:17 - 274:22<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:274:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>274:25 - 274:26<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:275:17: BreakStmt= <US><UE> <DS><DE> Extent=<ES>275:17 - 275:22<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:280:9: IfStmt= <US><UE> <DS><DE> Extent=<ES>280:9 - 283:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:280:13: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>280:13 - 280:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:280:14: UnexposedExpr=found|D:\Q20010319\软件设计\IARproject\main.c:265:13 <US>c:main.c@7453@F@morse_to_text@found<UE> <DS>found<DE> Extent=<ES>280:14 - 280:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:280:14: DeclRefExpr=found|D:\Q20010319\软件设计\IARproject\main.c:265:13 (Reference) <US>c:main.c@7453@F@morse_to_text@found<UE> <DS>found<DE> Extent=<ES>280:14 - 280:19<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:281:9: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>281:9 - 283:10<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:282:13: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>282:13 - 282:24<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:282:13: DeclRefExpr=morse_ptr|D:\Q20010319\软件设计\IARproject\main.c:258:17 (Reference) <US>c:main.c@7267@F@morse_to_text@morse_ptr<UE> <DS>morse_ptr<DE> Extent=<ES>282:13 - 282:22<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:286:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>286:5 - 286:28<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:286:5: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>286:5 - 286:21<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:286:5: UnexposedExpr=text|D:\Q20010319\软件设计\IARproject\main.c:256:45 <US>c:main.c@7247@F@morse_to_text@text<UE> <DS>char *<DE> Extent=<ES>286:5 - 286:9<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:286:5: DeclRefExpr=text|D:\Q20010319\软件设计\IARproject\main.c:256:45 (Reference) <US>c:main.c@7247@F@morse_to_text@text<UE> <DS>char *<DE> Extent=<ES>286:5 - 286:9<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:286:10: UnexposedExpr=text_index|D:\Q20010319\软件设计\IARproject\main.c:259:9 <US>c:main.c@7303@F@morse_to_text@text_index<UE> <DS>text_index<DE> Extent=<ES>286:10 - 286:20<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:286:10: DeclRefExpr=text_index|D:\Q20010319\软件设计\IARproject\main.c:259:9 (Reference) <US>c:main.c@7303@F@morse_to_text@text_index<UE> <DS>text_index<DE> Extent=<ES>286:10 - 286:20<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:286:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>286:24 - 286:28<EE>
-<L>D:\Q20010319\软件设计\IARproject\main.c:286:24: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>286:24 - 286:28<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:73:9: CallExpr=strcpy|D:\Q20010319\软件设计\IARproject\main.c:73:9 <US>c:@F@strcpy<UE> <DS>char * strcpy(char *, const char *)<DE> Extent=<ES>73:9 - 73:44<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:73:9: UnexposedExpr=strcpy|D:\Q20010319\软件设计\IARproject\main.c:73:9 <US>c:@F@strcpy<UE> <DS>char * strcpy(char *, const char *)<DE> Extent=<ES>73:9 - 73:15<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:73:9: DeclRefExpr=strcpy|D:\Q20010319\软件设计\IARproject\main.c:73:9 (Reference) <US>c:@F@strcpy<UE> <DS>char * strcpy(char *, const char *)<DE> Extent=<ES>73:9 - 73:15<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:73:16: UnexposedExpr=buffer|D:\Q20010319\软件设计\IARproject\main.c:70:14 <US>c:main.c@2655@F@main@buffer<UE> <DS>buffer<DE> Extent=<ES>73:16 - 73:22<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:73:16: DeclRefExpr=buffer|D:\Q20010319\软件设计\IARproject\main.c:70:14 (Reference) <US>c:main.c@2655@F@main@buffer<UE> <DS>buffer<DE> Extent=<ES>73:16 - 73:22<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:73:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>73:24 - 73:43<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:73:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>73:24 - 73:43<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:73:24: StringLiteral= <US><UE> <DS><DE> Extent=<ES>73:24 - 73:43<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:87:9: DeclStmt= <US><UE> <DS><DE> Extent=<ES>87:9 - 87:32<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:87:14: VarDecl=morse_buffer|D:\Q20010319\软件设计\IARproject\main.c:87:14 (Definition) <US>c:main.c@3171@F@main@morse_buffer<UE> <DS>morse_buffer<DE> Extent=<ES>87:9 - 87:31<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:87:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>87:27 - 87:30<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:88:9: CallExpr=text_to_morse|D:\Q20010319\软件设计\IARproject\main.c:226:6 <US>c:@F@text_to_morse<UE> <DS>void text_to_morse(const char *, char *)<DE> Extent=<ES>88:9 - 88:44<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:88:9: UnexposedExpr=text_to_morse|D:\Q20010319\软件设计\IARproject\main.c:226:6 <US>c:@F@text_to_morse<UE> <DS>void text_to_morse(const char *, char *)<DE> Extent=<ES>88:9 - 88:22<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:88:9: DeclRefExpr=text_to_morse|D:\Q20010319\软件设计\IARproject\main.c:226:6 (Reference) <US>c:@F@text_to_morse<UE> <DS>void text_to_morse(const char *, char *)<DE> Extent=<ES>88:9 - 88:22<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:88:23: UnexposedExpr=buffer|D:\Q20010319\软件设计\IARproject\main.c:70:14 <US>c:main.c@2655@F@main@buffer<UE> <DS>buffer<DE> Extent=<ES>88:23 - 88:29<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:88:23: UnexposedExpr=buffer|D:\Q20010319\软件设计\IARproject\main.c:70:14 <US>c:main.c@2655@F@main@buffer<UE> <DS>buffer<DE> Extent=<ES>88:23 - 88:29<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:88:23: DeclRefExpr=buffer|D:\Q20010319\软件设计\IARproject\main.c:70:14 (Reference) <US>c:main.c@2655@F@main@buffer<UE> <DS>buffer<DE> Extent=<ES>88:23 - 88:29<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:88:31: UnexposedExpr=morse_buffer|D:\Q20010319\软件设计\IARproject\main.c:87:14 <US>c:main.c@3171@F@main@morse_buffer<UE> <DS>morse_buffer<DE> Extent=<ES>88:31 - 88:43<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:88:31: DeclRefExpr=morse_buffer|D:\Q20010319\软件设计\IARproject\main.c:87:14 (Reference) <US>c:main.c@3171@F@main@morse_buffer<UE> <DS>morse_buffer<DE> Extent=<ES>88:31 - 88:43<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:89:9: CallExpr=lcd_write_string|D:\Q20010319\软件设计\IARproject\main.c:147:6 <US>c:@F@lcd_write_string<UE> <DS>void lcd_write_string(const char *)<DE> Extent=<ES>89:9 - 89:39<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:89:9: UnexposedExpr=lcd_write_string|D:\Q20010319\软件设计\IARproject\main.c:147:6 <US>c:@F@lcd_write_string<UE> <DS>void lcd_write_string(const char *)<DE> Extent=<ES>89:9 - 89:25<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:89:9: DeclRefExpr=lcd_write_string|D:\Q20010319\软件设计\IARproject\main.c:147:6 (Reference) <US>c:@F@lcd_write_string<UE> <DS>void lcd_write_string(const char *)<DE> Extent=<ES>89:9 - 89:25<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:89:26: UnexposedExpr=morse_buffer|D:\Q20010319\软件设计\IARproject\main.c:87:14 <US>c:main.c@3171@F@main@morse_buffer<UE> <DS>morse_buffer<DE> Extent=<ES>89:26 - 89:38<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:89:26: UnexposedExpr=morse_buffer|D:\Q20010319\软件设计\IARproject\main.c:87:14 <US>c:main.c@3171@F@main@morse_buffer<UE> <DS>morse_buffer<DE> Extent=<ES>89:26 - 89:38<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:89:26: DeclRefExpr=morse_buffer|D:\Q20010319\软件设计\IARproject\main.c:87:14 (Reference) <US>c:main.c@3171@F@main@morse_buffer<UE> <DS>morse_buffer<DE> Extent=<ES>89:26 - 89:38<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:91:9: CallExpr=send_morse_code|D:\Q20010319\软件设计\IARproject\main.c:191:6 <US>c:@F@send_morse_code<UE> <DS>void send_morse_code(const char *)<DE> Extent=<ES>91:9 - 91:38<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:91:9: UnexposedExpr=send_morse_code|D:\Q20010319\软件设计\IARproject\main.c:191:6 <US>c:@F@send_morse_code<UE> <DS>void send_morse_code(const char *)<DE> Extent=<ES>91:9 - 91:24<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:91:9: DeclRefExpr=send_morse_code|D:\Q20010319\软件设计\IARproject\main.c:191:6 (Reference) <US>c:@F@send_morse_code<UE> <DS>void send_morse_code(const char *)<DE> Extent=<ES>91:9 - 91:24<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:91:25: UnexposedExpr=morse_buffer|D:\Q20010319\软件设计\IARproject\main.c:87:14 <US>c:main.c@3171@F@main@morse_buffer<UE> <DS>morse_buffer<DE> Extent=<ES>91:25 - 91:37<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:91:25: UnexposedExpr=morse_buffer|D:\Q20010319\软件设计\IARproject\main.c:87:14 <US>c:main.c@3171@F@main@morse_buffer<UE> <DS>morse_buffer<DE> Extent=<ES>91:25 - 91:37<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:91:25: DeclRefExpr=morse_buffer|D:\Q20010319\软件设计\IARproject\main.c:87:14 (Reference) <US>c:main.c@3171@F@main@morse_buffer<UE> <DS>morse_buffer<DE> Extent=<ES>91:25 - 91:37<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:94:5: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>94:5 - 94:13<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:94:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>94:12 - 94:13<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:97:6: FunctionDecl=lcd_init|D:\Q20010319\软件设计\IARproject\main.c:97:6 (Definition) <US>c:@F@lcd_init<UE> <DS>void lcd_init(void)<DE> Extent=<ES>97:1 - 112:2<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:98:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>98:1 - 112:2<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:99:5: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>99:5 - 99:28<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:99:5: MemberRefExpr=P1DIR|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:423:17 (Reference) <US>c:io430x14x.h@12122@Ua@FI@P1DIR<UE> <DS>P1DIR<DE> Extent=<ES>99:5 - 99:10<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:99:5: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:421:20 (Reference) <US><UE> <DS><DE> Extent=<ES>99:5 - 99:10<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:99:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>99:14 - 99:28<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:99:14: ParenExpr= <US><UE> <DS><DE> Extent=<ES>99:14 - 99:20<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:99:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>99:14 - 99:20<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:99:23: ParenExpr= <US><UE> <DS><DE> Extent=<ES>99:23 - 99:28<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:99:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>99:23 - 99:28<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:100:5: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>100:5 - 100:18<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:100:5: MemberRefExpr=P2DIR|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:647:17 (Reference) <US>c:io430x14x.h@17504@Ua@FI@P2DIR<UE> <DS>P2DIR<DE> Extent=<ES>100:5 - 100:10<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:100:5: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:645:20 (Reference) <US><UE> <DS><DE> Extent=<ES>100:5 - 100:10<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:100:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>100:14 - 100:18<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:103:5: CallExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>103:5 - 103:26<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:103:5: UnexposedExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>103:5 - 103:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:103:5: DeclRefExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>103:5 - 103:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:103:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>103:20 - 103:25<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:103:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>103:20 - 103:25<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:104:5: CallExpr=lcd_write_command|D:\Q20010319\软件设计\IARproject\main.c:114:6 <US>c:@F@lcd_write_command<UE> <DS>void lcd_write_command(unsigned char)<DE> Extent=<ES>104:5 - 104:28<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:104:5: UnexposedExpr=lcd_write_command|D:\Q20010319\软件设计\IARproject\main.c:114:6 <US>c:@F@lcd_write_command<UE> <DS>void lcd_write_command(unsigned char)<DE> Extent=<ES>104:5 - 104:22<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:104:5: DeclRefExpr=lcd_write_command|D:\Q20010319\软件设计\IARproject\main.c:114:6 (Reference) <US>c:@F@lcd_write_command<UE> <DS>void lcd_write_command(unsigned char)<DE> Extent=<ES>104:5 - 104:22<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:104:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>104:23 - 104:27<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:104:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>104:23 - 104:27<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:105:5: CallExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>105:5 - 105:22<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:105:5: UnexposedExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>105:5 - 105:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:105:5: DeclRefExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>105:5 - 105:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:105:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>105:20 - 105:21<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:105:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>105:20 - 105:21<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:106:5: CallExpr=lcd_write_command|D:\Q20010319\软件设计\IARproject\main.c:114:6 <US>c:@F@lcd_write_command<UE> <DS>void lcd_write_command(unsigned char)<DE> Extent=<ES>106:5 - 106:28<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:106:5: UnexposedExpr=lcd_write_command|D:\Q20010319\软件设计\IARproject\main.c:114:6 <US>c:@F@lcd_write_command<UE> <DS>void lcd_write_command(unsigned char)<DE> Extent=<ES>106:5 - 106:22<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:106:5: DeclRefExpr=lcd_write_command|D:\Q20010319\软件设计\IARproject\main.c:114:6 (Reference) <US>c:@F@lcd_write_command<UE> <DS>void lcd_write_command(unsigned char)<DE> Extent=<ES>106:5 - 106:22<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:106:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>106:23 - 106:27<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:106:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>106:23 - 106:27<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:107:5: CallExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>107:5 - 107:22<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:107:5: UnexposedExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>107:5 - 107:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:107:5: DeclRefExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>107:5 - 107:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:107:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>107:20 - 107:21<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:107:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>107:20 - 107:21<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:108:5: CallExpr=lcd_write_command|D:\Q20010319\软件设计\IARproject\main.c:114:6 <US>c:@F@lcd_write_command<UE> <DS>void lcd_write_command(unsigned char)<DE> Extent=<ES>108:5 - 108:28<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:108:5: UnexposedExpr=lcd_write_command|D:\Q20010319\软件设计\IARproject\main.c:114:6 <US>c:@F@lcd_write_command<UE> <DS>void lcd_write_command(unsigned char)<DE> Extent=<ES>108:5 - 108:22<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:108:5: DeclRefExpr=lcd_write_command|D:\Q20010319\软件设计\IARproject\main.c:114:6 (Reference) <US>c:@F@lcd_write_command<UE> <DS>void lcd_write_command(unsigned char)<DE> Extent=<ES>108:5 - 108:22<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:108:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>108:23 - 108:27<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:108:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>108:23 - 108:27<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:109:5: CallExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>109:5 - 109:22<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:109:5: UnexposedExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>109:5 - 109:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:109:5: DeclRefExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>109:5 - 109:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:109:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>109:20 - 109:21<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:109:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>109:20 - 109:21<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:110:5: CallExpr=lcd_write_command|D:\Q20010319\软件设计\IARproject\main.c:114:6 <US>c:@F@lcd_write_command<UE> <DS>void lcd_write_command(unsigned char)<DE> Extent=<ES>110:5 - 110:28<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:110:5: UnexposedExpr=lcd_write_command|D:\Q20010319\软件设计\IARproject\main.c:114:6 <US>c:@F@lcd_write_command<UE> <DS>void lcd_write_command(unsigned char)<DE> Extent=<ES>110:5 - 110:22<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:110:5: DeclRefExpr=lcd_write_command|D:\Q20010319\软件设计\IARproject\main.c:114:6 (Reference) <US>c:@F@lcd_write_command<UE> <DS>void lcd_write_command(unsigned char)<DE> Extent=<ES>110:5 - 110:22<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:110:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>110:23 - 110:27<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:110:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>110:23 - 110:27<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:111:5: CallExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>111:5 - 111:25<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:111:5: UnexposedExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>111:5 - 111:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:111:5: DeclRefExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>111:5 - 111:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:111:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>111:20 - 111:24<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:111:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>111:20 - 111:24<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:114:6: FunctionDecl=lcd_write_command|D:\Q20010319\软件设计\IARproject\main.c:114:6 (Definition) <US>c:@F@lcd_write_command<UE> <DS>void lcd_write_command(unsigned char)<DE> Extent=<ES>114:1 - 122:2<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:114:38: ParmDecl=cmd|D:\Q20010319\软件设计\IARproject\main.c:114:38 (Definition) <US>c:main.c@3989@F@lcd_write_command@cmd<UE> <DS>unsigned char<DE> Extent=<ES>114:24 - 114:41<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:115:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>115:1 - 122:2<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:116:5: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>116:5 - 116:21<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:116:5: MemberRefExpr=P1OUT|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:391:17 (Reference) <US>c:io430x14x.h@11367@Ua@FI@P1OUT<UE> <DS>P1OUT<DE> Extent=<ES>116:5 - 116:10<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:116:5: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:389:20 (Reference) <US><UE> <DS><DE> Extent=<ES>116:5 - 116:10<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:116:14: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>116:14 - 116:21<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:116:15: ParenExpr= <US><UE> <DS><DE> Extent=<ES>116:15 - 116:21<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:116:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>116:15 - 116:21<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:117:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>117:5 - 117:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:117:5: MemberRefExpr=P2OUT|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:615:17 (Reference) <US>c:io430x14x.h@16749@Ua@FI@P2OUT<UE> <DS>P2OUT<DE> Extent=<ES>117:5 - 117:13<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:117:5: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:613:20 (Reference) <US><UE> <DS><DE> Extent=<ES>117:5 - 117:13<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:117:16: UnexposedExpr=cmd|D:\Q20010319\软件设计\IARproject\main.c:114:38 <US>c:main.c@3989@F@lcd_write_command@cmd<UE> <DS>unsigned char<DE> Extent=<ES>117:16 - 117:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:117:16: DeclRefExpr=cmd|D:\Q20010319\软件设计\IARproject\main.c:114:38 (Reference) <US>c:main.c@3989@F@lcd_write_command@cmd<UE> <DS>unsigned char<DE> Extent=<ES>117:16 - 117:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:118:5: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>118:5 - 118:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:118:5: MemberRefExpr=P1OUT|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:391:17 (Reference) <US>c:io430x14x.h@11367@Ua@FI@P1OUT<UE> <DS>P1OUT<DE> Extent=<ES>118:5 - 118:10<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:118:5: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:389:20 (Reference) <US><UE> <DS><DE> Extent=<ES>118:5 - 118:10<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:118:14: ParenExpr= <US><UE> <DS><DE> Extent=<ES>118:14 - 118:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:118:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>118:14 - 118:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:119:5: CallExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>119:5 - 119:22<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:119:5: UnexposedExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>119:5 - 119:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:119:5: DeclRefExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>119:5 - 119:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:119:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>119:20 - 119:21<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:119:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>119:20 - 119:21<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:120:5: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>120:5 - 120:20<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:120:5: MemberRefExpr=P1OUT|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:391:17 (Reference) <US>c:io430x14x.h@11367@Ua@FI@P1OUT<UE> <DS>P1OUT<DE> Extent=<ES>120:5 - 120:10<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:120:5: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:389:20 (Reference) <US><UE> <DS><DE> Extent=<ES>120:5 - 120:10<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:120:14: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>120:14 - 120:20<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:120:15: ParenExpr= <US><UE> <DS><DE> Extent=<ES>120:15 - 120:20<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:120:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>120:15 - 120:20<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:121:5: CallExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>121:5 - 121:25<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:121:5: UnexposedExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>121:5 - 121:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:121:5: DeclRefExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>121:5 - 121:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:121:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>121:20 - 121:24<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:121:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>121:20 - 121:24<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:124:6: FunctionDecl=lcd_write_data|D:\Q20010319\软件设计\IARproject\main.c:124:6 (Definition) <US>c:@F@lcd_write_data<UE> <DS>void lcd_write_data(unsigned char)<DE> Extent=<ES>124:1 - 145:2<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:124:35: ParmDecl=data|D:\Q20010319\软件设计\IARproject\main.c:124:35 (Definition) <US>c:main.c@4253@F@lcd_write_data@data<UE> <DS>unsigned char<DE> Extent=<ES>124:21 - 124:39<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:125:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>125:1 - 145:2<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:126:5: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>126:5 - 126:20<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:126:5: MemberRefExpr=P1OUT|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:391:17 (Reference) <US>c:io430x14x.h@11367@Ua@FI@P1OUT<UE> <DS>P1OUT<DE> Extent=<ES>126:5 - 126:10<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:126:5: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:389:20 (Reference) <US><UE> <DS><DE> Extent=<ES>126:5 - 126:10<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:126:14: ParenExpr= <US><UE> <DS><DE> Extent=<ES>126:14 - 126:20<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:126:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>126:14 - 126:20<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:127:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>127:5 - 127:20<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:127:5: MemberRefExpr=P2OUT|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:615:17 (Reference) <US>c:io430x14x.h@16749@Ua@FI@P2OUT<UE> <DS>P2OUT<DE> Extent=<ES>127:5 - 127:13<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:127:5: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:613:20 (Reference) <US><UE> <DS><DE> Extent=<ES>127:5 - 127:13<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:127:16: UnexposedExpr=data|D:\Q20010319\软件设计\IARproject\main.c:124:35 <US>c:main.c@4253@F@lcd_write_data@data<UE> <DS>unsigned char<DE> Extent=<ES>127:16 - 127:20<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:127:16: DeclRefExpr=data|D:\Q20010319\软件设计\IARproject\main.c:124:35 (Reference) <US>c:main.c@4253@F@lcd_write_data@data<UE> <DS>unsigned char<DE> Extent=<ES>127:16 - 127:20<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:128:5: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>128:5 - 128:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:128:5: MemberRefExpr=P1OUT|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:391:17 (Reference) <US>c:io430x14x.h@11367@Ua@FI@P1OUT<UE> <DS>P1OUT<DE> Extent=<ES>128:5 - 128:10<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:128:5: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:389:20 (Reference) <US><UE> <DS><DE> Extent=<ES>128:5 - 128:10<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:128:14: ParenExpr= <US><UE> <DS><DE> Extent=<ES>128:14 - 128:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:128:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>128:14 - 128:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:129:5: CallExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>129:5 - 129:22<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:129:5: UnexposedExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>129:5 - 129:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:129:5: DeclRefExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>129:5 - 129:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:129:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>129:20 - 129:21<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:129:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>129:20 - 129:21<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:130:5: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>130:5 - 130:20<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:130:5: MemberRefExpr=P1OUT|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:391:17 (Reference) <US>c:io430x14x.h@11367@Ua@FI@P1OUT<UE> <DS>P1OUT<DE> Extent=<ES>130:5 - 130:10<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:130:5: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:389:20 (Reference) <US><UE> <DS><DE> Extent=<ES>130:5 - 130:10<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:130:14: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>130:14 - 130:20<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:130:15: ParenExpr= <US><UE> <DS><DE> Extent=<ES>130:15 - 130:20<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:130:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>130:15 - 130:20<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:131:5: CallExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>131:5 - 131:25<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:131:5: UnexposedExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>131:5 - 131:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:131:5: DeclRefExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>131:5 - 131:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:131:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>131:20 - 131:24<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:131:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>131:20 - 131:24<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:134:5: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>134:5 - 134:18<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:134:5: DeclRefExpr=current_col|D:\Q20010319\软件设计\IARproject\main.c:43:15 (Reference) <US>c:@current_col<UE> <DS>current_col<DE> Extent=<ES>134:5 - 134:16<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:135:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>135:5 - 144:6<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:135:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>135:9 - 135:32<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:135:9: UnexposedExpr=current_col|D:\Q20010319\软件设计\IARproject\main.c:43:15 <US>c:@current_col<UE> <DS>current_col<DE> Extent=<ES>135:9 - 135:20<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:135:9: UnexposedExpr=current_col|D:\Q20010319\软件设计\IARproject\main.c:43:15 <US>c:@current_col<UE> <DS>current_col<DE> Extent=<ES>135:9 - 135:20<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:135:9: DeclRefExpr=current_col|D:\Q20010319\软件设计\IARproject\main.c:43:15 (Reference) <US>c:@current_col<UE> <DS>current_col<DE> Extent=<ES>135:9 - 135:20<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:135:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>135:24 - 135:32<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:136:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>136:5 - 144:6<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:137:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>137:9 - 137:24<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:137:9: DeclRefExpr=current_col|D:\Q20010319\软件设计\IARproject\main.c:43:15 (Reference) <US>c:@current_col<UE> <DS>current_col<DE> Extent=<ES>137:9 - 137:20<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:137:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>137:23 - 137:24<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:137:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>137:23 - 137:24<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:138:9: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>138:9 - 138:22<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:138:9: DeclRefExpr=current_row|D:\Q20010319\软件设计\IARproject\main.c:44:15 (Reference) <US>c:@current_row<UE> <DS>current_row<DE> Extent=<ES>138:9 - 138:20<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:139:9: IfStmt= <US><UE> <DS><DE> Extent=<ES>139:9 - 142:10<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:139:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>139:13 - 139:36<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:139:13: UnexposedExpr=current_row|D:\Q20010319\软件设计\IARproject\main.c:44:15 <US>c:@current_row<UE> <DS>current_row<DE> Extent=<ES>139:13 - 139:24<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:139:13: UnexposedExpr=current_row|D:\Q20010319\软件设计\IARproject\main.c:44:15 <US>c:@current_row<UE> <DS>current_row<DE> Extent=<ES>139:13 - 139:24<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:139:13: DeclRefExpr=current_row|D:\Q20010319\软件设计\IARproject\main.c:44:15 (Reference) <US>c:@current_row<UE> <DS>current_row<DE> Extent=<ES>139:13 - 139:24<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:139:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>139:28 - 139:36<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:140:9: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>140:9 - 142:10<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:141:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>141:13 - 141:28<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:141:13: DeclRefExpr=current_row|D:\Q20010319\软件设计\IARproject\main.c:44:15 (Reference) <US>c:@current_row<UE> <DS>current_row<DE> Extent=<ES>141:13 - 141:24<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:141:27: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>141:27 - 141:28<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:141:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>141:27 - 141:28<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:143:9: CallExpr=lcd_set_cursor|D:\Q20010319\软件设计\IARproject\main.c:155:6 <US>c:@F@lcd_set_cursor<UE> <DS>void lcd_set_cursor(unsigned char, unsigned char)<DE> Extent=<ES>143:9 - 143:49<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:143:9: UnexposedExpr=lcd_set_cursor|D:\Q20010319\软件设计\IARproject\main.c:155:6 <US>c:@F@lcd_set_cursor<UE> <DS>void lcd_set_cursor(unsigned char, unsigned char)<DE> Extent=<ES>143:9 - 143:23<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:143:9: DeclRefExpr=lcd_set_cursor|D:\Q20010319\软件设计\IARproject\main.c:155:6 (Reference) <US>c:@F@lcd_set_cursor<UE> <DS>void lcd_set_cursor(unsigned char, unsigned char)<DE> Extent=<ES>143:9 - 143:23<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:143:24: UnexposedExpr=current_row|D:\Q20010319\软件设计\IARproject\main.c:44:15 <US>c:@current_row<UE> <DS>current_row<DE> Extent=<ES>143:24 - 143:35<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:143:24: DeclRefExpr=current_row|D:\Q20010319\软件设计\IARproject\main.c:44:15 (Reference) <US>c:@current_row<UE> <DS>current_row<DE> Extent=<ES>143:24 - 143:35<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:143:37: UnexposedExpr=current_col|D:\Q20010319\软件设计\IARproject\main.c:43:15 <US>c:@current_col<UE> <DS>current_col<DE> Extent=<ES>143:37 - 143:48<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:143:37: DeclRefExpr=current_col|D:\Q20010319\软件设计\IARproject\main.c:43:15 (Reference) <US>c:@current_col<UE> <DS>current_col<DE> Extent=<ES>143:37 - 143:48<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:147:6: FunctionDecl=lcd_write_string|D:\Q20010319\软件设计\IARproject\main.c:147:6 (Definition) <US>c:@F@lcd_write_string<UE> <DS>void lcd_write_string(const char *)<DE> Extent=<ES>147:1 - 153:2<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:147:35: ParmDecl=str|D:\Q20010319\软件设计\IARproject\main.c:147:35 (Definition) <US>c:main.c@4802@F@lcd_write_string@str<UE> <DS>const char *<DE> Extent=<ES>147:23 - 147:38<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:148:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>148:1 - 153:2<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:149:5: WhileStmt= <US><UE> <DS><DE> Extent=<ES>149:5 - 152:6<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:149:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>149:12 - 149:16<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:149:12: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>149:12 - 149:16<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:149:13: UnexposedExpr=str|D:\Q20010319\软件设计\IARproject\main.c:147:35 <US>c:main.c@4802@F@lcd_write_string@str<UE> <DS>const char *<DE> Extent=<ES>149:13 - 149:16<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:149:13: DeclRefExpr=str|D:\Q20010319\软件设计\IARproject\main.c:147:35 (Reference) <US>c:main.c@4802@F@lcd_write_string@str<UE> <DS>const char *<DE> Extent=<ES>149:13 - 149:16<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:150:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>150:5 - 152:6<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:151:9: CallExpr=lcd_write_data|D:\Q20010319\软件设计\IARproject\main.c:124:6 <US>c:@F@lcd_write_data<UE> <DS>void lcd_write_data(unsigned char)<DE> Extent=<ES>151:9 - 151:31<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:151:9: UnexposedExpr=lcd_write_data|D:\Q20010319\软件设计\IARproject\main.c:124:6 <US>c:@F@lcd_write_data<UE> <DS>void lcd_write_data(unsigned char)<DE> Extent=<ES>151:9 - 151:23<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:151:9: DeclRefExpr=lcd_write_data|D:\Q20010319\软件设计\IARproject\main.c:124:6 (Reference) <US>c:@F@lcd_write_data<UE> <DS>void lcd_write_data(unsigned char)<DE> Extent=<ES>151:9 - 151:23<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:151:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>151:24 - 151:30<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:151:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>151:24 - 151:30<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:151:24: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>151:24 - 151:30<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:151:25: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>151:25 - 151:30<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:151:25: DeclRefExpr=str|D:\Q20010319\软件设计\IARproject\main.c:147:35 (Reference) <US>c:main.c@4802@F@lcd_write_string@str<UE> <DS>const char *<DE> Extent=<ES>151:25 - 151:28<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:155:6: FunctionDecl=lcd_set_cursor|D:\Q20010319\软件设计\IARproject\main.c:155:6 (Definition) <US>c:@F@lcd_set_cursor<UE> <DS>void lcd_set_cursor(unsigned char, unsigned char)<DE> Extent=<ES>155:1 - 165:2<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:155:35: ParmDecl=row|D:\Q20010319\软件设计\IARproject\main.c:155:35 (Definition) <US>c:main.c@4913@F@lcd_set_cursor@row<UE> <DS>unsigned char<DE> Extent=<ES>155:21 - 155:38<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:155:54: ParmDecl=col|D:\Q20010319\软件设计\IARproject\main.c:155:54 (Definition) <US>c:main.c@4932@F@lcd_set_cursor@col<UE> <DS>unsigned char<DE> Extent=<ES>155:40 - 155:57<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:156:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>156:1 - 165:2<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:157:5: DeclStmt= <US><UE> <DS><DE> Extent=<ES>157:5 - 157:24<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:157:19: VarDecl=addr|D:\Q20010319\软件设计\IARproject\main.c:157:19 (Definition) <US>c:main.c@4959@F@lcd_set_cursor@addr<UE> <DS>addr<DE> Extent=<ES>157:5 - 157:23<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:159:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>159:5 - 162:26<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:159:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>159:9 - 159:17<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:159:9: UnexposedExpr=row|D:\Q20010319\软件设计\IARproject\main.c:155:35 <US>c:main.c@4913@F@lcd_set_cursor@row<UE> <DS>unsigned char<DE> Extent=<ES>159:9 - 159:12<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:159:9: UnexposedExpr=row|D:\Q20010319\软件设计\IARproject\main.c:155:35 <US>c:main.c@4913@F@lcd_set_cursor@row<UE> <DS>unsigned char<DE> Extent=<ES>159:9 - 159:12<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:159:9: DeclRefExpr=row|D:\Q20010319\软件设计\IARproject\main.c:155:35 (Reference) <US>c:main.c@4913@F@lcd_set_cursor@row<UE> <DS>unsigned char<DE> Extent=<ES>159:9 - 159:12<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:159:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>159:16 - 159:17<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:160:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>160:9 - 160:26<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:160:9: DeclRefExpr=addr|D:\Q20010319\软件设计\IARproject\main.c:157:19 (Reference) <US>c:main.c@4959@F@lcd_set_cursor@addr<UE> <DS>addr<DE> Extent=<ES>160:9 - 160:13<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:160:16: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>160:16 - 160:26<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:160:16: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>160:16 - 160:26<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:160:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>160:16 - 160:20<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:160:23: UnexposedExpr=col|D:\Q20010319\软件设计\IARproject\main.c:155:54 <US>c:main.c@4932@F@lcd_set_cursor@col<UE> <DS>unsigned char<DE> Extent=<ES>160:23 - 160:26<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:160:23: UnexposedExpr=col|D:\Q20010319\软件设计\IARproject\main.c:155:54 <US>c:main.c@4932@F@lcd_set_cursor@col<UE> <DS>unsigned char<DE> Extent=<ES>160:23 - 160:26<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:160:23: DeclRefExpr=col|D:\Q20010319\软件设计\IARproject\main.c:155:54 (Reference) <US>c:main.c@4932@F@lcd_set_cursor@col<UE> <DS>unsigned char<DE> Extent=<ES>160:23 - 160:26<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:162:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>162:9 - 162:26<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:162:9: DeclRefExpr=addr|D:\Q20010319\软件设计\IARproject\main.c:157:19 (Reference) <US>c:main.c@4959@F@lcd_set_cursor@addr<UE> <DS>addr<DE> Extent=<ES>162:9 - 162:13<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:162:16: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>162:16 - 162:26<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:162:16: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>162:16 - 162:26<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:162:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>162:16 - 162:20<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:162:23: UnexposedExpr=col|D:\Q20010319\软件设计\IARproject\main.c:155:54 <US>c:main.c@4932@F@lcd_set_cursor@col<UE> <DS>unsigned char<DE> Extent=<ES>162:23 - 162:26<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:162:23: UnexposedExpr=col|D:\Q20010319\软件设计\IARproject\main.c:155:54 <US>c:main.c@4932@F@lcd_set_cursor@col<UE> <DS>unsigned char<DE> Extent=<ES>162:23 - 162:26<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:162:23: DeclRefExpr=col|D:\Q20010319\软件设计\IARproject\main.c:155:54 (Reference) <US>c:main.c@4932@F@lcd_set_cursor@col<UE> <DS>unsigned char<DE> Extent=<ES>162:23 - 162:26<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:164:5: CallExpr=lcd_write_command|D:\Q20010319\软件设计\IARproject\main.c:114:6 <US>c:@F@lcd_write_command<UE> <DS>void lcd_write_command(unsigned char)<DE> Extent=<ES>164:5 - 164:28<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:164:5: UnexposedExpr=lcd_write_command|D:\Q20010319\软件设计\IARproject\main.c:114:6 <US>c:@F@lcd_write_command<UE> <DS>void lcd_write_command(unsigned char)<DE> Extent=<ES>164:5 - 164:22<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:164:5: DeclRefExpr=lcd_write_command|D:\Q20010319\软件设计\IARproject\main.c:114:6 (Reference) <US>c:@F@lcd_write_command<UE> <DS>void lcd_write_command(unsigned char)<DE> Extent=<ES>164:5 - 164:22<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:164:23: UnexposedExpr=addr|D:\Q20010319\软件设计\IARproject\main.c:157:19 <US>c:main.c@4959@F@lcd_set_cursor@addr<UE> <DS>addr<DE> Extent=<ES>164:23 - 164:27<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:164:23: DeclRefExpr=addr|D:\Q20010319\软件设计\IARproject\main.c:157:19 (Reference) <US>c:main.c@4959@F@lcd_set_cursor@addr<UE> <DS>addr<DE> Extent=<ES>164:23 - 164:27<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:167:6: FunctionDecl=uart_init|D:\Q20010319\软件设计\IARproject\main.c:167:6 (Definition) <US>c:@F@uart_init<UE> <DS>void uart_init(void)<DE> Extent=<ES>167:1 - 177:2<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:168:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>168:1 - 177:2<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:169:5: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>169:5 - 169:25<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:169:5: MemberRefExpr=P3SEL|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:913:17 (Reference) <US>c:io430x14x.h@24003@Ua@FI@P3SEL<UE> <DS>P3SEL<DE> Extent=<ES>169:5 - 169:10<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:169:5: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:911:20 (Reference) <US><UE> <DS><DE> Extent=<ES>169:5 - 169:10<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:169:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>169:14 - 169:25<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:169:14: ParenExpr= <US><UE> <DS><DE> Extent=<ES>169:14 - 169:18<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:169:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>169:14 - 169:18<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:169:21: ParenExpr= <US><UE> <DS><DE> Extent=<ES>169:21 - 169:25<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:169:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>169:21 - 169:25<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:170:5: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>170:5 - 170:26<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:170:5: MemberRefExpr=U0CTL|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:1349:17 (Reference) <US>c:io430x14x.h@34751@Ua@FI@U0CTL<UE> <DS>U0CTL<DE> Extent=<ES>170:5 - 170:10<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:170:5: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:1347:20 (Reference) <US><UE> <DS><DE> Extent=<ES>170:5 - 170:10<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:170:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>170:14 - 170:26<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:170:14: DeclRefExpr=CHAR|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:1370:3 (Reference) <US>c:io430x14x.h@35379@Ea@CHAR<UE> <DS>CHAR<DE> Extent=<ES>170:14 - 170:18<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:170:21: DeclRefExpr=SWRST|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:1366:3 (Reference) <US>c:io430x14x.h@35379@Ea@SWRST<UE> <DS>SWRST<DE> Extent=<ES>170:21 - 170:26<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:171:5: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>171:5 - 171:20<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:171:5: MemberRefExpr=U0TCTL|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:1379:17 (Reference) <US>c:io430x14x.h@35645@Ua@FI@U0TCTL<UE> <DS>U0TCTL<DE> Extent=<ES>171:5 - 171:11<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:171:5: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:1377:20 (Reference) <US><UE> <DS><DE> Extent=<ES>171:5 - 171:11<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:171:15: DeclRefExpr=SSEL1|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:1401:3 (Reference) <US>c:io430x14x.h@36293@Ea@SSEL1<UE> <DS>SSEL1<DE> Extent=<ES>171:15 - 171:20<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:172:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>172:5 - 172:16<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:172:5: DeclRefExpr=U0BR0|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:1443:34 (Reference) <US>c:@U0BR0<UE> <DS>U0BR0<DE> Extent=<ES>172:5 - 172:10<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:172:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>172:13 - 172:16<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:172:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>172:13 - 172:16<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:173:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>173:5 - 173:14<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:173:5: DeclRefExpr=U0BR1|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:1448:34 (Reference) <US>c:@U0BR1<UE> <DS>U0BR1<DE> Extent=<ES>173:5 - 173:10<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:173:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>173:13 - 173:14<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:173:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>173:13 - 173:14<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:174:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>174:5 - 174:18<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:174:5: DeclRefExpr=U0MCTL|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:1438:34 (Reference) <US>c:@U0MCTL<UE> <DS>U0MCTL<DE> Extent=<ES>174:5 - 174:11<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:174:14: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>174:14 - 174:18<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:174:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>174:14 - 174:18<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:175:5: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>175:5 - 175:20<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:175:5: MemberRefExpr=U0CTL|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:1349:17 (Reference) <US>c:io430x14x.h@34751@Ua@FI@U0CTL<UE> <DS>U0CTL<DE> Extent=<ES>175:5 - 175:10<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:175:5: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:1347:20 (Reference) <US><UE> <DS><DE> Extent=<ES>175:5 - 175:10<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:175:14: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>175:14 - 175:20<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:175:15: DeclRefExpr=SWRST|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:1366:3 (Reference) <US>c:io430x14x.h@35379@Ea@SWRST<UE> <DS>SWRST<DE> Extent=<ES>175:15 - 175:20<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:176:5: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>176:5 - 176:18<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:176:5: MemberRefExpr=IE1|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:108:17 (Reference) <US>c:io430x14x.h@3503@Ua@FI@IE1<UE> <DS>IE1<DE> Extent=<ES>176:5 - 176:8<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:176:5: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:106:20 (Reference) <US><UE> <DS><DE> Extent=<ES>176:5 - 176:8<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:176:12: DeclRefExpr=URXIE0|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:128:3 (Reference) <US>c:io430x14x.h@3929@Ea@URXIE0<UE> <DS>URXIE0<DE> Extent=<ES>176:12 - 176:18<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:179:6: FunctionDecl=uart_write_char|D:\Q20010319\软件设计\IARproject\main.c:179:6 (Definition) <US>c:@F@uart_write_char<UE> <DS>void uart_write_char(char)<DE> Extent=<ES>179:1 - 183:2<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:179:27: ParmDecl=c|D:\Q20010319\软件设计\IARproject\main.c:179:27 (Definition) <US>c:main.c@5593@F@uart_write_char@c<UE> <DS>char<DE> Extent=<ES>179:22 - 179:28<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:180:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>180:1 - 183:2<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:181:5: WhileStmt= <US><UE> <DS><DE> Extent=<ES>181:5 - 181:31<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:181:12: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>181:12 - 181:29<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:181:13: ParenExpr= <US><UE> <DS><DE> Extent=<ES>181:13 - 181:29<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:181:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>181:14 - 181:28<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:181:14: UnexposedExpr=IFG1|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:135:17 <US>c:io430x14x.h@4137@Ua@FI@IFG1<UE> <DS>IFG1<DE> Extent=<ES>181:14 - 181:18<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:181:14: UnexposedExpr=IFG1|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:135:17 <US>c:io430x14x.h@4137@Ua@FI@IFG1<UE> <DS>IFG1<DE> Extent=<ES>181:14 - 181:18<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:181:14: MemberRefExpr=IFG1|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:135:17 (Reference) <US>c:io430x14x.h@4137@Ua@FI@IFG1<UE> <DS>IFG1<DE> Extent=<ES>181:14 - 181:18<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:181:14: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:133:20 (Reference) <US><UE> <DS><DE> Extent=<ES>181:14 - 181:18<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:181:21: DeclRefExpr=UTXIFG0|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:155:3 (Reference) <US>c:io430x14x.h@4555@Ea@UTXIFG0<UE> <DS>UTXIFG0<DE> Extent=<ES>181:21 - 181:28<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:181:30: NullStmt= <US><UE> <DS><DE> Extent=<ES>181:30 - 181:31<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:182:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>182:5 - 182:16<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:182:5: DeclRefExpr=U0TXBUF|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:1458:34 (Reference) <US>c:@U0TXBUF<UE> <DS>U0TXBUF<DE> Extent=<ES>182:5 - 182:12<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:182:15: UnexposedExpr=c|D:\Q20010319\软件设计\IARproject\main.c:179:27 <US>c:main.c@5593@F@uart_write_char@c<UE> <DS>char<DE> Extent=<ES>182:15 - 182:16<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:182:15: UnexposedExpr=c|D:\Q20010319\软件设计\IARproject\main.c:179:27 <US>c:main.c@5593@F@uart_write_char@c<UE> <DS>char<DE> Extent=<ES>182:15 - 182:16<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:182:15: DeclRefExpr=c|D:\Q20010319\软件设计\IARproject\main.c:179:27 (Reference) <US>c:main.c@5593@F@uart_write_char@c<UE> <DS>char<DE> Extent=<ES>182:15 - 182:16<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:185:6: FunctionDecl=uart_read_char|D:\Q20010319\软件设计\IARproject\main.c:185:6 (Definition) <US>c:@F@uart_read_char<UE> <DS>char uart_read_char(void)<DE> Extent=<ES>185:1 - 189:2<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:186:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>186:1 - 189:2<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:187:5: WhileStmt= <US><UE> <DS><DE> Extent=<ES>187:5 - 187:31<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:187:12: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>187:12 - 187:29<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:187:13: ParenExpr= <US><UE> <DS><DE> Extent=<ES>187:13 - 187:29<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:187:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>187:14 - 187:28<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:187:14: UnexposedExpr=IFG1|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:135:17 <US>c:io430x14x.h@4137@Ua@FI@IFG1<UE> <DS>IFG1<DE> Extent=<ES>187:14 - 187:18<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:187:14: UnexposedExpr=IFG1|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:135:17 <US>c:io430x14x.h@4137@Ua@FI@IFG1<UE> <DS>IFG1<DE> Extent=<ES>187:14 - 187:18<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:187:14: MemberRefExpr=IFG1|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:135:17 (Reference) <US>c:io430x14x.h@4137@Ua@FI@IFG1<UE> <DS>IFG1<DE> Extent=<ES>187:14 - 187:18<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:187:14: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:133:20 (Reference) <US><UE> <DS><DE> Extent=<ES>187:14 - 187:18<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:187:21: DeclRefExpr=URXIFG0|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:154:3 (Reference) <US>c:io430x14x.h@4555@Ea@URXIFG0<UE> <DS>URXIFG0<DE> Extent=<ES>187:21 - 187:28<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:187:30: NullStmt= <US><UE> <DS><DE> Extent=<ES>187:30 - 187:31<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:188:5: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>188:5 - 188:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:188:12: UnexposedExpr=U0RXBUF|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:1453:41 <US>c:@U0RXBUF<UE> <DS>U0RXBUF<DE> Extent=<ES>188:12 - 188:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:188:12: UnexposedExpr=U0RXBUF|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:1453:41 <US>c:@U0RXBUF<UE> <DS>U0RXBUF<DE> Extent=<ES>188:12 - 188:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:188:12: DeclRefExpr=U0RXBUF|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:1453:41 (Reference) <US>c:@U0RXBUF<UE> <DS>U0RXBUF<DE> Extent=<ES>188:12 - 188:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:191:6: FunctionDecl=send_morse_code|D:\Q20010319\软件设计\IARproject\main.c:191:6 (Definition) <US>c:@F@send_morse_code<UE> <DS>void send_morse_code(const char *)<DE> Extent=<ES>191:1 - 224:2<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:191:34: ParmDecl=morse_code|D:\Q20010319\软件设计\IARproject\main.c:191:34 (Definition) <US>c:main.c@5861@F@send_morse_code@morse_code<UE> <DS>const char *<DE> Extent=<ES>191:22 - 191:44<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:192:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>192:1 - 224:2<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:193:5: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>193:5 - 193:18<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:193:5: MemberRefExpr=P3DIR|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:881:17 (Reference) <US>c:io430x14x.h@23245@Ua@FI@P3DIR<UE> <DS>P3DIR<DE> Extent=<ES>193:5 - 193:10<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:193:5: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:879:20 (Reference) <US><UE> <DS><DE> Extent=<ES>193:5 - 193:10<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:193:14: ParenExpr= <US><UE> <DS><DE> Extent=<ES>193:14 - 193:18<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:193:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>193:14 - 193:18<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:195:5: WhileStmt= <US><UE> <DS><DE> Extent=<ES>195:5 - 221:6<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:195:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>195:12 - 195:23<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:195:12: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>195:12 - 195:23<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:195:13: UnexposedExpr=morse_code|D:\Q20010319\软件设计\IARproject\main.c:191:34 <US>c:main.c@5861@F@send_morse_code@morse_code<UE> <DS>const char *<DE> Extent=<ES>195:13 - 195:23<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:195:13: DeclRefExpr=morse_code|D:\Q20010319\软件设计\IARproject\main.c:191:34 (Reference) <US>c:main.c@5861@F@send_morse_code@morse_code<UE> <DS>const char *<DE> Extent=<ES>195:13 - 195:23<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:196:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>196:5 - 221:6<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:197:9: IfStmt= <US><UE> <DS><DE> Extent=<ES>197:9 - 208:10<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:197:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>197:13 - 197:31<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:197:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>197:13 - 197:24<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:197:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>197:13 - 197:24<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:197:13: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>197:13 - 197:24<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:197:14: UnexposedExpr=morse_code|D:\Q20010319\软件设计\IARproject\main.c:191:34 <US>c:main.c@5861@F@send_morse_code@morse_code<UE> <DS>const char *<DE> Extent=<ES>197:14 - 197:24<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:197:14: DeclRefExpr=morse_code|D:\Q20010319\软件设计\IARproject\main.c:191:34 (Reference) <US>c:main.c@5861@F@send_morse_code@morse_code<UE> <DS>const char *<DE> Extent=<ES>197:14 - 197:24<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:197:28: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>197:28 - 197:31<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:198:9: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>198:9 - 202:10<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:199:13: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>199:13 - 199:26<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:199:13: MemberRefExpr=P3OUT|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:849:17 (Reference) <US>c:io430x14x.h@22490@Ua@FI@P3OUT<UE> <DS>P3OUT<DE> Extent=<ES>199:13 - 199:18<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:199:13: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:847:20 (Reference) <US><UE> <DS><DE> Extent=<ES>199:13 - 199:18<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:199:22: ParenExpr= <US><UE> <DS><DE> Extent=<ES>199:22 - 199:26<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:199:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>199:22 - 199:26<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:200:13: CallExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>200:13 - 200:51<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:200:13: UnexposedExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>200:13 - 200:27<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:200:13: DeclRefExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>200:13 - 200:27<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:200:28: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>200:28 - 200:50<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:200:28: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>200:28 - 200:50<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:200:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>200:28 - 200:40<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:200:43: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>200:43 - 200:50<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:201:13: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>201:13 - 201:27<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:201:13: MemberRefExpr=P3OUT|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:849:17 (Reference) <US>c:io430x14x.h@22490@Ua@FI@P3OUT<UE> <DS>P3OUT<DE> Extent=<ES>201:13 - 201:18<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:201:13: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:847:20 (Reference) <US><UE> <DS><DE> Extent=<ES>201:13 - 201:18<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:201:22: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>201:22 - 201:27<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:201:23: ParenExpr= <US><UE> <DS><DE> Extent=<ES>201:23 - 201:27<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:201:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>201:23 - 201:27<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:203:14: IfStmt= <US><UE> <DS><DE> Extent=<ES>203:14 - 208:10<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:203:18: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>203:18 - 203:36<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:203:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>203:18 - 203:29<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:203:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>203:18 - 203:29<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:203:18: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>203:18 - 203:29<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:203:19: UnexposedExpr=morse_code|D:\Q20010319\软件设计\IARproject\main.c:191:34 <US>c:main.c@5861@F@send_morse_code@morse_code<UE> <DS>const char *<DE> Extent=<ES>203:19 - 203:29<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:203:19: DeclRefExpr=morse_code|D:\Q20010319\软件设计\IARproject\main.c:191:34 (Reference) <US>c:main.c@5861@F@send_morse_code@morse_code<UE> <DS>const char *<DE> Extent=<ES>203:19 - 203:29<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:203:33: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>203:33 - 203:36<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:204:9: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>204:9 - 208:10<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:205:13: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>205:13 - 205:26<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:205:13: MemberRefExpr=P3OUT|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:849:17 (Reference) <US>c:io430x14x.h@22490@Ua@FI@P3OUT<UE> <DS>P3OUT<DE> Extent=<ES>205:13 - 205:18<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:205:13: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:847:20 (Reference) <US><UE> <DS><DE> Extent=<ES>205:13 - 205:18<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:205:22: ParenExpr= <US><UE> <DS><DE> Extent=<ES>205:22 - 205:26<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:205:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>205:22 - 205:26<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:206:13: CallExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>206:13 - 206:52<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:206:13: UnexposedExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>206:13 - 206:27<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:206:13: DeclRefExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>206:13 - 206:27<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:206:28: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>206:28 - 206:51<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:206:28: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>206:28 - 206:51<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:206:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>206:28 - 206:41<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:206:44: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>206:44 - 206:51<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:207:13: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>207:13 - 207:27<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:207:13: MemberRefExpr=P3OUT|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:849:17 (Reference) <US>c:io430x14x.h@22490@Ua@FI@P3OUT<UE> <DS>P3OUT<DE> Extent=<ES>207:13 - 207:18<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:207:13: DeclRefExpr=|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\io430x14x.h:847:20 (Reference) <US><UE> <DS><DE> Extent=<ES>207:13 - 207:18<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:207:22: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>207:22 - 207:27<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:207:23: ParenExpr= <US><UE> <DS><DE> Extent=<ES>207:23 - 207:27<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:207:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>207:23 - 207:27<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:210:9: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>210:9 - 210:21<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:210:9: DeclRefExpr=morse_code|D:\Q20010319\软件设计\IARproject\main.c:191:34 (Reference) <US>c:main.c@5861@F@send_morse_code@morse_code<UE> <DS>const char *<DE> Extent=<ES>210:9 - 210:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:212:9: IfStmt= <US><UE> <DS><DE> Extent=<ES>212:9 - 220:10<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:212:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>212:13 - 212:31<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:212:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>212:13 - 212:24<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:212:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>212:13 - 212:24<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:212:13: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>212:13 - 212:24<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:212:14: UnexposedExpr=morse_code|D:\Q20010319\软件设计\IARproject\main.c:191:34 <US>c:main.c@5861@F@send_morse_code@morse_code<UE> <DS>const char *<DE> Extent=<ES>212:14 - 212:24<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:212:14: DeclRefExpr=morse_code|D:\Q20010319\软件设计\IARproject\main.c:191:34 (Reference) <US>c:main.c@5861@F@send_morse_code@morse_code<UE> <DS>const char *<DE> Extent=<ES>212:14 - 212:24<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:212:28: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>212:28 - 212:31<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:213:9: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>213:9 - 216:10<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:214:13: CallExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>214:13 - 214:58<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:214:13: UnexposedExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>214:13 - 214:27<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:214:13: DeclRefExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>214:13 - 214:27<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:214:28: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>214:28 - 214:57<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:214:28: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>214:28 - 214:57<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:214:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>214:28 - 214:47<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:214:50: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>214:50 - 214:57<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:215:13: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>215:13 - 215:25<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:215:13: DeclRefExpr=morse_code|D:\Q20010319\软件设计\IARproject\main.c:191:34 (Reference) <US>c:main.c@5861@F@send_morse_code@morse_code<UE> <DS>const char *<DE> Extent=<ES>215:13 - 215:23<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:218:9: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>218:9 - 220:10<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:219:13: CallExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>219:13 - 219:57<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:219:13: UnexposedExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>219:13 - 219:27<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:219:13: DeclRefExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>219:13 - 219:27<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:219:28: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>219:28 - 219:56<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:219:28: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>219:28 - 219:56<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:219:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>219:28 - 219:46<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:219:49: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>219:49 - 219:56<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:223:5: CallExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>223:5 - 223:48<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:223:5: UnexposedExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>223:5 - 223:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:223:5: DeclRefExpr=__delay_cycles|D:\IAR Systems\Embedded Workbench 6.4 Evaluation\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>223:5 - 223:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:223:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>223:20 - 223:47<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:223:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>223:20 - 223:47<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:223:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>223:20 - 223:37<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:223:40: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>223:40 - 223:47<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:226:6: FunctionDecl=text_to_morse|D:\Q20010319\软件设计\IARproject\main.c:226:6 (Definition) <US>c:@F@text_to_morse<UE> <DS>void text_to_morse(const char *, char *)<DE> Extent=<ES>226:1 - 241:2<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:226:32: ParmDecl=text|D:\Q20010319\软件设计\IARproject\main.c:226:32 (Definition) <US>c:main.c@6688@F@text_to_morse@text<UE> <DS>const char *<DE> Extent=<ES>226:20 - 226:36<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:226:44: ParmDecl=morse_buffer|D:\Q20010319\软件设计\IARproject\main.c:226:44 (Definition) <US>c:main.c@6706@F@text_to_morse@morse_buffer<UE> <DS>char *<DE> Extent=<ES>226:38 - 226:56<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:227:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>227:1 - 241:2<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:228:5: WhileStmt= <US><UE> <DS><DE> Extent=<ES>228:5 - 240:6<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:228:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>228:12 - 228:17<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:228:12: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>228:12 - 228:17<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:228:13: UnexposedExpr=text|D:\Q20010319\软件设计\IARproject\main.c:226:32 <US>c:main.c@6688@F@text_to_morse@text<UE> <DS>const char *<DE> Extent=<ES>228:13 - 228:17<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:228:13: DeclRefExpr=text|D:\Q20010319\软件设计\IARproject\main.c:226:32 (Reference) <US>c:main.c@6688@F@text_to_morse@text<UE> <DS>const char *<DE> Extent=<ES>228:13 - 228:17<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:229:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>229:5 - 240:6<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:230:9: DeclStmt= <US><UE> <DS><DE> Extent=<ES>230:9 - 230:29<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:230:14: VarDecl=morse|D:\Q20010319\软件设计\IARproject\main.c:230:14 (Definition) <US>c:main.c@6764@F@text_to_morse@morse<UE> <DS>morse<DE> Extent=<ES>230:9 - 230:28<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:230:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>230:20 - 230:21<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:230:25: InitListExpr= <US><UE> <DS><DE> Extent=<ES>230:25 - 230:28<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:230:26: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>230:26 - 230:27<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:230:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>230:26 - 230:27<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:231:9: DeclStmt= <US><UE> <DS><DE> Extent=<ES>231:9 - 231:66<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:231:21: VarDecl=morse_code|D:\Q20010319\软件设计\IARproject\main.c:231:21 (Definition) <US>c:main.c@6794@F@text_to_morse@morse_code<UE> <DS>morse_code<DE> Extent=<ES>231:9 - 231:65<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:231:34: CallExpr=find_morse_code|D:\Q20010319\软件设计\IARproject\main.c:243:13 <US>c:@F@find_morse_code<UE> <DS>const char * find_morse_code(char)<DE> Extent=<ES>231:34 - 231:65<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:231:34: UnexposedExpr=find_morse_code|D:\Q20010319\软件设计\IARproject\main.c:243:13 <US>c:@F@find_morse_code<UE> <DS>const char * find_morse_code(char)<DE> Extent=<ES>231:34 - 231:49<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:231:34: DeclRefExpr=find_morse_code|D:\Q20010319\软件设计\IARproject\main.c:243:13 (Reference) <US>c:@F@find_morse_code<UE> <DS>const char * find_morse_code(char)<DE> Extent=<ES>231:34 - 231:49<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:231:50: UnexposedExpr=toupper|D:\Q20010319\软件设计\IARproject\main.c:231:50 <US><UE> <DS>int toupper(void)<DE> Extent=<ES>231:50 - 231:64<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:231:50: CallExpr=toupper|D:\Q20010319\软件设计\IARproject\main.c:231:50 <US><UE> <DS>int toupper(void)<DE> Extent=<ES>231:50 - 231:64<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:231:50: UnexposedExpr=toupper|D:\Q20010319\软件设计\IARproject\main.c:231:50 <US><UE> <DS>int toupper(void)<DE> Extent=<ES>231:50 - 231:57<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:231:50: DeclRefExpr=toupper|D:\Q20010319\软件设计\IARproject\main.c:231:50 (Reference) <US><UE> <DS>int toupper(void)<DE> Extent=<ES>231:50 - 231:57<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:231:58: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>231:58 - 231:63<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:231:58: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>231:58 - 231:63<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:231:58: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>231:58 - 231:63<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:231:59: UnexposedExpr=text|D:\Q20010319\软件设计\IARproject\main.c:226:32 <US>c:main.c@6688@F@text_to_morse@text<UE> <DS>const char *<DE> Extent=<ES>231:59 - 231:63<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:231:59: DeclRefExpr=text|D:\Q20010319\软件设计\IARproject\main.c:226:32 (Reference) <US>c:main.c@6688@F@text_to_morse@text<UE> <DS>const char *<DE> Extent=<ES>231:59 - 231:63<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:233:9: IfStmt= <US><UE> <DS><DE> Extent=<ES>233:9 - 238:10<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:233:13: UnexposedExpr=morse_code|D:\Q20010319\软件设计\IARproject\main.c:231:21 <US>c:main.c@6794@F@text_to_morse@morse_code<UE> <DS>morse_code<DE> Extent=<ES>233:13 - 233:23<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:233:13: DeclRefExpr=morse_code|D:\Q20010319\软件设计\IARproject\main.c:231:21 (Reference) <US>c:main.c@6794@F@text_to_morse@morse_code<UE> <DS>morse_code<DE> Extent=<ES>233:13 - 233:23<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:234:9: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>234:9 - 238:10<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:235:13: CallExpr=strcpy|D:\Q20010319\软件设计\IARproject\main.c:73:9 <US>c:@F@strcpy<UE> <DS>char * strcpy(char *, const char *)<DE> Extent=<ES>235:13 - 235:38<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:235:13: UnexposedExpr=strcpy|D:\Q20010319\软件设计\IARproject\main.c:73:9 <US>c:@F@strcpy<UE> <DS>char * strcpy(char *, const char *)<DE> Extent=<ES>235:13 - 235:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:235:13: DeclRefExpr=strcpy|D:\Q20010319\软件设计\IARproject\main.c:73:9 (Reference) <US>c:@F@strcpy<UE> <DS>char * strcpy(char *, const char *)<DE> Extent=<ES>235:13 - 235:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:235:20: UnexposedExpr=morse|D:\Q20010319\软件设计\IARproject\main.c:230:14 <US>c:main.c@6764@F@text_to_morse@morse<UE> <DS>morse<DE> Extent=<ES>235:20 - 235:25<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:235:20: DeclRefExpr=morse|D:\Q20010319\软件设计\IARproject\main.c:230:14 (Reference) <US>c:main.c@6764@F@text_to_morse@morse<UE> <DS>morse<DE> Extent=<ES>235:20 - 235:25<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:235:27: UnexposedExpr=morse_code|D:\Q20010319\软件设计\IARproject\main.c:231:21 <US>c:main.c@6794@F@text_to_morse@morse_code<UE> <DS>morse_code<DE> Extent=<ES>235:27 - 235:37<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:235:27: DeclRefExpr=morse_code|D:\Q20010319\软件设计\IARproject\main.c:231:21 (Reference) <US>c:main.c@6794@F@text_to_morse@morse_code<UE> <DS>morse_code<DE> Extent=<ES>235:27 - 235:37<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:236:13: CallExpr=strcat|D:\Q20010319\软件设计\IARproject\main.c:236:13 <US>c:@F@strcat<UE> <DS>char * strcat(char *, const char *)<DE> Extent=<ES>236:13 - 236:31<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:236:13: UnexposedExpr=strcat|D:\Q20010319\软件设计\IARproject\main.c:236:13 <US>c:@F@strcat<UE> <DS>char * strcat(char *, const char *)<DE> Extent=<ES>236:13 - 236:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:236:13: DeclRefExpr=strcat|D:\Q20010319\软件设计\IARproject\main.c:236:13 (Reference) <US>c:@F@strcat<UE> <DS>char * strcat(char *, const char *)<DE> Extent=<ES>236:13 - 236:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:236:20: UnexposedExpr=morse|D:\Q20010319\软件设计\IARproject\main.c:230:14 <US>c:main.c@6764@F@text_to_morse@morse<UE> <DS>morse<DE> Extent=<ES>236:20 - 236:25<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:236:20: DeclRefExpr=morse|D:\Q20010319\软件设计\IARproject\main.c:230:14 (Reference) <US>c:main.c@6764@F@text_to_morse@morse<UE> <DS>morse<DE> Extent=<ES>236:20 - 236:25<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:236:27: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>236:27 - 236:30<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:236:27: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>236:27 - 236:30<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:236:27: StringLiteral= <US><UE> <DS><DE> Extent=<ES>236:27 - 236:30<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:237:13: CallExpr=strcat|D:\Q20010319\软件设计\IARproject\main.c:236:13 <US>c:@F@strcat<UE> <DS>char * strcat(char *, const char *)<DE> Extent=<ES>237:13 - 237:40<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:237:13: UnexposedExpr=strcat|D:\Q20010319\软件设计\IARproject\main.c:236:13 <US>c:@F@strcat<UE> <DS>char * strcat(char *, const char *)<DE> Extent=<ES>237:13 - 237:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:237:13: DeclRefExpr=strcat|D:\Q20010319\软件设计\IARproject\main.c:236:13 (Reference) <US>c:@F@strcat<UE> <DS>char * strcat(char *, const char *)<DE> Extent=<ES>237:13 - 237:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:237:20: UnexposedExpr=morse_buffer|D:\Q20010319\软件设计\IARproject\main.c:226:44 <US>c:main.c@6706@F@text_to_morse@morse_buffer<UE> <DS>char *<DE> Extent=<ES>237:20 - 237:32<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:237:20: DeclRefExpr=morse_buffer|D:\Q20010319\软件设计\IARproject\main.c:226:44 (Reference) <US>c:main.c@6706@F@text_to_morse@morse_buffer<UE> <DS>char *<DE> Extent=<ES>237:20 - 237:32<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:237:34: UnexposedExpr=morse|D:\Q20010319\软件设计\IARproject\main.c:230:14 <US>c:main.c@6764@F@text_to_morse@morse<UE> <DS>morse<DE> Extent=<ES>237:34 - 237:39<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:237:34: UnexposedExpr=morse|D:\Q20010319\软件设计\IARproject\main.c:230:14 <US>c:main.c@6764@F@text_to_morse@morse<UE> <DS>morse<DE> Extent=<ES>237:34 - 237:39<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:237:34: DeclRefExpr=morse|D:\Q20010319\软件设计\IARproject\main.c:230:14 (Reference) <US>c:main.c@6764@F@text_to_morse@morse<UE> <DS>morse<DE> Extent=<ES>237:34 - 237:39<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:239:9: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>239:9 - 239:15<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:239:9: DeclRefExpr=text|D:\Q20010319\软件设计\IARproject\main.c:226:32 (Reference) <US>c:main.c@6688@F@text_to_morse@text<UE> <DS>const char *<DE> Extent=<ES>239:9 - 239:13<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:243:13: FunctionDecl=find_morse_code|D:\Q20010319\软件设计\IARproject\main.c:243:13 (Definition) <US>c:@F@find_morse_code<UE> <DS>const char * find_morse_code(char)<DE> Extent=<ES>243:1 - 253:2<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:243:34: ParmDecl=text|D:\Q20010319\软件设计\IARproject\main.c:243:34 (Definition) <US>c:main.c@7074@F@find_morse_code@text<UE> <DS>char<DE> Extent=<ES>243:29 - 243:38<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:244:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>244:1 - 253:2<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:245:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>245:5 - 251:6<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:245:10: DeclStmt= <US><UE> <DS><DE> Extent=<ES>245:10 - 245:20<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:245:14: VarDecl=i|D:\Q20010319\软件设计\IARproject\main.c:245:14 (Definition) <US>c:main.c@7098@F@find_morse_code@i<UE> <DS>i<DE> Extent=<ES>245:10 - 245:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:245:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>245:18 - 245:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:245:21: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>245:21 - 245:72<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:245:21: UnexposedExpr=i|D:\Q20010319\软件设计\IARproject\main.c:245:14 <US>c:main.c@7098@F@find_morse_code@i<UE> <DS>i<DE> Extent=<ES>245:21 - 245:22<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:245:21: UnexposedExpr=i|D:\Q20010319\软件设计\IARproject\main.c:245:14 <US>c:main.c@7098@F@find_morse_code@i<UE> <DS>i<DE> Extent=<ES>245:21 - 245:22<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:245:21: DeclRefExpr=i|D:\Q20010319\软件设计\IARproject\main.c:245:14 (Reference) <US>c:main.c@7098@F@find_morse_code@i<UE> <DS>i<DE> Extent=<ES>245:21 - 245:22<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:245:25: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>245:25 - 245:72<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:245:25: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>245:25 - 245:51<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:245:31: ParenExpr= <US><UE> <DS><DE> Extent=<ES>245:31 - 245:51<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:245:32: DeclRefExpr=morse_lookup_table|D:\Q20010319\软件设计\IARproject\main.c:24:18 (Reference) <US>c:@morse_lookup_table<UE> <DS>morse_lookup_table<DE> Extent=<ES>245:32 - 245:50<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:245:54: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>245:54 - 245:72<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:245:61: TypeRef=MorseEntry|D:\Q20010319\软件设计\IARproject\main.c:23:3 (Reference) <US>c:main.c@378@T@MorseEntry<UE> <DS>struct MorseEntry<DE> Extent=<ES>245:61 - 245:71<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:245:74: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>245:74 - 245:77<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:245:74: DeclRefExpr=i|D:\Q20010319\软件设计\IARproject\main.c:245:14 (Reference) <US>c:main.c@7098@F@find_morse_code@i<UE> <DS>i<DE> Extent=<ES>245:74 - 245:75<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:246:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>246:5 - 251:6<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:247:9: IfStmt= <US><UE> <DS><DE> Extent=<ES>247:9 - 250:10<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:247:13: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>247:13 - 247:47<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:247:35: UnexposedExpr=text|D:\Q20010319\软件设计\IARproject\main.c:22:10 <US>c:@SA@MorseEntry@FI@text<UE> <DS>text<DE> Extent=<ES>247:13 - 247:39<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:247:35: UnexposedExpr=text|D:\Q20010319\软件设计\IARproject\main.c:22:10 <US>c:@SA@MorseEntry@FI@text<UE> <DS>text<DE> Extent=<ES>247:13 - 247:39<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:247:35: MemberRefExpr=text|D:\Q20010319\软件设计\IARproject\main.c:22:10 (Reference) <US>c:@SA@MorseEntry@FI@text<UE> <DS>text<DE> Extent=<ES>247:13 - 247:39<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:247:13: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>247:13 - 247:34<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:247:13: UnexposedExpr=morse_lookup_table|D:\Q20010319\软件设计\IARproject\main.c:24:18 <US>c:@morse_lookup_table<UE> <DS>morse_lookup_table<DE> Extent=<ES>247:13 - 247:31<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:247:13: DeclRefExpr=morse_lookup_table|D:\Q20010319\软件设计\IARproject\main.c:24:18 (Reference) <US>c:@morse_lookup_table<UE> <DS>morse_lookup_table<DE> Extent=<ES>247:13 - 247:31<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:247:32: UnexposedExpr=i|D:\Q20010319\软件设计\IARproject\main.c:245:14 <US>c:main.c@7098@F@find_morse_code@i<UE> <DS>i<DE> Extent=<ES>247:32 - 247:33<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:247:32: DeclRefExpr=i|D:\Q20010319\软件设计\IARproject\main.c:245:14 (Reference) <US>c:main.c@7098@F@find_morse_code@i<UE> <DS>i<DE> Extent=<ES>247:32 - 247:33<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:247:43: UnexposedExpr=text|D:\Q20010319\软件设计\IARproject\main.c:243:34 <US>c:main.c@7074@F@find_morse_code@text<UE> <DS>char<DE> Extent=<ES>247:43 - 247:47<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:247:43: UnexposedExpr=text|D:\Q20010319\软件设计\IARproject\main.c:243:34 <US>c:main.c@7074@F@find_morse_code@text<UE> <DS>char<DE> Extent=<ES>247:43 - 247:47<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:247:43: DeclRefExpr=text|D:\Q20010319\软件设计\IARproject\main.c:243:34 (Reference) <US>c:main.c@7074@F@find_morse_code@text<UE> <DS>char<DE> Extent=<ES>247:43 - 247:47<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:248:9: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>248:9 - 250:10<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:249:13: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>249:13 - 249:47<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:249:42: UnexposedExpr=morse|D:\Q20010319\软件设计\IARproject\main.c:21:17 <US>c:@SA@MorseEntry@FI@morse<UE> <DS>morse<DE> Extent=<ES>249:20 - 249:47<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:249:42: MemberRefExpr=morse|D:\Q20010319\软件设计\IARproject\main.c:21:17 (Reference) <US>c:@SA@MorseEntry@FI@morse<UE> <DS>morse<DE> Extent=<ES>249:20 - 249:47<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:249:20: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>249:20 - 249:41<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:249:20: UnexposedExpr=morse_lookup_table|D:\Q20010319\软件设计\IARproject\main.c:24:18 <US>c:@morse_lookup_table<UE> <DS>morse_lookup_table<DE> Extent=<ES>249:20 - 249:38<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:249:20: DeclRefExpr=morse_lookup_table|D:\Q20010319\软件设计\IARproject\main.c:24:18 (Reference) <US>c:@morse_lookup_table<UE> <DS>morse_lookup_table<DE> Extent=<ES>249:20 - 249:38<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:249:39: UnexposedExpr=i|D:\Q20010319\软件设计\IARproject\main.c:245:14 <US>c:main.c@7098@F@find_morse_code@i<UE> <DS>i<DE> Extent=<ES>249:39 - 249:40<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:249:39: DeclRefExpr=i|D:\Q20010319\软件设计\IARproject\main.c:245:14 (Reference) <US>c:main.c@7098@F@find_morse_code@i<UE> <DS>i<DE> Extent=<ES>249:39 - 249:40<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:252:5: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>252:5 - 252:13<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:252:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>252:12 - 252:13<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:252:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>252:12 - 252:13<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:255:6: FunctionDecl=morse_to_text|D:\Q20010319\软件设计\IARproject\main.c:255:6 (Definition) <US>c:@F@morse_to_text<UE> <DS>void morse_to_text(const char *, char *)<DE> Extent=<ES>255:1 - 286:2<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:255:32: ParmDecl=morse|D:\Q20010319\软件设计\IARproject\main.c:255:32 (Definition) <US>c:main.c@7341@F@morse_to_text@morse<UE> <DS>const char *<DE> Extent=<ES>255:20 - 255:37<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:255:45: ParmDecl=text|D:\Q20010319\软件设计\IARproject\main.c:255:45 (Definition) <US>c:main.c@7360@F@morse_to_text@text<UE> <DS>char *<DE> Extent=<ES>255:39 - 255:49<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:256:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>256:1 - 286:2<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:257:5: DeclStmt= <US><UE> <DS><DE> Extent=<ES>257:5 - 257:35<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:257:17: VarDecl=morse_ptr|D:\Q20010319\软件设计\IARproject\main.c:257:17 (Definition) <US>c:main.c@7380@F@morse_to_text@morse_ptr<UE> <DS>morse_ptr<DE> Extent=<ES>257:5 - 257:34<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:257:29: UnexposedExpr=morse|D:\Q20010319\软件设计\IARproject\main.c:255:32 <US>c:main.c@7341@F@morse_to_text@morse<UE> <DS>const char *<DE> Extent=<ES>257:29 - 257:34<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:257:29: DeclRefExpr=morse|D:\Q20010319\软件设计\IARproject\main.c:255:32 (Reference) <US>c:main.c@7341@F@morse_to_text@morse<UE> <DS>const char *<DE> Extent=<ES>257:29 - 257:34<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:258:5: DeclStmt= <US><UE> <DS><DE> Extent=<ES>258:5 - 258:24<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:258:9: VarDecl=text_index|D:\Q20010319\软件设计\IARproject\main.c:258:9 (Definition) <US>c:main.c@7416@F@morse_to_text@text_index<UE> <DS>text_index<DE> Extent=<ES>258:5 - 258:23<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:258:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>258:22 - 258:23<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:259:5: DeclStmt= <US><UE> <DS><DE> Extent=<ES>259:5 - 259:35<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:259:9: VarDecl=morse_len|D:\Q20010319\软件设计\IARproject\main.c:259:9 (Definition) <US>c:main.c@7441@F@morse_to_text@morse_len<UE> <DS>morse_len<DE> Extent=<ES>259:5 - 259:34<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:259:21: UnexposedExpr=strlen|D:\Q20010319\软件设计\IARproject\main.c:259:21 <US>c:@F@strlen<UE> <DS>unsigned int strlen(const char *)<DE> Extent=<ES>259:21 - 259:34<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:259:21: CallExpr=strlen|D:\Q20010319\软件设计\IARproject\main.c:259:21 <US>c:@F@strlen<UE> <DS>unsigned int strlen(const char *)<DE> Extent=<ES>259:21 - 259:34<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:259:21: UnexposedExpr=strlen|D:\Q20010319\软件设计\IARproject\main.c:259:21 <US>c:@F@strlen<UE> <DS>unsigned int strlen(const char *)<DE> Extent=<ES>259:21 - 259:27<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:259:21: DeclRefExpr=strlen|D:\Q20010319\软件设计\IARproject\main.c:259:21 (Reference) <US>c:@F@strlen<UE> <DS>unsigned int strlen(const char *)<DE> Extent=<ES>259:21 - 259:27<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:259:28: UnexposedExpr=morse|D:\Q20010319\软件设计\IARproject\main.c:255:32 <US>c:main.c@7341@F@morse_to_text@morse<UE> <DS>const char *<DE> Extent=<ES>259:28 - 259:33<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:259:28: DeclRefExpr=morse|D:\Q20010319\软件设计\IARproject\main.c:255:32 (Reference) <US>c:main.c@7341@F@morse_to_text@morse<UE> <DS>const char *<DE> Extent=<ES>259:28 - 259:33<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:261:5: WhileStmt= <US><UE> <DS><DE> Extent=<ES>261:5 - 283:6<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:261:12: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>261:12 - 261:41<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:261:12: UnexposedExpr=morse_ptr|D:\Q20010319\软件设计\IARproject\main.c:257:17 <US>c:main.c@7380@F@morse_to_text@morse_ptr<UE> <DS>morse_ptr<DE> Extent=<ES>261:12 - 261:21<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:261:12: DeclRefExpr=morse_ptr|D:\Q20010319\软件设计\IARproject\main.c:257:17 (Reference) <US>c:main.c@7380@F@morse_to_text@morse_ptr<UE> <DS>morse_ptr<DE> Extent=<ES>261:12 - 261:21<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:261:24: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>261:24 - 261:41<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:261:24: UnexposedExpr=morse|D:\Q20010319\软件设计\IARproject\main.c:255:32 <US>c:main.c@7341@F@morse_to_text@morse<UE> <DS>const char *<DE> Extent=<ES>261:24 - 261:29<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:261:24: DeclRefExpr=morse|D:\Q20010319\软件设计\IARproject\main.c:255:32 (Reference) <US>c:main.c@7341@F@morse_to_text@morse<UE> <DS>const char *<DE> Extent=<ES>261:24 - 261:29<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:261:32: UnexposedExpr=morse_len|D:\Q20010319\软件设计\IARproject\main.c:259:9 <US>c:main.c@7441@F@morse_to_text@morse_len<UE> <DS>morse_len<DE> Extent=<ES>261:32 - 261:41<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:261:32: DeclRefExpr=morse_len|D:\Q20010319\软件设计\IARproject\main.c:259:9 (Reference) <US>c:main.c@7441@F@morse_to_text@morse_len<UE> <DS>morse_len<DE> Extent=<ES>261:32 - 261:41<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:262:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>262:5 - 283:6<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:264:9: DeclStmt= <US><UE> <DS><DE> Extent=<ES>264:9 - 264:23<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:264:13: VarDecl=found|D:\Q20010319\软件设计\IARproject\main.c:264:13 (Definition) <US>c:main.c@7566@F@morse_to_text@found<UE> <DS>found<DE> Extent=<ES>264:9 - 264:22<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:264:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>264:21 - 264:22<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:265:9: ForStmt= <US><UE> <DS><DE> Extent=<ES>265:9 - 276:10<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:265:14: DeclStmt= <US><UE> <DS><DE> Extent=<ES>265:14 - 265:24<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:265:18: VarDecl=i|D:\Q20010319\软件设计\IARproject\main.c:265:18 (Definition) <US>c:main.c@7595@F@morse_to_text@i<UE> <DS>i<DE> Extent=<ES>265:14 - 265:23<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:265:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>265:22 - 265:23<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:265:25: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>265:25 - 265:87<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:265:25: UnexposedExpr=i|D:\Q20010319\软件设计\IARproject\main.c:265:18 <US>c:main.c@7595@F@morse_to_text@i<UE> <DS>i<DE> Extent=<ES>265:25 - 265:26<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:265:25: UnexposedExpr=i|D:\Q20010319\软件设计\IARproject\main.c:265:18 <US>c:main.c@7595@F@morse_to_text@i<UE> <DS>i<DE> Extent=<ES>265:25 - 265:26<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:265:25: DeclRefExpr=i|D:\Q20010319\软件设计\IARproject\main.c:265:18 (Reference) <US>c:main.c@7595@F@morse_to_text@i<UE> <DS>i<DE> Extent=<ES>265:25 - 265:26<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:265:29: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>265:29 - 265:87<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:265:29: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>265:29 - 265:55<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:265:35: ParenExpr= <US><UE> <DS><DE> Extent=<ES>265:35 - 265:55<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:265:36: DeclRefExpr=morse_lookup_table|D:\Q20010319\软件设计\IARproject\main.c:24:18 (Reference) <US>c:@morse_lookup_table<UE> <DS>morse_lookup_table<DE> Extent=<ES>265:36 - 265:54<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:265:58: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>265:58 - 265:87<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:265:64: ParenExpr= <US><UE> <DS><DE> Extent=<ES>265:64 - 265:87<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:265:65: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>265:65 - 265:86<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:265:65: UnexposedExpr=morse_lookup_table|D:\Q20010319\软件设计\IARproject\main.c:24:18 <US>c:@morse_lookup_table<UE> <DS>morse_lookup_table<DE> Extent=<ES>265:65 - 265:83<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:265:65: DeclRefExpr=morse_lookup_table|D:\Q20010319\软件设计\IARproject\main.c:24:18 (Reference) <US>c:@morse_lookup_table<UE> <DS>morse_lookup_table<DE> Extent=<ES>265:65 - 265:83<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:265:84: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>265:84 - 265:85<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:265:89: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>265:89 - 265:92<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:265:89: DeclRefExpr=i|D:\Q20010319\软件设计\IARproject\main.c:265:18 (Reference) <US>c:main.c@7595@F@morse_to_text@i<UE> <DS>i<DE> Extent=<ES>265:89 - 265:90<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:266:9: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>266:9 - 276:10<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:267:13: DeclStmt= <US><UE> <DS><DE> Extent=<ES>267:13 - 267:64<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:267:17: VarDecl=code_len|D:\Q20010319\软件设计\IARproject\main.c:267:17 (Definition) <US>c:main.c@7699@F@morse_to_text@code_len<UE> <DS>code_len<DE> Extent=<ES>267:13 - 267:63<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:267:28: UnexposedExpr=strlen|D:\Q20010319\软件设计\IARproject\main.c:259:21 <US>c:@F@strlen<UE> <DS>unsigned int strlen(const char *)<DE> Extent=<ES>267:28 - 267:63<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:267:28: CallExpr=strlen|D:\Q20010319\软件设计\IARproject\main.c:259:21 <US>c:@F@strlen<UE> <DS>unsigned int strlen(const char *)<DE> Extent=<ES>267:28 - 267:63<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:267:28: UnexposedExpr=strlen|D:\Q20010319\软件设计\IARproject\main.c:259:21 <US>c:@F@strlen<UE> <DS>unsigned int strlen(const char *)<DE> Extent=<ES>267:28 - 267:34<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:267:28: DeclRefExpr=strlen|D:\Q20010319\软件设计\IARproject\main.c:259:21 (Reference) <US>c:@F@strlen<UE> <DS>unsigned int strlen(const char *)<DE> Extent=<ES>267:28 - 267:34<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:267:57: UnexposedExpr=morse|D:\Q20010319\软件设计\IARproject\main.c:21:17 <US>c:@SA@MorseEntry@FI@morse<UE> <DS>morse<DE> Extent=<ES>267:35 - 267:62<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:267:57: MemberRefExpr=morse|D:\Q20010319\软件设计\IARproject\main.c:21:17 (Reference) <US>c:@SA@MorseEntry@FI@morse<UE> <DS>morse<DE> Extent=<ES>267:35 - 267:62<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:267:35: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>267:35 - 267:56<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:267:35: UnexposedExpr=morse_lookup_table|D:\Q20010319\软件设计\IARproject\main.c:24:18 <US>c:@morse_lookup_table<UE> <DS>morse_lookup_table<DE> Extent=<ES>267:35 - 267:53<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:267:35: DeclRefExpr=morse_lookup_table|D:\Q20010319\软件设计\IARproject\main.c:24:18 (Reference) <US>c:@morse_lookup_table<UE> <DS>morse_lookup_table<DE> Extent=<ES>267:35 - 267:53<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:267:54: UnexposedExpr=i|D:\Q20010319\软件设计\IARproject\main.c:265:18 <US>c:main.c@7595@F@morse_to_text@i<UE> <DS>i<DE> Extent=<ES>267:54 - 267:55<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:267:54: DeclRefExpr=i|D:\Q20010319\软件设计\IARproject\main.c:265:18 (Reference) <US>c:main.c@7595@F@morse_to_text@i<UE> <DS>i<DE> Extent=<ES>267:54 - 267:55<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:268:13: IfStmt= <US><UE> <DS><DE> Extent=<ES>268:13 - 275:14<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:268:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>268:17 - 268:79<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:268:17: CallExpr=strncmp|D:\Q20010319\软件设计\IARproject\main.c:268:17 <US><UE> <DS>int strncmp(void)<DE> Extent=<ES>268:17 - 268:74<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:268:17: UnexposedExpr=strncmp|D:\Q20010319\软件设计\IARproject\main.c:268:17 <US><UE> <DS>int strncmp(void)<DE> Extent=<ES>268:17 - 268:24<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:268:17: DeclRefExpr=strncmp|D:\Q20010319\软件设计\IARproject\main.c:268:17 (Reference) <US><UE> <DS>int strncmp(void)<DE> Extent=<ES>268:17 - 268:24<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:268:25: UnexposedExpr=morse_ptr|D:\Q20010319\软件设计\IARproject\main.c:257:17 <US>c:main.c@7380@F@morse_to_text@morse_ptr<UE> <DS>morse_ptr<DE> Extent=<ES>268:25 - 268:34<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:268:25: DeclRefExpr=morse_ptr|D:\Q20010319\软件设计\IARproject\main.c:257:17 (Reference) <US>c:main.c@7380@F@morse_to_text@morse_ptr<UE> <DS>morse_ptr<DE> Extent=<ES>268:25 - 268:34<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:268:58: UnexposedExpr=morse|D:\Q20010319\软件设计\IARproject\main.c:21:17 <US>c:@SA@MorseEntry@FI@morse<UE> <DS>morse<DE> Extent=<ES>268:36 - 268:63<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:268:58: MemberRefExpr=morse|D:\Q20010319\软件设计\IARproject\main.c:21:17 (Reference) <US>c:@SA@MorseEntry@FI@morse<UE> <DS>morse<DE> Extent=<ES>268:36 - 268:63<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:268:36: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>268:36 - 268:57<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:268:36: UnexposedExpr=morse_lookup_table|D:\Q20010319\软件设计\IARproject\main.c:24:18 <US>c:@morse_lookup_table<UE> <DS>morse_lookup_table<DE> Extent=<ES>268:36 - 268:54<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:268:36: DeclRefExpr=morse_lookup_table|D:\Q20010319\软件设计\IARproject\main.c:24:18 (Reference) <US>c:@morse_lookup_table<UE> <DS>morse_lookup_table<DE> Extent=<ES>268:36 - 268:54<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:268:55: UnexposedExpr=i|D:\Q20010319\软件设计\IARproject\main.c:265:18 <US>c:main.c@7595@F@morse_to_text@i<UE> <DS>i<DE> Extent=<ES>268:55 - 268:56<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:268:55: DeclRefExpr=i|D:\Q20010319\软件设计\IARproject\main.c:265:18 (Reference) <US>c:main.c@7595@F@morse_to_text@i<UE> <DS>i<DE> Extent=<ES>268:55 - 268:56<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:268:65: UnexposedExpr=code_len|D:\Q20010319\软件设计\IARproject\main.c:267:17 <US>c:main.c@7699@F@morse_to_text@code_len<UE> <DS>code_len<DE> Extent=<ES>268:65 - 268:73<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:268:65: DeclRefExpr=code_len|D:\Q20010319\软件设计\IARproject\main.c:267:17 (Reference) <US>c:main.c@7699@F@morse_to_text@code_len<UE> <DS>code_len<DE> Extent=<ES>268:65 - 268:73<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:268:78: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>268:78 - 268:79<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:269:13: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>269:13 - 275:14<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:271:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>271:17 - 271:64<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:271:17: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>271:17 - 271:35<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:271:17: UnexposedExpr=text|D:\Q20010319\软件设计\IARproject\main.c:255:45 <US>c:main.c@7360@F@morse_to_text@text<UE> <DS>char *<DE> Extent=<ES>271:17 - 271:21<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:271:17: DeclRefExpr=text|D:\Q20010319\软件设计\IARproject\main.c:255:45 (Reference) <US>c:main.c@7360@F@morse_to_text@text<UE> <DS>char *<DE> Extent=<ES>271:17 - 271:21<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:271:22: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>271:22 - 271:34<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:271:22: DeclRefExpr=text_index|D:\Q20010319\软件设计\IARproject\main.c:258:9 (Reference) <US>c:main.c@7416@F@morse_to_text@text_index<UE> <DS>text_index<DE> Extent=<ES>271:22 - 271:32<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:271:60: UnexposedExpr=text|D:\Q20010319\软件设计\IARproject\main.c:22:10 <US>c:@SA@MorseEntry@FI@text<UE> <DS>text<DE> Extent=<ES>271:38 - 271:64<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:271:60: MemberRefExpr=text|D:\Q20010319\软件设计\IARproject\main.c:22:10 (Reference) <US>c:@SA@MorseEntry@FI@text<UE> <DS>text<DE> Extent=<ES>271:38 - 271:64<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:271:38: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>271:38 - 271:59<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:271:38: UnexposedExpr=morse_lookup_table|D:\Q20010319\软件设计\IARproject\main.c:24:18 <US>c:@morse_lookup_table<UE> <DS>morse_lookup_table<DE> Extent=<ES>271:38 - 271:56<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:271:38: DeclRefExpr=morse_lookup_table|D:\Q20010319\软件设计\IARproject\main.c:24:18 (Reference) <US>c:@morse_lookup_table<UE> <DS>morse_lookup_table<DE> Extent=<ES>271:38 - 271:56<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:271:57: UnexposedExpr=i|D:\Q20010319\软件设计\IARproject\main.c:265:18 <US>c:main.c@7595@F@morse_to_text@i<UE> <DS>i<DE> Extent=<ES>271:57 - 271:58<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:271:57: DeclRefExpr=i|D:\Q20010319\软件设计\IARproject\main.c:265:18 (Reference) <US>c:main.c@7595@F@morse_to_text@i<UE> <DS>i<DE> Extent=<ES>271:57 - 271:58<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:272:17: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>272:17 - 272:42<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:272:17: DeclRefExpr=morse_ptr|D:\Q20010319\软件设计\IARproject\main.c:257:17 (Reference) <US>c:main.c@7380@F@morse_to_text@morse_ptr<UE> <DS>morse_ptr<DE> Extent=<ES>272:17 - 272:26<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:272:30: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>272:30 - 272:42<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:272:30: UnexposedExpr=code_len|D:\Q20010319\软件设计\IARproject\main.c:267:17 <US>c:main.c@7699@F@morse_to_text@code_len<UE> <DS>code_len<DE> Extent=<ES>272:30 - 272:38<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:272:30: DeclRefExpr=code_len|D:\Q20010319\软件设计\IARproject\main.c:267:17 (Reference) <US>c:main.c@7699@F@morse_to_text@code_len<UE> <DS>code_len<DE> Extent=<ES>272:30 - 272:38<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:272:41: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>272:41 - 272:42<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:273:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>273:17 - 273:26<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:273:17: DeclRefExpr=found|D:\Q20010319\软件设计\IARproject\main.c:264:13 (Reference) <US>c:main.c@7566@F@morse_to_text@found<UE> <DS>found<DE> Extent=<ES>273:17 - 273:22<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:273:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>273:25 - 273:26<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:274:17: BreakStmt= <US><UE> <DS><DE> Extent=<ES>274:17 - 274:22<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:279:9: IfStmt= <US><UE> <DS><DE> Extent=<ES>279:9 - 282:10<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:279:13: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>279:13 - 279:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:279:14: UnexposedExpr=found|D:\Q20010319\软件设计\IARproject\main.c:264:13 <US>c:main.c@7566@F@morse_to_text@found<UE> <DS>found<DE> Extent=<ES>279:14 - 279:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:279:14: DeclRefExpr=found|D:\Q20010319\软件设计\IARproject\main.c:264:13 (Reference) <US>c:main.c@7566@F@morse_to_text@found<UE> <DS>found<DE> Extent=<ES>279:14 - 279:19<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:280:9: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>280:9 - 282:10<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:281:13: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>281:13 - 281:24<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:281:13: DeclRefExpr=morse_ptr|D:\Q20010319\软件设计\IARproject\main.c:257:17 (Reference) <US>c:main.c@7380@F@morse_to_text@morse_ptr<UE> <DS>morse_ptr<DE> Extent=<ES>281:13 - 281:22<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:285:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>285:5 - 285:28<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:285:5: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>285:5 - 285:21<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:285:5: UnexposedExpr=text|D:\Q20010319\软件设计\IARproject\main.c:255:45 <US>c:main.c@7360@F@morse_to_text@text<UE> <DS>char *<DE> Extent=<ES>285:5 - 285:9<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:285:5: DeclRefExpr=text|D:\Q20010319\软件设计\IARproject\main.c:255:45 (Reference) <US>c:main.c@7360@F@morse_to_text@text<UE> <DS>char *<DE> Extent=<ES>285:5 - 285:9<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:285:10: UnexposedExpr=text_index|D:\Q20010319\软件设计\IARproject\main.c:258:9 <US>c:main.c@7416@F@morse_to_text@text_index<UE> <DS>text_index<DE> Extent=<ES>285:10 - 285:20<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:285:10: DeclRefExpr=text_index|D:\Q20010319\软件设计\IARproject\main.c:258:9 (Reference) <US>c:main.c@7416@F@morse_to_text@text_index<UE> <DS>text_index<DE> Extent=<ES>285:10 - 285:20<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:285:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>285:24 - 285:28<EE>
+<L>D:\Q20010319\软件设计\IARproject\main.c:285:24: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>285:24 - 285:28<EE>
