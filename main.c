@@ -83,7 +83,7 @@ int main(void)
         //     }
         //     buffer[index++] = c;
         // }
-        lcd_write_string(buffer);
+        
         // 将字符串转换为摩尔斯电码
         char morse_buffer[256];
         text_to_morse(buffer, morse_buffer);
@@ -91,8 +91,8 @@ int main(void)
         // 发送摩尔斯电码
         while(1)
         {
+            lcd_write_string(buffer);
             lcd_write_string(morse_buffer);
-            send_morse_code(morse_buffer);
         }
         
     }
@@ -204,14 +204,27 @@ void lcd_set_cursor(unsigned char row, unsigned char col)
 
 void uart_init(void)
 {
-    P3SEL |= BIT4 + BIT5; // 选择P3.4和P3.5作为UART模块功能
-    U0CTL |= CHAR + SWRST; // 8位数据
-    U0TCTL |= SSEL1; // 使用SMCLK时钟源
-    U0BR0 = 104; // 设置波特率为9600 (104对应9600波特率, SMCLK = 1MHz)
-    U0BR1 = 0; // 设置波特率为9600
-    U0MCTL = 0x49; // 设置调制器控制寄存器
-    U0CTL &= ~SWRST; // 初始化UART模块
-    IE1 |= URXIE0; // 允许UART接收中断
+    // 禁用UART模块以进行配置
+    U0CTL |= SWRST;
+
+    // 配置UART的工作模式
+    U0CTL |= CHAR; // 8位数据
+
+    // 配置波特率
+    U0BR0 = 104;
+    U0BR1 = 0;
+    U0MCTL = 0x49;
+
+    // 配置P3.5为TXD，P3.4为GPIO功能
+    P3SEL |= BIT5;
+    P3SEL &= ~BIT4;
+    P3DIR |= BIT4;
+
+    // 启用UART模块
+    U0CTL &= ~SWRST;
+
+    // 启用接收中断
+    IE1 |= URXIE0;
 }
 
 void uart_write_char(char c)
@@ -235,16 +248,16 @@ void send_morse_code(const char *morse_code)
         {
             case '.':
                 P3OUT |= BIT4;  // 高电平
-                __delay_cycles(10 * DOT_DURATION);  // 点持续时间
+                __delay_cycles(10000 * DOT_DURATION);  // 点持续时间
                 P3OUT &= ~BIT4; // 低电平
                 break;
             case '-':
                 P3OUT |= BIT4;   // 高电平
-                __delay_cycles(10 * DASH_DURATION); // 划持续时间
+                __delay_cycles(10000 * DASH_DURATION); // 划持续时间
                 P3OUT &= ~BIT4;  // 低电平
                 break;
             case '0':
-                __delay_cycles(10 * SHORT_GAP_DURATION); // 间隔
+                __delay_cycles(10000 * SHORT_GAP_DURATION); // 间隔
                 break;
         }
 
@@ -252,7 +265,7 @@ void send_morse_code(const char *morse_code)
 
         if (*morse_code)
         {
-            __delay_cycles(10 * SHORT_GAP_DURATION); // 点划之间的短间隔
+            __delay_cycles(10000 * SHORT_GAP_DURATION); // 点划之间的短间隔
         }
     }
 }
