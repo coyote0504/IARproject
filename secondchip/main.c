@@ -1,6 +1,11 @@
-#include "io430.h"
-#include <stddef.h>
+#include "MSP430F249.h"
 #include <stdbool.h>
+#include <stdint.h>
+#include <string.h>
+#include <ctype.h>
+
+// 其他代码
+
 
 // 定义引脚
 #define LCD_RS BIT0
@@ -64,12 +69,11 @@ int main(void)
     lcd_init();// 初始化LCD
     lcd_set_cursor(0, 0);// 将光标设置到第一行，第一列
     uart_init(); // 初始化UART
-    __enable_interrupt(); // 允许中断
 
     while (1)
     {
         char buffer[64];
-        int index = 0;
+        // int index = 0;
         memset(buffer, 0, sizeof(buffer));
         char buffer_1[64];
         memset(buffer_1, 0, sizeof(buffer_1));
@@ -195,16 +199,25 @@ void lcd_set_cursor(unsigned char row, unsigned char col)
 
 void uart_init(void)
 {
-    P3SEL |= BIT4 | BIT5; // P3.4 = UCA0TXD, P3.5 = UCA0RXD
+    // 禁用UART模块以进行配置
+    UCA0CTL1 |= UCSWRST;
 
-    UCA0CTL1 |= UCSWRST; // 复位 USCI_A0
-    UCA0CTL1 |= UCSSEL_2; // 选择 SMCLK 作为时钟源
-    UCA0BR0 = 0x41; // 波特率设置，8MHz 9600bps
-    UCA0BR1 = 0x3;
-    UCA0MCTL = UCBRS_2; // 设置调制控制寄存器
+    // 配置UART的工作模式
+    UCA0CTL0 = 0; // 8位数据，无奇偶校验，1位停止位
 
-    UCA0CTL1 &= ~UCSWRST; // 清除 USCI_A0 的复位位
-    IE2 |= UCA0RXIE; // 启用接收中断
+    // 配置波特率
+    UCA0BR0 = 104;
+    UCA0BR1 = 0;
+    UCA0MCTL = UCBRS_1; // Modulation UCBRSx = 1
+
+    // 配置P3.4为TXD，P3.5为RXD
+    P3SEL |= BIT4 | BIT5;
+
+    // 启用UART模块
+    UCA0CTL1 &= ~UCSWRST;
+
+    // 启用接收中断
+    UC0IE |= UCA0RXIE;
 }
 
 void send_morse_code(const char *morse_code)
@@ -216,16 +229,16 @@ void send_morse_code(const char *morse_code)
         {
             case '.':
                 P3OUT |= BIT4;  // 高电平
-                __delay_cycles(1000000 * DOT_DURATION);  // 点持续时间
+                __delay_cycles(100000 * DOT_DURATION);  // 点持续时间
                 P3OUT &= ~BIT4; // 低电平
                 break;
             case '-':
                 P3OUT |= BIT4;   // 高电平
-                __delay_cycles(1000000 * DASH_DURATION); // 划持续时间
+                __delay_cycles(100000 * DASH_DURATION); // 划持续时间
                 P3OUT &= ~BIT4;  // 低电平
                 break;
             case '0':
-                __delay_cycles(1000000 * SHORT_GAP_DURATION); // 间隔
+                __delay_cycles(100000 * SHORT_GAP_DURATION); // 间隔
                 break;
         }
 
@@ -233,7 +246,7 @@ void send_morse_code(const char *morse_code)
 
         if (*morse_code)
         {
-            __delay_cycles(1000000 * SHORT_GAP_DURATION); // 点划之间的短间隔
+            __delay_cycles(100000 * SHORT_GAP_DURATION); // 点划之间的短间隔
         }
     }
 }
