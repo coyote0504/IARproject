@@ -1,0 +1,7 @@
+[Sfr]
+sfr = "CAPD.CAPD3",	"Memory",	0x5b,	1,	base=16,	modified
+sfr = "FCTL3.BUSY",	"Memory",	0x12c,	2,	base=16,	modified
+sfr = "TBCCR0",	"Memory",	0x192,	2,	base=16,	modified
+
+
+[SfrGroupInfo]
