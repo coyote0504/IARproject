@@ -1,7 +1,11 @@
-<<<<<<< HEAD
-#include "io430.h"
-#include <stddef.h>
+#include "MSP430F249.h"
 #include <stdbool.h>
+#include <stdint.h>
+#include <string.h>
+#include <ctype.h>
+
+// 其他代码
+
 
 // 定义引脚
 #define LCD_RS BIT0
@@ -64,15 +68,20 @@ void morse_to_text(const char *morse, char *text);
 int main(void)
 {
     WDTCTL = WDTPW + WDTHOLD; // 停用看门狗
+    int i = 10;
     lcd_init();// 初始化LCD
     lcd_set_cursor(0, 0);// 将光标设置到第一行，第一列
     uart_init(); // 初始化UART
-    __enable_interrupt(); // 允许中断
+    // 设置主时钟为 8MHz
+    BCSCTL1 = CALBC1_8MHZ;
+    DCOCTL = CALDCO_8MHZ;
+    
+    __bis_SR_register(GIE);
 
     while (1)
     {
         char buffer[64];
-        int index = 0;
+        // int index = 0;
         memset(buffer, 0, sizeof(buffer));
         char buffer_1[64];
         memset(buffer_1, 0, sizeof(buffer_1));
@@ -90,12 +99,12 @@ int main(void)
         // }
         
         // 将字符串转换为摩尔斯电码
-        char morse_buffer[256];
-        text_to_morse(buffer, morse_buffer);
+        // char morse_buffer[256];
+        // text_to_morse(buffer, morse_buffer);
 
-        //lcd_write_string(morse_buffer);
-        morse_to_text(morse_buffer, buffer_1);
-        lcd_write_string(buffer_1);
+        // lcd_write_string(morse_buffer);
+        // morse_to_text(morse_buffer, buffer_1);
+        // lcd_write_string(buffer_1);
         // 发送摩尔斯电码
         // while(1)
         // {
@@ -211,39 +220,28 @@ void lcd_set_cursor(unsigned char row, unsigned char col)
 
 void uart_init(void)
 {
-    // 禁用UART模块以进行配置
-    U0CTL |= SWRST;
+    P3SEL |= BIT4 | BIT5; // P3.4 = UCA0TXD, P3.5 = UCA0RXD
 
-    // 配置UART的工作模式
-    U0CTL |= CHAR; // 8位数据
+    UCA0CTL1 |= UCSWRST; // 复位 USCI_A0
+    UCA0CTL1 |= UCSSEL_2; // 选择 SMCLK 作为时钟源
+    UCA0BR0 = 0x41; // 波特率设置，8MHz 9600bps
+    UCA0BR1 = 0x3;
+    UCA0MCTL = UCBRS_2; // 设置调制控制寄存器
 
-    // 配置波特率
-    U0BR0 = 104;
-    U0BR1 = 0;
-    U0MCTL = 0x49;
-
-    // 配置P3.5为TXD，P3.4为GPIO功能
-    P3SEL |= BIT5;
-    P3SEL &= ~BIT4;
-    P3DIR |= BIT4;
-
-    // 启用UART模块
-    U0CTL &= ~SWRST;
-
-    // 启用接收中断
-    IE1 |= URXIE0;
+    UCA0CTL1 &= ~UCSWRST; // 清除 USCI_A0 的复位位
+    IE2 |= UCA0RXIE; // 启用接收中断
 }
 
 void uart_write_char(char c)
 {
-    while (!(IFG1 & UTXIFG0)); // 等待上一个字符发送完成
-    U0TXBUF = c; // 将字符写入发送缓冲区
+    while (!(IFG2 & UCA0TXIFG)); // 等待上一个字符发送完成
+    UCA0TXBUF = c; // 将字符写入发送缓冲区
 }
 
 char uart_read_char(void)
 {
-    while (!(IFG1 & URXIFG0)); // 等待接收到字符
-    return U0RXBUF; // 从接收缓冲区读取字符
+    while (!(IFG2 & UCA0RXIFG)); // 等待接收到字符
+    return UCA0RXBUF; // 从接收缓冲区读取字符
 }
 
 void send_morse_code(const char *morse_code)
@@ -338,17 +336,33 @@ char find_text_from_morse(const char *morse)
 
 void morse_to_text(const char *morse, char *text)
 {
-    char morse_buffer[8]; // 用于存储单个摩尔斯字符的缓冲区
+    unsigned char morse_buffer[8]; // 用于存储单个摩尔斯字符的缓冲区
     size_t morse_buffer_pos = 0;
     size_t zero_count = 0;
-    bool add_space = false;
 
     while (*morse)
     {
         if (*morse == '0')
         {
-            // 如果遇到 0，则解码缓冲区中的摩尔斯字符并清空缓冲区
-            if (morse_buffer_pos > 0)
+            zero_count++;
+            if (zero_count >= 7) // 遇到 0000000，转换为回车
+            {
+                *text++ = '\n';
+                zero_count = 0;
+            }
+            else if (zero_count == 3) // 遇到 000，添加空格
+            {
+                *text++ = ' ';
+            }
+        }
+        else
+        {
+            zero_count = 0;
+            // 遇到点或划，添加到缓冲区
+            morse_buffer[morse_buffer_pos++] = *morse;
+
+            // 如果下一个字符是0或字符串末尾，则解码摩尔斯字符
+            if (*(morse + 1) == '0' || *(morse + 1) == '\0')
             {
                 morse_buffer[morse_buffer_pos] = '\0';
                 char decoded_char = find_text_from_morse(morse_buffer);
@@ -358,44 +372,8 @@ void morse_to_text(const char *morse, char *text)
                 }
                 morse_buffer_pos = 0;
             }
-
-            zero_count++;
-            if (zero_count == 3) // 遇到 000，准备添加空格
-            {
-                add_space = true;
-            }
-            else if (zero_count == 7) // 遇到 0000000，转换为回车
-            {
-                *text++ = '\n';
-                zero_count = 0;
-                add_space = false;
-            }
         }
-        else
-        {
-            if (add_space) // 添加空格
-            {
-                *text++ = ' ';
-                add_space = false;
-            }
-            zero_count = 0;
-            // 遇到点或划，添加到缓冲区
-            morse_buffer[morse_buffer_pos++] = *morse;
-        }
-
         morse++;
     }
-
-    // 解码缓冲区中剩余的摩尔斯字符（如果有）
-    if (morse_buffer_pos > 0)
-    {
-        morse_buffer[morse_buffer_pos] = '\0';
-        char decoded_char = find_text_from_morse(morse_buffer);
-        if (decoded_char != '\0')
-        {
-            *text++ = decoded_char;
-        }
-    }
-
     *text = '\0'; // 确保字符串以 null 字符结尾
 }
