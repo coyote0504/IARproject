@@ -1,16 +1,38 @@
-#include "MSP430F249.h"
+#include "MSP430.h"
 #include <stdbool.h>
 #include <stdint.h>
 #include <string.h>
 #include <ctype.h>
 
-// 其他代码
+// 手机键盘行列宽高
+#define ROWS 4
+#define COLS 3
 
+// 手机键盘行列引脚连接到P5.1~P5.4, P5.5~P5.7口
+#define KEYPAD_PHONE_IN        P5IN
+#define KEYPAD_PHONE_OUT       P5OUT
+#define KEYPAD_PHONE_DIR       P5DIR
+#define KEYPAD_PHONE_REN       P5REN
+#define KEYPAD_PHONE_PIN_ROW_S BIT1
+#define KEYPAD_PHONE_PIN_COL_S BIT5
+#define KEYPAD_PHONE_PIN_ROW   (BIT1 | BIT2 | BIT3 | BIT4)
+#define KEYPAD_PHONE_PIN_COL   (BIT5 | BIT6 | BIT7)
+#define KEYPAD_PHONE_PIN       (BIT1 | BIT2 | BIT3 | BIT4 | BIT5 | BIT6 | BIT7)
+
+const char keys[ROWS][COLS] = {
+    {'1', '2', '3'},
+    {'4', '5', '6'},
+    {'7', '8', '9'},
+    {'*', '0', '#'}
+};
 
 // 定义引脚
 #define LCD_RS BIT0
 #define LCD_E  BIT1
 #define LCD_DATA P2OUT
+#define LCD_RS1 BIT3
+#define LCD_E1 BIT2
+#define LCD_DATA1 P4OUT
 
 // 最大字符数和行数
 #define MAX_COLS 20
@@ -64,6 +86,9 @@ void text_to_morse(const char *text, char *morse_buffer);
 const char *find_morse_code(char text);
 char find_text_from_morse(const char *morse);
 void morse_to_text(const char *morse, char *text);
+void setup_keypad();
+char scan_keypad();
+
 
 int main(void)
 {
@@ -75,50 +100,53 @@ int main(void)
     // 设置主时钟为 8MHz
     BCSCTL1 = CALBC1_8MHZ;
     DCOCTL = CALDCO_8MHZ;
-    
     __bis_SR_register(GIE);
-
-    while (1)
+    char buffer[64];
+    // int index = 0;
+    memset(buffer, 0, sizeof(buffer));
+    char buffer_1[64];
+    memset(buffer_1, 0, sizeof(buffer_1));
+    strcpy(buffer, "CHINA I\nLOVEYOU!");
+    setup_keypad();
+    lcd_write_string("Welcome to morsecodereceiving systems!!!1.revceive and reply2.relay 3.save 4.off");
+    while(1)
     {
-        char buffer[64];
-        // int index = 0;
-        memset(buffer, 0, sizeof(buffer));
-        char buffer_1[64];
-        memset(buffer_1, 0, sizeof(buffer_1));
-        strcpy(buffer, "CHINA I\nLOVEYOU!");
-        // 从UART接收字符串
-        // while (1)
-        // {
-        //     char c = uart_read_char();
-        //     lcd_write_data(c);
-        //     if (c == '\n' || c == '\r')
-        //     {
-        //         break;
-        //     }
-        //     buffer[index++] = c;
-        // }
-        
-        // 将字符串转换为摩尔斯电码
-        // char morse_buffer[256];
-        // text_to_morse(buffer, morse_buffer);
-
-        // lcd_write_string(morse_buffer);
-        // morse_to_text(morse_buffer, buffer_1);
-        // lcd_write_string(buffer_1);
-        // 发送摩尔斯电码
-        // while(1)
-        // {
-        //     lcd_write_string(buffer);
-            
-        // }
+        switch (scan_keypad())
+        {
+        case '1':
+            while(1)
+            {
+                lcd_init();
+                __delay_cycles(1000);
+                lcd_write_string("settings");
+                __delay_cycles(1000);
+                lcd_write_command(0x01); // 清除显示，并设置DDRAM地址为00H
+                __delay_cycles(1000);
+            }
+            break;
+        case '2':
+            while(1)
+            {
+                lcd_init();
+                __delay_cycles(1000);
+                lcd_write_string("settings");
+                __delay_cycles(1000);
+                lcd_write_command(0x01); // 清除显示，并设置DDRAM地址为00H
+                __delay_cycles(1000);
+            }
+            break;
+            break;
+        default:
+            break;
+        }
     }
-
-    return 0;
+    
+    scan_keypad();
 }
 
 void lcd_init(void)
 {
-    P1DIR |= LCD_RS | LCD_E; // 设置P1.0(RS)和P1.1(E)为输出
+    P1DIR |= BIT0 | BIT1; // 设置P1.0(RS)和P1.1(E)为输出
     P2DIR |= 0xFF; // 设置P2.0到P2.7为输出
 
     // LCD初始化
@@ -221,7 +249,6 @@ void lcd_set_cursor(unsigned char row, unsigned char col)
 void uart_init(void)
 {
     P3SEL |= BIT4 | BIT5; // P3.4 = UCA0TXD, P3.5 = UCA0RXD
-
     UCA0CTL1 |= UCSWRST; // 复位 USCI_A0
     UCA0CTL1 |= UCSSEL_2; // 选择 SMCLK 作为时钟源
     UCA0BR0 = 0x41; // 波特率设置，8MHz 9600bps
@@ -376,4 +403,38 @@ void morse_to_text(const char *morse, char *text)
         morse++;
     }
     *text = '\0'; // 确保字符串以 null 字符结尾
+}
+
+void lcd_pulse(void)
+{
+    P1OUT |= LCD_E;
+    __delay_cycles(40);
+    P1OUT &= ~LCD_E;
+    __delay_cycles(40);
+}
+
+void setup_keypad() 
+{
+    KEYPAD_PHONE_DIR &= ~KEYPAD_PHONE_PIN_COL; // 设置 P5.5~P5.7 口为输入
+    KEYPAD_PHONE_DIR |= KEYPAD_PHONE_PIN_ROW; // 设置 P5.1~P5.4 口为输出
+
+    // KEYPAD_PHONE_REN |= KEYPAD_PHONE_PIN_COL; // 使能 P5.5~P5.7 口上下拉电阻
+    // KEYPAD_PHONE_OUT |= KEYPAD_PHONE_PIN_COL; // 设置 P5.5~P5.7 口上拉
+}
+
+char scan_keypad()
+{
+    int row, col;
+    for (row = 0; row < ROWS; row++) {
+        KEYPAD_PHONE_OUT |= KEYPAD_PHONE_PIN_ROW; // 所有行输出高电平
+        KEYPAD_PHONE_OUT &= ~(KEYPAD_PHONE_PIN_ROW_S << row); // 输出低电平
+        __delay_cycles(800000);
+        for (col = 0; col < COLS; col++) {
+            if (!(KEYPAD_PHONE_IN & (KEYPAD_PHONE_PIN_COL_S << col)))// 检测到按键按下
+            {
+                return keys[row][col]; // 返回按键对应的字符
+            }
+        }
+    }
+    return 0; // 没有按键按下
 }
