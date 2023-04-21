@@ -82,12 +82,15 @@ void uart_init(void);
 void uart_write_char(char c);
 char uart_read_char(void);
 void send_morse_code(const char *morse_code);
+void receive_morse_code(const char *morse_code);
+void display_codewave(void);
 void text_to_morse(const char *text, char *morse_buffer);
 const char *find_morse_code(char text);
 char find_text_from_morse(const char *morse);
 void morse_to_text(const char *morse, char *text);
-void setup_keypad();
-char scan_keypad();
+void setup_keypad(void);
+char scan_keypad(void);
+void menu(void);
 
 
 int main(void)
@@ -107,41 +110,7 @@ int main(void)
     char buffer_1[64];
     memset(buffer_1, 0, sizeof(buffer_1));
     strcpy(buffer, "CHINA I\nLOVEYOU!");
-    setup_keypad();
-    lcd_write_string("Welcome to morsecodereceiving systems!!!1.revceive and reply2.relay 3.save 4.off");
-    while(1)
-    {
-        switch (scan_keypad())
-        {
-        case '1':
-            while(1)
-            {
-                lcd_init();
-                __delay_cycles(1000);
-                lcd_write_string("settings");
-                __delay_cycles(1000);
-                lcd_write_command(0x01); // 清除显示，并设置DDRAM地址为00H
-                __delay_cycles(1000);
-            }
-            break;
-        case '2':
-            while(1)
-            {
-                lcd_init();
-                __delay_cycles(1000);
-                lcd_write_string("settings");
-                __delay_cycles(1000);
-                lcd_write_command(0x01); // 清除显示，并设置DDRAM地址为00H
-                __delay_cycles(1000);
-            }
-            break;
-            break;
-        default:
-            break;
-        }
-    }
-    
-    scan_keypad();
+    menu();
 }
 
 void lcd_init(void)
@@ -222,28 +191,25 @@ void lcd_write_string(const char *str)
 
 void lcd_set_cursor(unsigned char row, unsigned char col)
 {
-    unsigned char address;
-
-    switch (row)
-    {
-        case 0:
-            address = 0x80 + col;
-            break;
-        case 1:
-            address = 0xC0 + col;
-            break;
-        case 2:
-            address = 0x94 + col;
-            break;
-        case 3:
-            address = 0xD4 + col;
-            break;
-        default:
-            address = 0x80 + col;
-            break;
+    unsigned char pos;
+    
+    if (row >= 0 && row < 4 && col >= 0 && col < 20) {
+        switch (row) {
+            case 0:
+                pos = 0x80 + col;
+                break;
+            case 1:
+                pos = 0x80 + 0x40 + col;
+                break;
+            case 2:
+                pos = 0x80 + 0x14 + col;
+                break;
+            case 3:
+                pos = 0x80 + 0x54 + col;
+                break;
+        }
+        lcd_write_command(pos);
     }
-
-    lcd_write_command(address);
 }
 
 void uart_init(void)
@@ -300,6 +266,16 @@ void send_morse_code(const char *morse_code)
             __delay_cycles(1000000 * SHORT_GAP_DURATION); // 点划之间的短间隔
         }
     }
+}
+
+void receive_morse_code(const char *morse_code)
+{
+    //
+}
+
+void display_codewave(void)
+{
+
 }
 
 void text_to_morse(const char *text, char *morse_buffer)
@@ -415,11 +391,9 @@ void lcd_pulse(void)
 
 void setup_keypad() 
 {
+    KEYPAD_PHONE_DIR |= KEYPAD_PHONE_PIN;
+    KEYPAD_PHONE_OUT &= ~KEYPAD_PHONE_PIN;
     KEYPAD_PHONE_DIR &= ~KEYPAD_PHONE_PIN_COL; // 设置 P5.5~P5.7 口为输入
-    KEYPAD_PHONE_DIR |= KEYPAD_PHONE_PIN_ROW; // 设置 P5.1~P5.4 口为输出
-
-    // KEYPAD_PHONE_REN |= KEYPAD_PHONE_PIN_COL; // 使能 P5.5~P5.7 口上下拉电阻
-    // KEYPAD_PHONE_OUT |= KEYPAD_PHONE_PIN_COL; // 设置 P5.5~P5.7 口上拉
 }
 
 char scan_keypad()
@@ -428,7 +402,7 @@ char scan_keypad()
     for (row = 0; row < ROWS; row++) {
         KEYPAD_PHONE_OUT |= KEYPAD_PHONE_PIN_ROW; // 所有行输出高电平
         KEYPAD_PHONE_OUT &= ~(KEYPAD_PHONE_PIN_ROW_S << row); // 输出低电平
-        __delay_cycles(800000);
+        __delay_cycles(1000);
         for (col = 0; col < COLS; col++) {
             if (!(KEYPAD_PHONE_IN & (KEYPAD_PHONE_PIN_COL_S << col)))// 检测到按键按下
             {
@@ -437,4 +411,69 @@ char scan_keypad()
         }
     }
     return 0; // 没有按键按下
+}
+
+void menu(void)
+{
+    setup_keypad();
+    lcd_set_cursor(0, 0);
+    lcd_write_string("Welcome to morsecode");
+    lcd_write_string("receiving systems!!!");
+    lcd_write_string("1.revceive 2.relay  ");
+    lcd_write_string("3.save     4.quit   ");
+    while(1)
+    {
+        switch (scan_keypad())
+        {
+        case '1':
+            lcd_write_command(0x01); // 清除显示，并设置DDRAM地址为00H
+            __delay_cycles(10000);
+            lcd_set_cursor(0, 0);
+            __delay_cycles(10000);
+            lcd_write_string("receiving...");
+            __delay_cycles(1000000);
+            //receive_morse_code();
+            lcd_set_cursor(0, 0);
+            //display_codewave();
+            lcd_write_string("01010100101011101010101010100101010");
+            lcd_set_cursor(0, 0);
+            lcd_write_string("1.reply   2.relay   ");
+            lcd_write_string("3.save    4.return  ");
+            while(1)
+            {   
+                // lcd_write_command(0x01); // 清除显示，并设置DDRAM地址为00H
+                // __delay_cycles(10000);
+                // lcd_set_cursor(0, 0);
+                // __delay_cycles(10000);
+                // lcd_write_string("receiving...");
+                // lcd_set_cursor(0, 1);
+                while(1){}
+                switch (scan_keypad())
+                {
+                case '1':
+
+                    break;
+                
+                default:
+                    break;
+                }
+                
+            }
+            break;
+        case '2':
+            while(1)
+            {
+                lcd_init();
+                __delay_cycles(1000);
+                lcd_write_string("settings");
+                __delay_cycles(1000);
+                lcd_write_command(0x01); // 清除显示，并设置DDRAM地址为00H
+                __delay_cycles(1000);
+            }
+            break;
+            break;
+        default:
+            break;
+        }
+    }
 }
