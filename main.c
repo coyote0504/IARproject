@@ -91,7 +91,7 @@ void uart_init(void);
 void uart_write_char(char c);
 char uart_read_char(void);
 void send_morse_code(const char *morse_code);
-void receive_morse_code(const char *morse_code);
+void receive_morse_code(char *morse_buffer, char *text);
 void display_codewave(void);
 void text_to_morse(const char *text, char *morse_buffer);
 const char *find_morse_code(char text);
@@ -287,14 +287,76 @@ void send_morse_code(const char *morse_code)
     }
 }
 
-void receive_morse_code(const char *morse_code)
+void receive_morse_code(char *morse_buffer, char *text)
 {
-    //
-}
+    unsigned int signal_duration;
+    unsigned int current_time;
+    unsigned int gap_time;
 
-void display_codewave(void)
-{
+    while (1)
+    {
+        // 等待 P3.5 变高
+        while (!(P3IN & BIT5));
 
+        // 开始记录时间
+        current_time = 0;
+
+        // 记录高电平时间
+        while (P3IN & BIT5)
+        {
+            __delay_cycles(1000); // 延时1ms
+            current_time++;
+        }
+
+        if (current_time >= DOT_DURATION * 800 && current_time <= DOT_DURATION * 1200) // 点
+        {
+            strcat(morse_buffer, ".");
+            lcd_write_string("-");
+        }
+        else if (current_time >= DASH_DURATION * 800 && current_time <= DASH_DURATION * 1200) // 划
+        {
+            strcat(morse_buffer, "-");
+            lcd_write_string("---");
+        }
+
+        // 记录低电平时间
+        gap_time = 0;
+        while (!(P3IN & BIT5))
+        {
+            __delay_cycles(1000); // 延时1ms
+            gap_time++;
+            if(gap_time > LONG_GAP_DURATION * 1000 * 3)
+            {
+                clear_lcd();
+                lcd_write_string("Received Text Is:");
+                lcd_set_cursor(1,0);
+                morse_to_text(morse_buffer, text);
+                lcd_write_string(text);
+                return;
+            }
+        }
+
+        // 区分不同长度的间隔
+        if (gap_time >= SHORT_GAP_DURATION * 800 && gap_time <= SHORT_GAP_DURATION * 1200) // 短间隔
+        {
+            lcd_write_string("_");
+        }
+        else if (gap_time >= MEDIUM_GAP_DURATION * 800 && gap_time <= MEDIUM_GAP_DURATION * 1200) // 中等间隔
+        {
+            strcat(morse_buffer, "0");
+            lcd_write_string("___");
+        }
+        else if (gap_time >= LONG_GAP_DURATION * 800 && gap_time <= LONG_GAP_DURATION * 1200) // 长间隔
+        {
+            strcat(morse_buffer, "000");
+            lcd_write_string("_______");
+        }
+        else if (gap_time >= (2 * LONG_GAP_DURATION + 1) * 800 && gap_time <= (2 * LONG_GAP_DURATION + 1) * 1200) // 超长间隔
+        {
+            strcat(morse_buffer, "00000000");
+            lcd_write_string("_______________");
+        }
+    }
 }
 
 void text_to_morse(const char *text, char *morse_buffer)
@@ -304,12 +366,6 @@ void text_to_morse(const char *text, char *morse_buffer)
         if (*text == ' ')
         {
             strcat(morse_buffer, "00"); // 2+1个时间单位的间隔（MEDIUM_GAP_DURATION）表示单词间隔
-            text++;
-            continue;
-        }
-        else if (*text == '\n')
-        {
-            strcat(morse_buffer, "000000"); // 6+1个时间单位的间隔（LONG_GAP_DURATION）表示段落间隔
             text++;
             continue;
         }
@@ -440,15 +496,25 @@ void menu(void)
     int i = 0;
     char buffer[64];
     memset(buffer, 0, sizeof(buffer));
+    char buffer_zero[64];
+    memset(buffer_zero, 0, sizeof(buffer_zero));
     char buffer_1[64];
     memset(buffer_1, 0, sizeof(buffer_1));
-
     // 摩尔斯电码暂存
     char morse_buffer[256] = {'\0'};
-
+    char morse_buffer_zero[256] = {'\0'};
+    
+    //定义可供用户自定义的信息部分
+    unsigned char code_phrase_changeable[10][50] = {"","","","","","","","","",""};
+    
     flag_main:
     setup_keypad();
     lcd_set_cursor(0,0);
+    // strcpy(buffer, "CHINA ILOVEYOU!");
+    // text_to_morse(buffer, morse_buffer);
+    // morse_to_text(morse_buffer, buffer_1);
+    // lcd_write_string(morse_buffer);
+    // lcd_write_string(buffer_1);
     lcd_write_string("Welcome To Morsecode");
     lcd_write_string("Receiving Systems!!!");
     lcd_write_string("1.Receive     2.Save");
@@ -459,13 +525,13 @@ void menu(void)
         {
         case '1'://Receiving
             clear_lcd();
+            strcpy(morse_buffer, morse_buffer_zero);
+            strcpy(buffer, buffer_zero);
             lcd_write_string("Receiving...");
             lcd_set_cursor(1,0);
-            //receive_morse_code();//接受摩尔斯电码
-            //display_codewave();//接受的同时打印波形
-            lcd_write_string("100101010101010101010");
+            receive_morse_code(morse_buffer, buffer);//接受摩尔斯电码
             receiving_menu:
-            lcd_set_cursor(0,0);
+            lcd_set_cursor(2,0);
             lcd_write_string("1.Reply   2.Relay   ");
             lcd_write_string("3.Save    4.Return  ");
             while(1)
@@ -478,8 +544,6 @@ void menu(void)
                     lcd_write_string("Choose To Reply:");
                     lcd_set_cursor(1,0);
                     lcd_write_string("0 1 2 3 4 5 6 7 8 9");
-                    lcd_set_cursor(2,0);
-                    lcd_write_string("# New Saved Messeges");
                     lcd_set_cursor(3,0);
                     lcd_write_string("Press * To Return");
                     while(1)
@@ -831,18 +895,333 @@ void menu(void)
                                 case '2'://Return
                                     goto flag_reply;
                                 }
-                            }
-                        case '#':
-
+                            } 
                         case '*':
                             clear_lcd();
                             goto receiving_menu;
                         }
                     }
                 case '2'://Relay
-
+                    clear_lcd();
+                    lcd_write_string("Are You Sure To Relay The Messege?");
+                    lcd_set_cursor(3,0);
+                    lcd_write_string("1.Yes   2.No(Return)");
+                    while(1)
+                    {
+                        switch(scan_keypad())
+                        {
+                        case '1'://replying
+                            clear_lcd();
+                            lcd_write_string("Relaying...");
+                            send_morse_code(morse_buffer);
+                            lcd_set_cursor(1,0);
+                            lcd_write_string("Relayed");
+                            lcd_set_cursor(3,0);
+                            lcd_write_string("Returning...");
+                            __delay_cycles(10000000);
+                            clear_lcd();
+                            goto receiving_menu;
+                        case '2'://Return
+                            clear_lcd();
+                            goto receiving_menu;
+                        }
+                    }
                 case '3'://Save
-
+                    save_new_messege:
+                    clear_lcd();
+                    lcd_write_string("Choose Where To Save");
+                    lcd_write_string("0 1 2 3 4 5 6 7 8 9 ");
+                    lcd_set_cursor(3,0);
+                    lcd_write_string("Press * To Return");
+                    while(1)
+                    {
+                        switch (scan_keypad())
+                        {
+                        case '0':
+                            clear_lcd();
+                            lcd_write_string("Messege_0:");
+                            lcd_set_cursor(1,0);
+                            lcd_write_string(code_phrase_changeable[0]);
+                            lcd_set_cursor(3,0);
+                            lcd_write_string("1.Save   2.Return");
+                            while(1)
+                            {
+                                switch (scan_keypad())
+                                {
+                                case '1':
+                                    clear_lcd();
+                                    lcd_write_string("Messege_0:");
+                                    strcpy(code_phrase_changeable[0], buffer);//存储语句
+                                    lcd_set_cursor(1,0);
+                                    lcd_write_string(code_phrase_changeable[0]);
+                                    lcd_set_cursor(2,0);
+                                    lcd_write_string("Messege Saved!");
+                                    lcd_set_cursor(3,0);
+                                    lcd_write_string("Returning...");
+                                    __delay_cycles(10000000);
+                                    clear_lcd();
+                                    goto receiving_menu;
+                                case '2':
+                                    goto save_new_messege;
+                                }
+                            }
+                        case '1':
+                            clear_lcd();
+                            lcd_write_string("Messege_1:");
+                            lcd_set_cursor(1,0);
+                            lcd_write_string(code_phrase_changeable[1]);
+                            lcd_set_cursor(3,0);
+                            lcd_write_string("1.Save   2.Return");
+                            while(1)
+                            {
+                                switch (scan_keypad())
+                                {
+                                case '1':
+                                    clear_lcd();
+                                    lcd_write_string("Messege_1:");
+                                    strcpy(code_phrase_changeable[1], buffer);//存储语句
+                                    lcd_set_cursor(1,0);
+                                    lcd_write_string(code_phrase_changeable[1]);
+                                    lcd_set_cursor(2,0);
+                                    lcd_write_string("Messege Saved!");
+                                    lcd_set_cursor(3,0);
+                                    lcd_write_string("Returning...");
+                                    __delay_cycles(10000000);
+                                    clear_lcd();
+                                    goto receiving_menu;
+                                case '2':
+                                    goto save_new_messege;
+                                }
+                            }
+                        case '2':
+                            clear_lcd();
+                            lcd_write_string("Messege_2:");
+                            lcd_set_cursor(1,0);
+                            lcd_write_string(code_phrase_changeable[2]);
+                            lcd_set_cursor(3,0);
+                            lcd_write_string("1.Save   2.Return");
+                            while(1)
+                            {
+                                switch (scan_keypad())
+                                {
+                                case '1':
+                                    clear_lcd();
+                                    lcd_write_string("Messege_2:");
+                                    strcpy(code_phrase_changeable[2], buffer);//存储语句
+                                    lcd_set_cursor(1,0);
+                                    lcd_write_string(code_phrase_changeable[2]);
+                                    lcd_set_cursor(2,0);
+                                    lcd_write_string("Messege Saved!");
+                                    lcd_set_cursor(3,0);
+                                    lcd_write_string("Returning...");
+                                    __delay_cycles(10000000);
+                                    clear_lcd();
+                                    goto receiving_menu;
+                                case '2':
+                                    goto save_new_messege;
+                                }
+                            }
+                        case '3':
+                            clear_lcd();
+                            lcd_write_string("Messege_3:");
+                            lcd_set_cursor(1,0);
+                            lcd_write_string(code_phrase_changeable[3]);
+                            lcd_set_cursor(3,0);
+                            lcd_write_string("1.Save   2.Return");
+                            while(1)
+                            {
+                                switch (scan_keypad())
+                                {
+                                case '1':
+                                    clear_lcd();
+                                    lcd_write_string("Messege_3:");
+                                    strcpy(code_phrase_changeable[3], buffer);//存储语句
+                                    lcd_set_cursor(1,0);
+                                    lcd_write_string(code_phrase_changeable[3]);
+                                    lcd_set_cursor(2,0);
+                                    lcd_write_string("Messege Saved!");
+                                    lcd_set_cursor(3,0);
+                                    lcd_write_string("Returning...");
+                                    __delay_cycles(10000000);
+                                    clear_lcd();
+                                    goto receiving_menu;
+                                case '2':
+                                    goto save_new_messege;
+                                }
+                            }
+                        case '4':
+                            clear_lcd();
+                            lcd_write_string("Messege_4:");
+                            lcd_set_cursor(1,0);
+                            lcd_write_string(code_phrase_changeable[4]);
+                            lcd_set_cursor(3,0);
+                            lcd_write_string("1.Save   2.Return");
+                            while(1)
+                            {
+                                switch (scan_keypad())
+                                {
+                                case '1':
+                                    clear_lcd();
+                                    lcd_write_string("Messege_4:");
+                                    strcpy(code_phrase_changeable[4], buffer);//存储语句
+                                    lcd_set_cursor(1,0);
+                                    lcd_write_string(code_phrase_changeable[4]);
+                                    lcd_set_cursor(2,0);
+                                    lcd_write_string("Messege Saved!");
+                                    lcd_set_cursor(3,0);
+                                    lcd_write_string("Returning...");
+                                    __delay_cycles(10000000);
+                                    clear_lcd();
+                                    goto receiving_menu;
+                                case '2':
+                                    goto save_new_messege;
+                                }
+                            }
+                        case '5':
+                            clear_lcd();
+                            lcd_write_string("Messege_5:");
+                            lcd_set_cursor(1,0);
+                            lcd_write_string(code_phrase_changeable[5]);
+                            lcd_set_cursor(3,0);
+                            lcd_write_string("1.Save   2.Return");
+                            while(1)
+                            {
+                                switch (scan_keypad())
+                                {
+                                case '1':
+                                    clear_lcd();
+                                    lcd_write_string("Messege_5:");
+                                    strcpy(code_phrase_changeable[5], buffer);//存储语句
+                                    lcd_set_cursor(1,0);
+                                    lcd_write_string(code_phrase_changeable[5]);
+                                    lcd_set_cursor(2,0);
+                                    lcd_write_string("Messege Saved!");
+                                    lcd_set_cursor(3,0);
+                                    lcd_write_string("Returning...");
+                                    __delay_cycles(10000000);
+                                    clear_lcd();
+                                    goto receiving_menu;
+                                case '2':
+                                    goto save_new_messege;
+                                }
+                            }
+                        case '6':
+                            clear_lcd();
+                            lcd_write_string("Messege_6:");
+                            lcd_set_cursor(1,0);
+                            lcd_write_string(code_phrase_changeable[6]);
+                            lcd_set_cursor(3,0);
+                            lcd_write_string("1.Save   2.Return");
+                            while(1)
+                            {
+                                switch (scan_keypad())
+                                {
+                                case '1':
+                                    clear_lcd();
+                                    lcd_write_string("Messege_6:");
+                                    strcpy(code_phrase_changeable[6], buffer);//存储语句
+                                    lcd_set_cursor(1,0);
+                                    lcd_write_string(code_phrase_changeable[6]);
+                                    lcd_set_cursor(2,0);
+                                    lcd_write_string("Messege Saved!");
+                                    lcd_set_cursor(3,0);
+                                    lcd_write_string("Returning...");
+                                    __delay_cycles(10000000);
+                                    clear_lcd();
+                                    goto receiving_menu;
+                                case '2':
+                                    goto save_new_messege;
+                                }
+                            }
+                        case '7':
+                            clear_lcd();
+                            lcd_write_string("Messege_7:");
+                            lcd_set_cursor(1,0);
+                            lcd_write_string(code_phrase_changeable[7]);
+                            lcd_set_cursor(3,0);
+                            lcd_write_string("1.Save   2.Return");
+                            while(1)
+                            {
+                                switch (scan_keypad())
+                                {
+                                case '1':
+                                    clear_lcd();
+                                    lcd_write_string("Messege_7:");
+                                    strcpy(code_phrase_changeable[7], buffer);//存储语句
+                                    lcd_set_cursor(1,0);
+                                    lcd_write_string(code_phrase_changeable[7]);
+                                    lcd_set_cursor(2,0);
+                                    lcd_write_string("Messege Saved!");
+                                    lcd_set_cursor(3,0);
+                                    lcd_write_string("Returning...");
+                                    __delay_cycles(10000000);
+                                    clear_lcd();
+                                    goto receiving_menu;
+                                case '2':
+                                    goto save_new_messege;
+                                }
+                            }
+                        case '8':
+                            clear_lcd();
+                            lcd_write_string("Messege_8:");
+                            lcd_set_cursor(1,0);
+                            lcd_write_string(code_phrase_changeable[8]);
+                            lcd_set_cursor(3,0);
+                            lcd_write_string("1.Save   2.Return");
+                            while(1)
+                            {
+                                switch (scan_keypad())
+                                {
+                                case '1':
+                                    clear_lcd();
+                                    lcd_write_string("Messege_8:");
+                                    strcpy(code_phrase_changeable[8], buffer);//存储语句
+                                    lcd_set_cursor(1,0);
+                                    lcd_write_string(code_phrase_changeable[8]);
+                                    lcd_set_cursor(2,0);
+                                    lcd_write_string("Messege Saved!");
+                                    lcd_set_cursor(3,0);
+                                    lcd_write_string("Returning...");
+                                    __delay_cycles(10000000);
+                                    clear_lcd();
+                                    goto receiving_menu;
+                                case '2':
+                                    goto save_new_messege;
+                                }
+                            }
+                        case '9':
+                            clear_lcd();
+                            lcd_write_string("Messege_9:");
+                            lcd_set_cursor(1,0);
+                            lcd_write_string(code_phrase_changeable[9]);
+                            lcd_set_cursor(3,0);
+                            lcd_write_string("1.Save   2.Return");
+                            while(1)
+                            {
+                                switch (scan_keypad())
+                                {
+                                case '1':
+                                    clear_lcd();
+                                    lcd_write_string("Messege_9:");
+                                    strcpy(code_phrase_changeable[9], buffer);//存储语句
+                                    lcd_set_cursor(1,0);
+                                    lcd_write_string(code_phrase_changeable[9]);
+                                    lcd_set_cursor(2,0);
+                                    lcd_write_string("Messege Saved!");
+                                    lcd_set_cursor(3,0);
+                                    lcd_write_string("Returning...");
+                                    __delay_cycles(10000000);
+                                    clear_lcd();
+                                    goto receiving_menu;
+                                case '2':
+                                    goto save_new_messege;
+                                }
+                            }
+                        case '*':
+                            clear_lcd();
+                            goto receiving_menu;
+                        }
+                    }
                 case '4'://Return
                     goto flag_main;
                 }
@@ -875,7 +1254,7 @@ void menu(void)
                         switch (scan_keypad())
                         {
                         case '1':
-                            code_phrase[0][0] = '\0';//清除存储的语句
+                            strcpy(code_phrase[0], buffer_zero);
                             clear_lcd();
                             lcd_write_string("Messege_0:");
                             lcd_set_cursor(1,0);
@@ -898,7 +1277,7 @@ void menu(void)
                         switch (scan_keypad())
                         {
                         case '1':
-                            code_phrase[1][0] = '\0';//清除存储的语句
+                            strcpy(code_phrase[1], buffer_zero);
                             clear_lcd();
                             lcd_write_string("Messege_1:");
                             lcd_set_cursor(1,0);
@@ -921,7 +1300,7 @@ void menu(void)
                         switch (scan_keypad())
                         {
                         case '1':
-                            code_phrase[2][0] = '\0';//清除存储的语句
+                            strcpy(code_phrase[2], buffer_zero);
                             clear_lcd();
                             lcd_write_string("Messege_2:");
                             lcd_set_cursor(1,0);
@@ -944,7 +1323,7 @@ void menu(void)
                         switch (scan_keypad())
                         {
                         case '1':
-                            code_phrase[3][0] = '\0';//清除存储的语句
+                            strcpy(code_phrase[3], buffer_zero);
                             clear_lcd();
                             lcd_write_string("Messege_3:");
                             lcd_set_cursor(1,0);
@@ -967,7 +1346,7 @@ void menu(void)
                         switch (scan_keypad())
                         {
                         case '1':
-                            code_phrase[4][0] = '\0';//清除存储的语句
+                            strcpy(code_phrase[4], buffer_zero);
                             clear_lcd();
                             lcd_write_string("Messege_4:");
                             lcd_set_cursor(1,0);
@@ -990,7 +1369,7 @@ void menu(void)
                         switch (scan_keypad())
                         {
                         case '1':
-                            code_phrase[5][0] = '\0';//清除存储的语句
+                            strcpy(code_phrase[5], buffer_zero);
                             clear_lcd();
                             lcd_write_string("Messege_5:");
                             lcd_set_cursor(1,0);
@@ -1013,7 +1392,7 @@ void menu(void)
                         switch (scan_keypad())
                         {
                         case '1':
-                            code_phrase[6][0] = '\0';//清除存储的语句
+                            strcpy(code_phrase[6], buffer_zero);
                             clear_lcd();
                             lcd_write_string("Messege_6:");
                             lcd_set_cursor(1,0);
@@ -1036,7 +1415,7 @@ void menu(void)
                         switch (scan_keypad())
                         {
                         case '1':
-                            code_phrase[7][0] = '\0';//清除存储的语句
+                            strcpy(code_phrase[7], buffer_zero);
                             clear_lcd();
                             lcd_write_string("Messege_7:");
                             lcd_set_cursor(1,0);
@@ -1059,7 +1438,7 @@ void menu(void)
                         switch (scan_keypad())
                         {
                         case '1':
-                            code_phrase[8][0] = '\0';//清除存储的语句
+                            strcpy(code_phrase[8], buffer_zero);
                             clear_lcd();
                             lcd_write_string("Messege_8:");
                             lcd_set_cursor(1,0);
@@ -1082,7 +1461,7 @@ void menu(void)
                         switch (scan_keypad())
                         {
                         case '1':
-                            code_phrase[9][0] = '\0';//清除存储的语句
+                            strcpy(code_phrase[9], buffer_zero);
                             clear_lcd();
                             lcd_write_string("Messege_9:");
                             lcd_set_cursor(1,0);
@@ -1092,7 +1471,255 @@ void menu(void)
                             goto saving;
                         }
                     }
+                case '#':
+                saved:
+                    clear_lcd();
+                    lcd_write_string("Saved Messeges:");
+                    lcd_set_cursor(1,0);
+                    lcd_write_string("0 1 2 3 4 5 6 7 8 9");
+                    lcd_set_cursor(3,0);
+                    lcd_write_string("Press * To Return");
+                    while(1)
+                    {
+                        switch (scan_keypad())
+                        {
+                        case '0':
+                        saved0:
+                            clear_lcd();
+                            lcd_write_string("Messege_0:");
+                            lcd_set_cursor(1,0);
+                            lcd_write_string(code_phrase_changeable[0]);
+                            lcd_set_cursor(3,0);
+                            lcd_write_string("1.Delete 2.Return");
+                            while(1)
+                            {
+                                switch (scan_keypad())
+                                {
+                                case '1':
+                                    strcpy(code_phrase_changeable[0], buffer_zero);
+                                    clear_lcd();
+                                    lcd_write_string("Messege_0:");
+                                    lcd_set_cursor(1,0);
+                                    lcd_write_string(code_phrase_changeable[0]);
+                                    goto saved0;
+                                case '2':
+                                    goto saved;
+                                }
+                            }
+                        case '1':
+                        saved1:
+                            clear_lcd();
+                            lcd_write_string("Messege_1:");
+                            lcd_set_cursor(1,0);
+                            lcd_write_string(code_phrase_changeable[1]);
+                            lcd_set_cursor(3,0);
+                            lcd_write_string("1.Delete 2.Return");
+                            while(1)
+                            {
+                                switch (scan_keypad())
+                                {
+                                case '1':
+                                    strcpy(code_phrase_changeable[1], buffer_zero);
+                                    clear_lcd();
+                                    lcd_write_string("Messege_1:");
+                                    lcd_set_cursor(1,0);
+                                    lcd_write_string(code_phrase_changeable[1]);
+                                    goto saved1;
+                                case '2':
+                                    goto saved;
+                                }
+                            }
+                        case '2':
+                        saved2:
+                            clear_lcd();
+                            lcd_write_string("Messege_2:");
+                            lcd_set_cursor(1,0);
+                            lcd_write_string(code_phrase_changeable[2]);
+                            lcd_set_cursor(3,0);
+                            lcd_write_string("1.Delete 2.Return");
+                            while(1)
+                            {
+                                switch (scan_keypad())
+                                {
+                                case '1':
+                                    strcpy(code_phrase_changeable[2], buffer_zero);
+                                    clear_lcd();
+                                    lcd_write_string("Messege_2:");
+                                    lcd_set_cursor(1,0);
+                                    lcd_write_string(code_phrase_changeable[2]);
+                                    goto saved2;
+                                case '2':
+                                    goto saved;
+                                }
+                            }
+                        case '3':
+                        saved3:
+                            clear_lcd();
+                            lcd_write_string("Messege_3:");
+                            lcd_set_cursor(1,0);
+                            lcd_write_string(code_phrase_changeable[3]);
+                            lcd_set_cursor(3,0);
+                            lcd_write_string("1.Delete 2.Return");
+                            while(1)
+                            {
+                                switch (scan_keypad())
+                                {
+                                case '1':
+                                    strcpy(code_phrase_changeable[3], buffer_zero);
+                                    clear_lcd();
+                                    lcd_write_string("Messege_3:");
+                                    lcd_set_cursor(1,0);
+                                    lcd_write_string(code_phrase_changeable[3]);
+                                    goto saved3;
+                                case '2':
+                                    goto saved;
+                                }
+                            }
+                        case '4':
+                        saved4:
+                            clear_lcd();
+                            lcd_write_string("Messege_4:");
+                            lcd_set_cursor(1,0);
+                            lcd_write_string(code_phrase_changeable[4]);
+                            lcd_set_cursor(3,0);
+                            lcd_write_string("1.Delete 2.Return");
+                            while(1)
+                            {
+                                switch (scan_keypad())
+                                {
+                                case '1':
+                                    strcpy(code_phrase_changeable[4], buffer_zero);
+                                    clear_lcd();
+                                    lcd_write_string("Messege_4:");
+                                    lcd_set_cursor(1,0);
+                                    lcd_write_string(code_phrase_changeable[4]);
+                                    goto saved4;
+                                case '2':
+                                    goto saved;
+                                }
+                            }  
+                        case '5':
+                        saved5:
+                            clear_lcd();
+                            lcd_write_string("Messege_5:");
+                            lcd_set_cursor(1,0);
+                            lcd_write_string(code_phrase_changeable[5]);
+                            lcd_set_cursor(3,0);
+                            lcd_write_string("1.Delete 2.Return");
+                            while(1)
+                            {
+                                switch (scan_keypad())
+                                {
+                                case '1':
+                                    strcpy(code_phrase_changeable[5], buffer_zero);
+                                    clear_lcd();
+                                    lcd_write_string("Messege_5:");
+                                    lcd_set_cursor(1,0);
+                                    lcd_write_string(code_phrase_changeable[5]);
+                                    goto saved5;
+                                case '2':
+                                    goto saved;
+                                }
+                            }
+                        case '6':
+                        saved6:
+                            clear_lcd();
+                            lcd_write_string("Messege_6:");
+                            lcd_set_cursor(1,0);
+                            lcd_write_string(code_phrase_changeable[6]);
+                            lcd_set_cursor(3,0);
+                            lcd_write_string("1.Delete 2.Return");
+                            while(1)
+                            {
+                                switch (scan_keypad())
+                                {
+                                case '1':
+                                    strcpy(code_phrase_changeable[6], buffer_zero);
+                                    clear_lcd();
+                                    lcd_write_string("Messege_6:");
+                                    lcd_set_cursor(1,0);
+                                    lcd_write_string(code_phrase_changeable[6]);
+                                    goto saved6;
+                                case '2':
+                                    goto saved;
+                                }
+                            }
+                        case '7':
+                        saved7:
+                            clear_lcd();
+                            lcd_write_string("Messege_7:");
+                            lcd_set_cursor(1,0);
+                            lcd_write_string(code_phrase_changeable[7]);
+                            lcd_set_cursor(3,0);
+                            lcd_write_string("1.Delete 2.Return");
+                            while(1)
+                            {
+                                switch (scan_keypad())
+                                {
+                                case '1':
+                                    strcpy(code_phrase_changeable[7], buffer_zero);
+                                    clear_lcd();
+                                    lcd_write_string("Messege_7:");
+                                    lcd_set_cursor(1,0);
+                                    lcd_write_string(code_phrase_changeable[7]);
+                                    goto saved7;
+                                case '2':
+                                    goto saved;
+                                }
+                            }
+                        case '8':
+                        saved8:
+                            clear_lcd();
+                            lcd_write_string("Messege_8:");
+                            lcd_set_cursor(1,0);
+                            lcd_write_string(code_phrase_changeable[8]);
+                            lcd_set_cursor(3,0);
+                            lcd_write_string("1.Delete 2.Return");
+                            while(1)
+                            {
+                                switch (scan_keypad())
+                                {
+                                case '1':
+                                    strcpy(code_phrase_changeable[8], buffer_zero);
+                                    clear_lcd();
+                                    lcd_write_string("Messege_8:");
+                                    lcd_set_cursor(1,0);
+                                    lcd_write_string(code_phrase_changeable[8]);
+                                    goto saved8;
+                                case '2':
+                                    goto saved;
+                                }
+                            }
+                        case '9':
+                        saved9:
+                            clear_lcd();
+                            lcd_write_string("Messege_9:");
+                            lcd_set_cursor(1,0);
+                            lcd_write_string(code_phrase_changeable[9]);
+                            lcd_set_cursor(3,0);
+                            lcd_write_string("1.Delete 2.Return");
+                            while(1)
+                            {
+                                switch (scan_keypad())
+                                {
+                                case '1':
+                                    strcpy(code_phrase_changeable[9], buffer_zero);
+                                    clear_lcd();
+                                    lcd_write_string("Messege_9:");
+                                    lcd_set_cursor(1,0);
+                                    lcd_write_string(code_phrase_changeable[9]);
+                                    goto saved9;
+                                case '2':
+                                    goto saved;
+                                }
+                            }
+                        case '*':
+                            clear_lcd();
+                            goto saving;
+                        }          
+                    }
                 case '*':
+                    clear_lcd();
                     goto flag_main;
                 }          
             }
